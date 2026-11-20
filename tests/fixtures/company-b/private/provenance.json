@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep-431",
+  "event_ids": [
+    "event-248",
+    "event-569"
+  ],
+  "mutations": [
+    {
+      "event_id": "event-569",
+      "object_ids": [
+        "row-957"
+      ],
+      "operation": "replace",
+      "field": "debit_minor",
+      "clean_value": 7000000,
+      "observed_value": 5000000
+    },
+    {
+      "event_id": "event-569",
+      "object_ids": [
+        "row-268"
+      ],
+      "operation": "replace",
+      "field": "credit_minor",
+      "clean_value": 7000000,
+      "observed_value": 5000000
+    }
+  ]
+}

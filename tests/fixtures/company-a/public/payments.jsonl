@@ -1,0 +1,1 @@
+{"doc_id": "doc-492", "payment_id": "pay-627", "timestamp": "2026-11-10T12:30:00+05:00", "currency": "KZT", "amount_minor": 7000000, "invoice_refs": [{"invoice_id": "inv-264", "amount_minor": 7000000}], "transaction_kind": "receipt", "original_payment_id": null}

@@ -1,0 +1,21 @@
+{
+  "episode_id": "ep-431",
+  "issues": [
+    {
+      "issue_id": "issue-735",
+      "type": "payment_allocation",
+      "affected_ids": [
+        "pay-627",
+        "inv-264"
+      ],
+      "expected_amount_minor": 2000000,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-492",
+          "settlement:pay-627"
+        ]
+      ]
+    }
+  ]
+}

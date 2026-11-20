@@ -1,0 +1,1 @@
+{"doc_id": "doc-813", "invoice_id": "inv-264", "entity_id": "entity-951", "issued_at": "2026-11-03T09:00:00+05:00", "due_at": "2026-11-30T18:00:00+05:00", "service_at": "2026-11-03T09:00:00+05:00", "currency": "KZT", "total_minor": 10000000, "line_items": [{"description": "Synthetic consulting service", "amount_minor": 10000000}]}

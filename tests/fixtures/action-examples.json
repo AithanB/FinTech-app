@@ -1,0 +1,151 @@
+[
+  {
+    "request": {
+      "type": "list_records",
+      "table": "ledger",
+      "cursor": null,
+      "limit": 1
+    },
+    "reply": {
+      "result": {
+        "rows": [
+          {
+            "id": "row-183",
+            "record": {
+              "row_id": "row-183",
+              "journal_id": "jrn-516",
+              "timestamp": "2026-11-03T09:00:00+05:00",
+              "account": "receivables",
+              "debit_minor": 10000000,
+              "credit_minor": 0,
+              "currency": "KZT",
+              "entity_id": "entity-951",
+              "invoice_id": "inv-264",
+              "payment_id": null,
+              "entry_kind": "recognition",
+              "posting_sequence": 1
+            }
+          }
+        ],
+        "next_cursor": "ledger:1"
+      },
+      "remaining_steps": 99
+    }
+  },
+  {
+    "request": {
+      "type": "get_record",
+      "table": "ledger",
+      "id": "row-183"
+    },
+    "reply": {
+      "result": {
+        "id": "row-183",
+        "record": {
+          "row_id": "row-183",
+          "journal_id": "jrn-516",
+          "timestamp": "2026-11-03T09:00:00+05:00",
+          "account": "receivables",
+          "debit_minor": 10000000,
+          "credit_minor": 0,
+          "currency": "KZT",
+          "entity_id": "entity-951",
+          "invoice_id": "inv-264",
+          "payment_id": null,
+          "entry_kind": "recognition",
+          "posting_sequence": 1
+        }
+      },
+      "remaining_steps": 98
+    }
+  },
+  {
+    "request": {
+      "type": "get_document",
+      "doc_id": "doc-492"
+    },
+    "reply": {
+      "result": {
+        "payment": {
+          "doc_id": "doc-492",
+          "payment_id": "pay-627",
+          "timestamp": "2026-11-10T12:30:00+05:00",
+          "currency": "KZT",
+          "amount_minor": 7000000,
+          "invoice_refs": [
+            {
+              "invoice_id": "inv-264",
+              "amount_minor": 7000000
+            }
+          ],
+          "transaction_kind": "receipt",
+          "original_payment_id": null
+        },
+        "settlement": {
+          "evidence_id": "settlement:pay-627",
+          "payment_id": "pay-627",
+          "currency": "KZT",
+          "received_minor": 7000000,
+          "applied_minor": 5000000,
+          "unapplied_minor": 2000000,
+          "allocations": [
+            {
+              "invoice_id": "inv-264",
+              "applied_minor": 5000000,
+              "ledger_row_ids": [
+                "row-268"
+              ]
+            }
+          ],
+          "ledger_row_ids": [
+            "row-395",
+            "row-641",
+            "row-957",
+            "row-268"
+          ]
+        }
+      },
+      "remaining_steps": 97
+    }
+  },
+  {
+    "request": {
+      "type": "calculator",
+      "expression": "(70000 - 50000) * 100"
+    },
+    "reply": {
+      "result": "2000000",
+      "remaining_steps": 96
+    }
+  },
+  {
+    "request": {
+      "type": "submit",
+      "findings": {
+        "episode_id": "ep-431",
+        "findings": [
+          {
+            "type": "payment_allocation",
+            "affected_ids": [
+              "pay-627",
+              "inv-264"
+            ],
+            "claimed_amount_minor": 2000000,
+            "currency": "KZT",
+            "evidence_ids": [
+              "doc-492",
+              "settlement:pay-627"
+            ],
+            "explanation": "The payment directs 70,000 KZT to this invoice; the final settlement applies 50,000 KZT. The missing allocation is 20,000 KZT."
+          }
+        ]
+      }
+    },
+    "reply": {
+      "result": {
+        "accepted": true
+      },
+      "remaining_steps": 95
+    }
+  }
+]

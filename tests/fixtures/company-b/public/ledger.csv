@@ -1,0 +1,7 @@
+row_id,journal_id,timestamp,account,debit_minor,credit_minor,currency,entity_id,invoice_id,payment_id,entry_kind,posting_sequence
+row-183,jrn-516,2026-11-03T09:00:00+05:00,receivables,10000000,0,KZT,entity-951,inv-264,null,recognition,1
+row-824,jrn-516,2026-11-03T09:00:00+05:00,revenue,0,10000000,KZT,entity-951,inv-264,null,recognition,1
+row-395,jrn-782,2026-11-10T12:30:00+05:00,cash,7000000,0,KZT,entity-951,null,pay-627,receipt,2
+row-641,jrn-782,2026-11-10T12:30:00+05:00,unapplied_receipts,0,7000000,KZT,entity-951,null,pay-627,receipt,2
+row-957,jrn-349,2026-11-10T12:30:00+05:00,unapplied_receipts,5000000,0,KZT,entity-951,inv-264,pay-627,allocation,3
+row-268,jrn-349,2026-11-10T12:30:00+05:00,receivables,0,5000000,KZT,entity-951,inv-264,pay-627,allocation,3
