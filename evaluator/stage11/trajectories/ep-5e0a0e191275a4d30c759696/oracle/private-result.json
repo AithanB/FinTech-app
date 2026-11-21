@@ -1,0 +1,26 @@
+{
+  "score": {
+    "score": 1.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 1.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-5e0a0e191275a4d30c759696",
+    "findings": []
+  },
+  "actions": 1,
+  "reason": "completed",
+  "elapsed_seconds": 0.0003328999999894222,
+  "execution": "trusted oracle",
+  "policy": "oracle",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 0,
+  "total_actions": 1,
+  "return": 1.0
+}

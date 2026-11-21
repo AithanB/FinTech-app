@@ -1,0 +1,38 @@
+{
+  "score": {
+    "score": 0.972,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 1.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-925cc6374c683a4ae950cd66",
+    "findings": []
+  },
+  "actions": 15,
+  "reason": "completed",
+  "evaluator_pid": 73,
+  "evaluator_uid": 0,
+  "agent_pid": 74,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.3748719759999801,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 14,
+  "total_actions": 15,
+  "return": 0.972
+}

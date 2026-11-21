@@ -225,7 +225,7 @@ class PublicEpisode(StrictModel):
 
 
 class Finding(StrictModel):
-    type: IssueType
+    type: str  # Unknown string labels are well-formed, unmatched predictions.
     affected_ids: Annotated[list[ID], Field(min_length=1)]
     claimed_amount_minor: Minor
     currency: ID  # unknown/wrong currencies are well-formed claims for the matcher

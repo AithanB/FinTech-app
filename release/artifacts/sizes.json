@@ -1,0 +1,29 @@
+{
+  "version": "stage12-delivery-v1",
+  "status": "ready-for-owner-submission",
+  "artifacts": [
+    {
+      "file": "audit-rl-env-rc1-source.zip",
+      "bytes": 5479207,
+      "sha256": "d5c8f62e9c3f0db21d9f5c0dbc509237080856b0f309769c8620759e4bf1da83"
+    },
+    {
+      "file": "audit-rl-env-rc1.image.tar.gz",
+      "bytes": 72930617,
+      "sha256": "981eae657983d31cd661c8c611ccf8169fa0cb98e3bfdd94bd9d6f695af97588"
+    }
+  ],
+  "source_payload_files": 893,
+  "source_payload_uncompressed_bytes": 29487337,
+  "runtime_source_sha256": "a10f3c7eb7189b6dbcb81a593107c62e6528a912d9a34a5caaada664ca3a8044",
+  "source_archive_reproducible_byte_for_byte": true,
+  "docker_image": {
+    "image_id": "sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536",
+    "platform": "linux/amd64",
+    "uncompressed_bytes": 329528390,
+    "saved_tar_bytes": 73449984
+  },
+  "combined_compressed_artifact_bytes": 78409824,
+  "within_suggested_1000000000_byte_limit": true,
+  "submitted": false
+}

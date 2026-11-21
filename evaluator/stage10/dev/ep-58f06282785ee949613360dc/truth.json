@@ -1,0 +1,20 @@
+{
+  "episode_id": "ep-58f06282785ee949613360dc",
+  "issues": [
+    {
+      "issue_id": "issue-d93e6e8366284c00929734ac",
+      "type": "period_cutoff",
+      "affected_ids": [
+        "journal-0806d9e9d3915ac7256fe116"
+      ],
+      "expected_amount_minor": 6020350672,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-dc10f121782f07cb7ce712a8",
+          "row-27de409abdd338687e39c9c5"
+        ]
+      ]
+    }
+  ]
+}

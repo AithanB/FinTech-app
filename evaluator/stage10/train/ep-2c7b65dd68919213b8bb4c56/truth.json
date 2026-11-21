@@ -1,0 +1,37 @@
+{
+  "episode_id": "ep-2c7b65dd68919213b8bb4c56",
+  "issues": [
+    {
+      "issue_id": "issue-f9e8fc86f8074fc93f9e3a24",
+      "type": "duplicate_invoice",
+      "affected_ids": [
+        "inv-4bfb9b689507eee1f84ef1e1"
+      ],
+      "expected_amount_minor": 5744172601,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-4ab13852ca5bd4b0cc72dca7",
+          "row-a137bc78a835b741e6f2fe18",
+          "row-8d1d91d78a49f71fd4c00f9e"
+        ]
+      ]
+    },
+    {
+      "issue_id": "issue-641776e6b8d0fc7369343e08",
+      "type": "fx_conversion",
+      "affected_ids": [
+        "journal-9128ad380b88d75484b83122"
+      ],
+      "expected_amount_minor": 117228012,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-4ab13852ca5bd4b0cc72dca7",
+          "row-8d1d91d78a49f71fd4c00f9e",
+          "fx:2026-11-20:EUR:KZT"
+        ]
+      ]
+    }
+  ]
+}

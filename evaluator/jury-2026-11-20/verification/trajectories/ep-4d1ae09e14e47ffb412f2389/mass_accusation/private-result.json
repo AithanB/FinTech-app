@@ -1,0 +1,399 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 30,
+    "fn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-4d1ae09e14e47ffb412f2389",
+    "findings": [
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-57c25e9bba99adc84eafa9c1"
+        ],
+        "claimed_amount_minor": 17640868,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-31dd105b4c92ffb72e5c16b5"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-57c25e9bba99adc84eafa9c1"
+        ],
+        "claimed_amount_minor": 17640868,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-31dd105b4c92ffb72e5c16b5"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-57c25e9bba99adc84eafa9c1"
+        ],
+        "claimed_amount_minor": 17640868,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-31dd105b4c92ffb72e5c16b5"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-2ed31ec0204836a03bb234a4"
+        ],
+        "claimed_amount_minor": 19092300,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-593c00d20c5ff17063e199e5"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-2ed31ec0204836a03bb234a4"
+        ],
+        "claimed_amount_minor": 19092300,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-593c00d20c5ff17063e199e5"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-2ed31ec0204836a03bb234a4"
+        ],
+        "claimed_amount_minor": 19092300,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-593c00d20c5ff17063e199e5"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-cd3917fdce4a666068e9c9b5"
+        ],
+        "claimed_amount_minor": 10728676,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-c2956778a68e374293c8e9ca"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-cd3917fdce4a666068e9c9b5"
+        ],
+        "claimed_amount_minor": 10728676,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-c2956778a68e374293c8e9ca"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-cd3917fdce4a666068e9c9b5"
+        ],
+        "claimed_amount_minor": 10728676,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-c2956778a68e374293c8e9ca"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-780303da3645a17c729168e8"
+        ],
+        "claimed_amount_minor": 19495656,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-8bd84271af7b41e5bfd47342"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-780303da3645a17c729168e8"
+        ],
+        "claimed_amount_minor": 19495656,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-8bd84271af7b41e5bfd47342"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-780303da3645a17c729168e8"
+        ],
+        "claimed_amount_minor": 19495656,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-8bd84271af7b41e5bfd47342"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-50fb14551053b0b7f7e5048e"
+        ],
+        "claimed_amount_minor": 11284431,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-706f008153f49e13547c8eae"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-50fb14551053b0b7f7e5048e"
+        ],
+        "claimed_amount_minor": 11284431,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-706f008153f49e13547c8eae"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-50fb14551053b0b7f7e5048e"
+        ],
+        "claimed_amount_minor": 11284431,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-706f008153f49e13547c8eae"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-640139e2b08159ea51063c27"
+        ],
+        "claimed_amount_minor": 15464060,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-7f8c9699c3d74fa55c462c11"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-640139e2b08159ea51063c27"
+        ],
+        "claimed_amount_minor": 15464060,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-7f8c9699c3d74fa55c462c11"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-640139e2b08159ea51063c27"
+        ],
+        "claimed_amount_minor": 15464060,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-7f8c9699c3d74fa55c462c11"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-834dd1434457cfbc32fedd28"
+        ],
+        "claimed_amount_minor": 13494238,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-71f0f6c4008be3ed8bee83fb"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-834dd1434457cfbc32fedd28"
+        ],
+        "claimed_amount_minor": 13494238,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-71f0f6c4008be3ed8bee83fb"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-834dd1434457cfbc32fedd28"
+        ],
+        "claimed_amount_minor": 13494238,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-71f0f6c4008be3ed8bee83fb"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-94e0b400751b65ef5300d60e"
+        ],
+        "claimed_amount_minor": 10884038,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-344f0c5a90a2e5097c8435f9"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-94e0b400751b65ef5300d60e"
+        ],
+        "claimed_amount_minor": 10884038,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-344f0c5a90a2e5097c8435f9"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-94e0b400751b65ef5300d60e"
+        ],
+        "claimed_amount_minor": 10884038,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-344f0c5a90a2e5097c8435f9"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-7a2589096361182549489a8e"
+        ],
+        "claimed_amount_minor": 17781715,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-258894d7d700e78b2f33c6a0"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-7a2589096361182549489a8e"
+        ],
+        "claimed_amount_minor": 17781715,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-258894d7d700e78b2f33c6a0"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-7a2589096361182549489a8e"
+        ],
+        "claimed_amount_minor": 17781715,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-258894d7d700e78b2f33c6a0"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-4b03b1afdb3781dd7130f247"
+        ],
+        "claimed_amount_minor": 18290309,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-e446d0ad9fdf51a3999bcb4c"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-4b03b1afdb3781dd7130f247"
+        ],
+        "claimed_amount_minor": 18290309,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-e446d0ad9fdf51a3999bcb4c"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-4b03b1afdb3781dd7130f247"
+        ],
+        "claimed_amount_minor": 18290309,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-e446d0ad9fdf51a3999bcb4c"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      }
+    ]
+  },
+  "actions": 3,
+  "reason": "completed",
+  "evaluator_pid": 96,
+  "evaluator_uid": 0,
+  "agent_pid": 97,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.36244687999999314,
+  "policy": "mass_accusation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 2,
+  "total_actions": 3,
+  "return": -1.0
+}

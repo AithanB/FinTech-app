@@ -1,0 +1,22 @@
+{
+  "episode_id": "ep-60c7e7eb0610e7ca8389c310",
+  "issues": [
+    {
+      "issue_id": "issue-6ce6ae2e3587b69c47e3cd35",
+      "type": "payment_allocation",
+      "affected_ids": [
+        "pay-d0f63affc842e03e9d29f65a",
+        "inv-cd4cc229ef754cc86f538c51"
+      ],
+      "expected_amount_minor": 5058276346,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-521042ad8615ce83a21daae1",
+          "settlement:pay-d0f63affc842e03e9d29f65a",
+          "fx:2026-11-04:EUR:KZT"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-bc255c2a8391a2a8cddac316",
+    "findings": [
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-031a06c3fba45ad51b11f8db"
+        ],
+        "claimed_amount_minor": 17744693,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-533c1f532562d7c851848d97"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      }
+    ]
+  },
+  "actions": 21,
+  "reason": "completed",
+  "evaluator_pid": 125,
+  "evaluator_uid": 0,
+  "agent_pid": 126,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.36628635299985035,
+  "policy": "random",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 20,
+  "total_actions": 21,
+  "return": -1.0
+}

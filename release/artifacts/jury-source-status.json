@@ -1,0 +1,66 @@
+{
+  "version": "jury-checks-2026-11-20",
+  "status": "offline-verified-ready-for-review",
+  "source": {
+    "file": "audit-rl-env-jury-source.zip",
+    "bytes": 7180891,
+    "sha256": "161ef5e496824f0fd420182347edaa4b4eb6b5256e05f9385b8f13bed8db38d0",
+    "payload_files": 1077
+  },
+  "prepared_image": {
+    "file": "audit-rl-env-jury.image.tar.gz",
+    "bytes": 72963398,
+    "sha256": "0e6543eacb16827e6749f499cfc6ade681e15340a7404afe9ad35d08ef22db9d",
+    "version": "jury-image-v1",
+    "tag": "audit-rl-env:jury-checks",
+    "image_id": "sha256:a2de6cb3f64dc0dc82a09f85aa2213fb67faceb1f0f9676cb127f398ce8541d8",
+    "repo_digests": [
+      "audit-rl-env@sha256:a2de6cb3f64dc0dc82a09f85aa2213fb67faceb1f0f9676cb127f398ce8541d8"
+    ],
+    "platform": "linux/amd64",
+    "uncompressed_image_bytes": 329708400,
+    "created": "2026-11-21T06:09:52.155386744Z",
+    "runtime_source_sha256": "ff7cab8fe4375fe3a311733d99a69d6a8850604f68443470fbf5ea018eceebd3",
+    "source_newline_policy": "image retains build-context bytes; source ZIP normalizes text to LF",
+    "image_export": "audit-rl-env-jury.image.tar.gz",
+    "verification": "evaluator/jury-2026-11-20/verification/results.json"
+  },
+  "linux_tests": {
+    "command": [
+      "/usr/local/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "--junitxml=/tmp/jury-verification/tests.xml"
+    ],
+    "passed": 320,
+    "skipped": [
+      "test_never_fall_back_to_unrestricted_windows_policy"
+    ]
+  },
+  "portable_tests": {
+    "passed": 299,
+    "skipped_linux": 22
+  },
+  "policy_runs": 80,
+  "original_pairs": 20,
+  "jury_matrix": {
+    "data_cases": 20,
+    "pairs": 20,
+    "order_only": 5,
+    "ids_only": 5,
+    "combined": 10
+  },
+  "verification": "evaluator/jury-2026-11-20/verification/results.json",
+  "demo_returns": [
+    0.992,
+    0.992,
+    -1
+  ],
+  "compressed_total_bytes": 80144289,
+  "limitations": [
+    "Local checks, not jury certification",
+    "No new rehearsal on another physical machine"
+  ],
+  "submitted": false
+}

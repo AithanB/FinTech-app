@@ -1,0 +1,26 @@
+{
+  "container_id": "0e2b2a18be09ad2036fe24e066997c6a221f2fa03d9dee377c83338962e7b92d",
+  "image_id": "sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536",
+  "network_mode": "none",
+  "nano_cpus": 2000000000,
+  "memory_bytes": 4294967296,
+  "mounts": [],
+  "device_requests": null,
+  "command": [
+    "python",
+    "-m",
+    "audit_env.verify",
+    "--output",
+    "/tmp/verification"
+  ],
+  "environment_key_names": [
+    "PATH",
+    "LANG",
+    "GPG_KEY",
+    "PYTHON_VERSION",
+    "PYTHON_SHA256",
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONUNBUFFERED",
+    "PIP_DISABLE_PIP_VERSION_CHECK"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "score": {
+    "score": 1.0,
+    "tp": 12,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-3ee177524161e334f437acf8",
+        "submission_index": 7
+      },
+      {
+        "issue_id": "issue-5dc728eb4aa4dce5e65d7317",
+        "submission_index": 10
+      },
+      {
+        "issue_id": "issue-87e5a557fa08e6fec1b024c7",
+        "submission_index": 11
+      },
+      {
+        "issue_id": "issue-a7ff22a6ff7a1a8ae5d4a1cb",
+        "submission_index": 5
+      },
+      {
+        "issue_id": "issue-a945979a3a7da33d8fd804c3",
+        "submission_index": 0
+      },
+      {
+        "issue_id": "issue-ab834483fcd2168bb2c87916",
+        "submission_index": 2
+      },
+      {
+        "issue_id": "issue-c7ce1e210d2bc2525724dc0d",
+        "submission_index": 8
+      },
+      {
+        "issue_id": "issue-c890bfb647c51db4d59cebc5",
+        "submission_index": 3
+      },
+      {
+        "issue_id": "issue-c9488b6341448c3c936c781d",
+        "submission_index": 9
+      },
+      {
+        "issue_id": "issue-ccb5cff04e0c644fee5f0af5",
+        "submission_index": 4
+      },
+      {
+        "issue_id": "issue-f176d41545b46da9633f56ab",
+        "submission_index": 6
+      },
+      {
+        "issue_id": "issue-fe6de87e746999ecacb345b2",
+        "submission_index": 1
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-1047941fa63cbee185c51519",
+    "findings": [
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-809c4192c6c1e0457e8a745b",
+          "inv-9b94b4209d68bf457e292b03"
+        ],
+        "claimed_amount_minor": 2000000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-afa651d874ad31cf16500cf2",
+          "settlement:pay-809c4192c6c1e0457e8a745b",
+          "fx:2026-11-30:USD:KZT"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-a6419b1efd77baa81e70e4ea"
+        ],
+        "claimed_amount_minor": 3233249207,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-afa651d874ad31cf16500cf2",
+          "row-6128d65c8963f78646fcadb9"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-5d057b3f3e6897ada8f6dc6f"
+        ],
+        "claimed_amount_minor": 3592427687,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-bf6d170fa2517e9e5cc0bb49",
+          "row-d92a7b955bf4f8b97ed617d6",
+          "row-8c65f3ea1760a93621a053a1"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "journal-eec1a76661cfcb5396d8f0ac"
+        ],
+        "claimed_amount_minor": 73314851,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-bf6d170fa2517e9e5cc0bb49",
+          "row-8c65f3ea1760a93621a053a1",
+          "fx:2026-11-05:JPY:KZT"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-f79e4777d2ec489584864d48",
+          "inv-ece4a5cb625670d95b0d5803"
+        ],
+        "claimed_amount_minor": 2000000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-ee84635c2b42e97c59882b8a",
+          "settlement:pay-f79e4777d2ec489584864d48"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-61eac510c07af72f8e6b5088",
+          "inv-4afc56b46f1cf626e41165a9"
+        ],
+        "claimed_amount_minor": 1880165990,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-a1f04aeef3d913cc7ec5a2a7",
+          "settlement:pay-61eac510c07af72f8e6b5088",
+          "fx:2026-11-14:JPY:KZT"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-229250b80861b495aca32c6e"
+        ],
+        "claimed_amount_minor": 1022033796,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-0f37cf9cc18b888c0a59b53c",
+          "row-b849ef509672c7929a141284"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-6da2a65eb0b13a87950fdce1"
+        ],
+        "claimed_amount_minor": 18607544,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-75a31836e91dc6e3f4221ceb",
+          "row-c7be0791c0cad221550b2eb2",
+          "row-d267b23ce7123d0048010a08"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "journal-04ce999fa48fa7b2c61a06a7"
+        ],
+        "claimed_amount_minor": 1183076,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-720ea2aea0505e76ac9e0694",
+          "row-720b6bcab38502e5167b275c",
+          "fx:2026-11-08:JPY:KZT"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "journal-f175fe02e6c7ebbee4afcff7"
+        ],
+        "claimed_amount_minor": 111946824,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-be346827d4c267ba4762fc2c",
+          "row-57a34b60c81a5a083b2307dc",
+          "fx:2026-11-11:JPY:KZT"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-693df79d2432c730fbf8914e"
+        ],
+        "claimed_amount_minor": 4081282759,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-dce5fddba5790b571a0436b4",
+          "row-b0831efa8a35ee9a37d789cc"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-06396e8ebd7ab2939e29d7c6"
+        ],
+        "claimed_amount_minor": 7531019000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-b5736b3e5b7d409c3e8b70d4",
+          "row-398e2fcc6ea576bf4766ae2e"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      }
+    ]
+  },
+  "actions": 1,
+  "reason": "completed",
+  "elapsed_seconds": 0.0008993999999802327,
+  "execution": "trusted oracle",
+  "policy": "oracle",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 0,
+  "total_actions": 1,
+  "return": 1.0
+}

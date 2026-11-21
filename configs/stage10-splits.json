@@ -1,0 +1,1198 @@
+{
+  "version": "stage10-splits-v1",
+  "train": [
+    {
+      "seed": 10001,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 36,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10100000,
+        "amount_max_minor": 20200000,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10002,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 37,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10112345,
+        "amount_max_minor": 20223456,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10003,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 38,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10124690,
+        "amount_max_minor": 20246912,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10004,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 39,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10137035,
+        "amount_max_minor": 20270368,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10005,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 40,
+        "duplicate_invoices": 0,
+        "missing_allocations": 1,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10149380,
+        "amount_max_minor": 20293824,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10006,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 41,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10161725,
+        "amount_max_minor": 20317280,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10007,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 42,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 1,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10174070,
+        "amount_max_minor": 20340736,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10008,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 43,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10186415,
+        "amount_max_minor": 20364192,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10009,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 44,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10198760,
+        "amount_max_minor": 20387648,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 10010,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 45,
+        "duplicate_invoices": 2,
+        "missing_allocations": 1,
+        "partial_allocations": 2,
+        "wrong_fx_dates": 1,
+        "wrong_fx_rates": 2,
+        "misplaced_recognitions": 2,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10211105,
+        "amount_max_minor": 20411104,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 2,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    }
+  ],
+  "dev": [
+    {
+      "seed": 20001,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 46,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10200000,
+        "amount_max_minor": 20400000,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20002,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 47,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10212345,
+        "amount_max_minor": 20423456,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20003,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 48,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10224690,
+        "amount_max_minor": 20446912,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20004,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 49,
+        "duplicate_invoices": 0,
+        "missing_allocations": 1,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10237035,
+        "amount_max_minor": 20470368,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20005,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 50,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10249380,
+        "amount_max_minor": 20493824,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20006,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 51,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 1,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10261725,
+        "amount_max_minor": 20517280,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20007,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 52,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 1,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10274070,
+        "amount_max_minor": 20540736,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20008,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 53,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10286415,
+        "amount_max_minor": 20564192,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": null,
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20009,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 54,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10298760,
+        "amount_max_minor": 20587648,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 20010,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 55,
+        "duplicate_invoices": 2,
+        "missing_allocations": 1,
+        "partial_allocations": 2,
+        "wrong_fx_dates": 1,
+        "wrong_fx_rates": 2,
+        "misplaced_recognitions": 2,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10311105,
+        "amount_max_minor": 20611104,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 2,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "small",
+        "fx_profile": "daily"
+      }
+    }
+  ],
+  "rehearsal": [
+    {
+      "seed": 30001,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 60,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10300000,
+        "amount_max_minor": 20600000,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30002,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 61,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10312345,
+        "amount_max_minor": 20623456,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30003,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 62,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10324690,
+        "amount_max_minor": 20646912,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30004,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 63,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10337035,
+        "amount_max_minor": 20670368,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30005,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 64,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10349380,
+        "amount_max_minor": 20693824,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30006,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 65,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10361725,
+        "amount_max_minor": 20717280,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30007,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 66,
+        "duplicate_invoices": 0,
+        "missing_allocations": 1,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10374070,
+        "amount_max_minor": 20740736,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30008,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 67,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10386415,
+        "amount_max_minor": 20764192,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30009,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 68,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10398760,
+        "amount_max_minor": 20787648,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30010,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 69,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 1,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10411105,
+        "amount_max_minor": 20811104,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30011,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 70,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 1,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10423450,
+        "amount_max_minor": 20834560,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30012,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 71,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10435795,
+        "amount_max_minor": 20858016,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30013,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 72,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10448140,
+        "amount_max_minor": 20881472,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30014,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 73,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10460485,
+        "amount_max_minor": 20904928,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30015,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 74,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 1,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10472830,
+        "amount_max_minor": 20928384,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30016,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 75,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10485175,
+        "amount_max_minor": 20951840,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30017,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 76,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "Asia/Tokyo",
+        "boundary_cases": true,
+        "amount_min_minor": 10497520,
+        "amount_max_minor": 20975296,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30018,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 77,
+        "duplicate_invoices": 0,
+        "missing_allocations": 0,
+        "partial_allocations": 1,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 0,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "JPY",
+          "EUR",
+          "USD",
+          "KZT"
+        ],
+        "timezone": "Asia/Almaty",
+        "boundary_cases": true,
+        "amount_min_minor": 10509865,
+        "amount_max_minor": 20998752,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": null,
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30019,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 78,
+        "duplicate_invoices": 1,
+        "missing_allocations": 0,
+        "partial_allocations": 0,
+        "wrong_fx_dates": 0,
+        "wrong_fx_rates": 1,
+        "misplaced_recognitions": 0,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "timezone": "UTC",
+        "boundary_cases": true,
+        "amount_min_minor": 10522210,
+        "amount_max_minor": 21022208,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 0,
+        "boundary_scenario": null,
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    },
+    {
+      "seed": 30020,
+      "generator": {
+        "version": "stage08-v1",
+        "invoice_count": 99,
+        "duplicate_invoices": 2,
+        "missing_allocations": 1,
+        "partial_allocations": 2,
+        "wrong_fx_dates": 1,
+        "wrong_fx_rates": 2,
+        "misplaced_recognitions": 2,
+        "currencies": [
+          "USD",
+          "KZT",
+          "JPY"
+        ],
+        "timezone": "America/New_York",
+        "boundary_cases": true,
+        "amount_min_minor": 10534555,
+        "amount_max_minor": 21045664,
+        "partial_shortfall_minor": 2000000,
+        "misplaced_applications": 2,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        },
+        "size_profile": "large",
+        "fx_profile": "daily"
+      }
+    }
+  ]
+}

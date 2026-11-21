@@ -1,0 +1,13 @@
+{
+  "version": "stage11-canary-v1",
+  "claimed_amount_minor": 2000001,
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "return": 0.992,
+  "inspection_steps": 4,
+  "total_actions": 5
+}

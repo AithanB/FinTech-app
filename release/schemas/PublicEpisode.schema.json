@@ -1,0 +1,510 @@
+{
+  "$defs": {
+    "FXRow": {
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "format": "date",
+          "title": "Date",
+          "type": "string"
+        },
+        "source_currency": {
+          "enum": [
+            "KZT",
+            "USD",
+            "EUR",
+            "JPY"
+          ],
+          "title": "Source Currency",
+          "type": "string"
+        },
+        "target_currency": {
+          "enum": [
+            "KZT",
+            "USD",
+            "EUR",
+            "JPY"
+          ],
+          "title": "Target Currency",
+          "type": "string"
+        },
+        "rate": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Rate"
+        }
+      },
+      "required": [
+        "date",
+        "source_currency",
+        "target_currency",
+        "rate"
+      ],
+      "title": "FXRow",
+      "type": "object"
+    },
+    "Invoice": {
+      "additionalProperties": false,
+      "properties": {
+        "doc_id": {
+          "minLength": 1,
+          "title": "Doc Id",
+          "type": "string"
+        },
+        "invoice_id": {
+          "minLength": 1,
+          "title": "Invoice Id",
+          "type": "string"
+        },
+        "entity_id": {
+          "minLength": 1,
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "issued_at": {
+          "format": "date-time",
+          "title": "Issued At",
+          "type": "string"
+        },
+        "due_at": {
+          "format": "date-time",
+          "title": "Due At",
+          "type": "string"
+        },
+        "service_at": {
+          "format": "date-time",
+          "title": "Service At",
+          "type": "string"
+        },
+        "currency": {
+          "enum": [
+            "KZT",
+            "USD",
+            "EUR",
+            "JPY"
+          ],
+          "title": "Currency",
+          "type": "string"
+        },
+        "total_minor": {
+          "minimum": 0,
+          "title": "Total Minor",
+          "type": "integer"
+        },
+        "line_items": {
+          "items": {
+            "$ref": "#/$defs/LineItem"
+          },
+          "title": "Line Items",
+          "type": "array"
+        }
+      },
+      "required": [
+        "doc_id",
+        "invoice_id",
+        "entity_id",
+        "issued_at",
+        "due_at",
+        "service_at",
+        "currency",
+        "total_minor",
+        "line_items"
+      ],
+      "title": "Invoice",
+      "type": "object"
+    },
+    "InvoiceRef": {
+      "additionalProperties": false,
+      "properties": {
+        "invoice_id": {
+          "minLength": 1,
+          "title": "Invoice Id",
+          "type": "string"
+        },
+        "amount_minor": {
+          "minimum": 0,
+          "title": "Amount Minor",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "invoice_id",
+        "amount_minor"
+      ],
+      "title": "InvoiceRef",
+      "type": "object"
+    },
+    "LedgerRow": {
+      "additionalProperties": false,
+      "properties": {
+        "row_id": {
+          "minLength": 1,
+          "title": "Row Id",
+          "type": "string"
+        },
+        "journal_id": {
+          "minLength": 1,
+          "title": "Journal Id",
+          "type": "string"
+        },
+        "timestamp": {
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "account": {
+          "minLength": 1,
+          "title": "Account",
+          "type": "string"
+        },
+        "debit_minor": {
+          "minimum": 0,
+          "title": "Debit Minor",
+          "type": "integer"
+        },
+        "credit_minor": {
+          "minimum": 0,
+          "title": "Credit Minor",
+          "type": "integer"
+        },
+        "currency": {
+          "const": "KZT",
+          "title": "Currency",
+          "type": "string"
+        },
+        "entity_id": {
+          "minLength": 1,
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "invoice_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Invoice Id"
+        },
+        "payment_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Payment Id"
+        },
+        "entry_kind": {
+          "enum": [
+            "recognition",
+            "receipt",
+            "allocation",
+            "refund",
+            "fx_adjustment"
+          ],
+          "title": "Entry Kind",
+          "type": "string"
+        },
+        "posting_sequence": {
+          "minimum": 1,
+          "title": "Posting Sequence",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "row_id",
+        "journal_id",
+        "timestamp",
+        "account",
+        "debit_minor",
+        "credit_minor",
+        "currency",
+        "entity_id",
+        "invoice_id",
+        "payment_id",
+        "entry_kind",
+        "posting_sequence"
+      ],
+      "title": "LedgerRow",
+      "type": "object"
+    },
+    "LineItem": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "amount_minor": {
+          "minimum": 0,
+          "title": "Amount Minor",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "description",
+        "amount_minor"
+      ],
+      "title": "LineItem",
+      "type": "object"
+    },
+    "Manifest": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "episode_id": {
+          "minLength": 1,
+          "title": "Episode Id",
+          "type": "string"
+        },
+        "base_currency": {
+          "const": "KZT",
+          "title": "Base Currency",
+          "type": "string"
+        },
+        "period_start": {
+          "format": "date-time",
+          "title": "Period Start",
+          "type": "string"
+        },
+        "period_end": {
+          "format": "date-time",
+          "title": "Period End",
+          "type": "string"
+        },
+        "timezone": {
+          "title": "Timezone",
+          "type": "string"
+        },
+        "record_count": {
+          "minimum": 0,
+          "title": "Record Count",
+          "type": "integer"
+        },
+        "document_count": {
+          "minimum": 0,
+          "title": "Document Count",
+          "type": "integer"
+        },
+        "currency_exponents": {
+          "additionalProperties": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "propertyNames": {
+            "enum": [
+              "KZT",
+              "USD",
+              "EUR",
+              "JPY"
+            ]
+          },
+          "title": "Currency Exponents",
+          "type": "object"
+        },
+        "rounding": {
+          "const": "ROUND_HALF_UP",
+          "title": "Rounding",
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "episode_id",
+        "base_currency",
+        "period_start",
+        "period_end",
+        "timezone",
+        "record_count",
+        "document_count",
+        "currency_exponents",
+        "rounding"
+      ],
+      "title": "Manifest",
+      "type": "object"
+    },
+    "Payment": {
+      "additionalProperties": false,
+      "properties": {
+        "doc_id": {
+          "minLength": 1,
+          "title": "Doc Id",
+          "type": "string"
+        },
+        "payment_id": {
+          "minLength": 1,
+          "title": "Payment Id",
+          "type": "string"
+        },
+        "timestamp": {
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "currency": {
+          "enum": [
+            "KZT",
+            "USD",
+            "EUR",
+            "JPY"
+          ],
+          "title": "Currency",
+          "type": "string"
+        },
+        "amount_minor": {
+          "minimum": 0,
+          "title": "Amount Minor",
+          "type": "integer"
+        },
+        "invoice_refs": {
+          "items": {
+            "$ref": "#/$defs/InvoiceRef"
+          },
+          "title": "Invoice Refs",
+          "type": "array"
+        },
+        "transaction_kind": {
+          "enum": [
+            "receipt",
+            "refund"
+          ],
+          "title": "Transaction Kind",
+          "type": "string"
+        },
+        "original_payment_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Original Payment Id"
+        }
+      },
+      "required": [
+        "doc_id",
+        "payment_id",
+        "timestamp",
+        "currency",
+        "amount_minor",
+        "invoice_refs",
+        "transaction_kind",
+        "original_payment_id"
+      ],
+      "title": "Payment",
+      "type": "object"
+    },
+    "Policy": {
+      "additionalProperties": false,
+      "properties": {
+        "fx_direction": {
+          "const": "target_major_per_source_major",
+          "title": "Fx Direction",
+          "type": "string"
+        },
+        "invoice_fx_date": {
+          "const": "local_service_date",
+          "title": "Invoice Fx Date",
+          "type": "string"
+        },
+        "payment_fx_date": {
+          "const": "local_payment_date",
+          "title": "Payment Fx Date",
+          "type": "string"
+        },
+        "period_boundary": {
+          "const": "start_inclusive_end_exclusive",
+          "title": "Period Boundary",
+          "type": "string"
+        },
+        "recognition": {
+          "const": "service_at",
+          "title": "Recognition",
+          "type": "string"
+        },
+        "rounding": {
+          "const": "ROUND_HALF_UP",
+          "title": "Rounding",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fx_direction",
+        "invoice_fx_date",
+        "payment_fx_date",
+        "period_boundary",
+        "recognition",
+        "rounding"
+      ],
+      "title": "Policy",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "manifest": {
+      "$ref": "#/$defs/Manifest"
+    },
+    "policy": {
+      "$ref": "#/$defs/Policy"
+    },
+    "ledger": {
+      "items": {
+        "$ref": "#/$defs/LedgerRow"
+      },
+      "title": "Ledger",
+      "type": "array"
+    },
+    "invoices": {
+      "items": {
+        "$ref": "#/$defs/Invoice"
+      },
+      "title": "Invoices",
+      "type": "array"
+    },
+    "payments": {
+      "items": {
+        "$ref": "#/$defs/Payment"
+      },
+      "title": "Payments",
+      "type": "array"
+    },
+    "fx": {
+      "items": {
+        "$ref": "#/$defs/FXRow"
+      },
+      "title": "Fx",
+      "type": "array"
+    }
+  },
+  "required": [
+    "manifest",
+    "policy",
+    "ledger",
+    "invoices",
+    "payments",
+    "fx"
+  ],
+  "title": "PublicEpisode",
+  "type": "object"
+}

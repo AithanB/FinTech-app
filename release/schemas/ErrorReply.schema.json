@@ -1,0 +1,22 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "error": {
+      "minLength": 1,
+      "title": "Error",
+      "type": "string"
+    },
+    "remaining_steps": {
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Remaining Steps",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "error",
+    "remaining_steps"
+  ],
+  "title": "ErrorReply",
+  "type": "object"
+}

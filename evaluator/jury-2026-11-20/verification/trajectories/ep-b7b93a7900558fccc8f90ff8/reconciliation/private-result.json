@@ -1,0 +1,58 @@
+{
+  "score": {
+    "score": 0.97,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-ea55d3bf88563911c131b61e",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-b7b93a7900558fccc8f90ff8",
+    "findings": [
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-60b0fa009ed0028695ca551c"
+        ],
+        "claimed_amount_minor": 8314771583,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-788cdb8efd1d4a479209bce2",
+          "row-4abe55430d5d4362cb735b8a",
+          "row-0fe6ef2853e4c1e47454a2f4"
+        ],
+        "explanation": "Distinct journals repeat revenue recognition for the same invoice."
+      }
+    ]
+  },
+  "actions": 16,
+  "reason": "completed",
+  "evaluator_pid": 150,
+  "evaluator_uid": 0,
+  "agent_pid": 151,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.38501422199999524,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 15,
+  "total_actions": 16,
+  "return": 0.97
+}

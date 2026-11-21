@@ -1,0 +1,92 @@
+{
+  "$defs": {
+    "LineItem": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "amount_minor": {
+          "minimum": 0,
+          "title": "Amount Minor",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "description",
+        "amount_minor"
+      ],
+      "title": "LineItem",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "doc_id": {
+      "minLength": 1,
+      "title": "Doc Id",
+      "type": "string"
+    },
+    "invoice_id": {
+      "minLength": 1,
+      "title": "Invoice Id",
+      "type": "string"
+    },
+    "entity_id": {
+      "minLength": 1,
+      "title": "Entity Id",
+      "type": "string"
+    },
+    "issued_at": {
+      "format": "date-time",
+      "title": "Issued At",
+      "type": "string"
+    },
+    "due_at": {
+      "format": "date-time",
+      "title": "Due At",
+      "type": "string"
+    },
+    "service_at": {
+      "format": "date-time",
+      "title": "Service At",
+      "type": "string"
+    },
+    "currency": {
+      "enum": [
+        "KZT",
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "title": "Currency",
+      "type": "string"
+    },
+    "total_minor": {
+      "minimum": 0,
+      "title": "Total Minor",
+      "type": "integer"
+    },
+    "line_items": {
+      "items": {
+        "$ref": "#/$defs/LineItem"
+      },
+      "title": "Line Items",
+      "type": "array"
+    }
+  },
+  "required": [
+    "doc_id",
+    "invoice_id",
+    "entity_id",
+    "issued_at",
+    "due_at",
+    "service_at",
+    "currency",
+    "total_minor",
+    "line_items"
+  ],
+  "title": "Invoice",
+  "type": "object"
+}

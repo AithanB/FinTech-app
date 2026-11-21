@@ -1,0 +1,653 @@
+{
+  "version": "jury-checks-2026-11-20",
+  "passed": true,
+  "episodes": 20,
+  "pairs": 20,
+  "transformations": {
+    "order": 5,
+    "ids": 5,
+    "both": 10
+  },
+  "rows": [
+    {
+      "case": "D01",
+      "pair": "P01",
+      "seed": 51001,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 36,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small"
+      },
+      "transformation": "order",
+      "issues": 0,
+      "score": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "7504bcaed02ea2c1f2e28e343fe8220230b712ef489f62e37d43c064afefadec"
+    },
+    {
+      "case": "D02",
+      "pair": "P02",
+      "seed": 51002,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 37,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small"
+      },
+      "transformation": "order",
+      "issues": 0,
+      "score": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "badefd346d0c07a07b6481e2956820be197fb7d8353f8a181cf3312a008220f1"
+    },
+    {
+      "case": "D03",
+      "pair": "P03",
+      "seed": 51003,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 38,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "America/New_York",
+        "size_profile": "small"
+      },
+      "transformation": "order",
+      "issues": 0,
+      "score": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "f25a8fa9e04ce75b7718f6a2ea878db8df6a6b63c1b877cec46ce8f06c11ff2f"
+    },
+    {
+      "case": "D04",
+      "pair": "P04",
+      "seed": 51004,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 39,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small"
+      },
+      "transformation": "order",
+      "issues": 0,
+      "score": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "cbf6179d42c943b30c6f41fc5ae33e3979248d7aa2afea05d49178c8132e8876"
+    },
+    {
+      "case": "D05",
+      "pair": "P05",
+      "seed": 51005,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 40,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small"
+      },
+      "transformation": "order",
+      "issues": 0,
+      "score": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "f162f12b68d02d5b580bc54e788b4e3c84bd8ea4eb6e94df63a7d59864ffd63c"
+    },
+    {
+      "case": "D06",
+      "pair": "P06",
+      "seed": 51006,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 41,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "America/New_York",
+        "size_profile": "small",
+        "duplicate_invoices": 1
+      },
+      "transformation": "ids",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "25fda786ed32d9f2387bd0903c73e3eb345029aea5dfa07409e963f5fb9cd7a2"
+    },
+    {
+      "case": "D07",
+      "pair": "P07",
+      "seed": 51007,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 42,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small",
+        "duplicate_invoices": 1
+      },
+      "transformation": "ids",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "6868e42e9a6855349a0e69a4e288082ec24abc53b77c631ff747add454385270"
+    },
+    {
+      "case": "D08",
+      "pair": "P08",
+      "seed": 51008,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 43,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small",
+        "duplicate_invoices": 1
+      },
+      "transformation": "ids",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "1108edaae6110101be5777560e2f677a3dd5f0035ec3cf8d019bbf846c7f2d35"
+    },
+    {
+      "case": "D09",
+      "pair": "P09",
+      "seed": 51009,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 44,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "America/New_York",
+        "size_profile": "small",
+        "missing_allocations": 1
+      },
+      "transformation": "ids",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "be4a684d669716d6d6ff27e6f7450e35373baeecec9668995b54f9643279d1cf"
+    },
+    {
+      "case": "D10",
+      "pair": "P10",
+      "seed": 51010,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 45,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small",
+        "partial_allocations": 1
+      },
+      "transformation": "ids",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "6158065c11a68cc44bc423254ad56b0897f60079a6aa9538091fd1c91f8566a9"
+    },
+    {
+      "case": "D11",
+      "pair": "P11",
+      "seed": 51011,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 46,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small",
+        "partial_allocations": 1
+      },
+      "transformation": "both",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "7cc95f4378b29c87d8bb6cfb9f9ae2468a8ce30d832bfffc0b907a32a4218e19"
+    },
+    {
+      "case": "D12",
+      "pair": "P12",
+      "seed": 51012,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 47,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "America/New_York",
+        "size_profile": "small",
+        "wrong_fx_dates": 1
+      },
+      "transformation": "both",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "daae676c9bf97595dedc108345ed24377f00f37b613f238035740e449b282bb2"
+    },
+    {
+      "case": "D13",
+      "pair": "P13",
+      "seed": 51013,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 48,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small",
+        "wrong_fx_rates": 1
+      },
+      "transformation": "both",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "0dc0f5563617aebaa57b4e2738e576a9f3bff410325bef03fd30223a8d65656d"
+    },
+    {
+      "case": "D14",
+      "pair": "P14",
+      "seed": 51014,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 49,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small",
+        "misplaced_recognitions": 1
+      },
+      "transformation": "both",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "34ae0f92645c1f45f4904e940cabe7890fa94c5b94b7c890ed131102c1cd349f"
+    },
+    {
+      "case": "D15",
+      "pair": "P15",
+      "seed": 51015,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 50,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "America/New_York",
+        "size_profile": "small",
+        "misplaced_recognitions": 1
+      },
+      "transformation": "both",
+      "issues": 1,
+      "score": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "41752a9ac6d165dceaa94054c890f56ba7a25ef2d2436afd4fa5cb948e97f734"
+    },
+    {
+      "case": "D16",
+      "pair": "P16",
+      "seed": 51016,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 51,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small",
+        "partial_allocations": 1,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        }
+      },
+      "transformation": "both",
+      "issues": 2,
+      "score": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "81703fc771c32e77f8cf9feafc774c42dbd0fbbb4b42315ca8b9bafdd30d4cc4"
+    },
+    {
+      "case": "D17",
+      "pair": "P17",
+      "seed": 51017,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 52,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small",
+        "partial_allocations": 1,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        }
+      },
+      "transformation": "both",
+      "issues": 2,
+      "score": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "3215dbd21ec647c55f564a645157083a17da6c91c3d901607d6893665dd6c35b"
+    },
+    {
+      "case": "D18",
+      "pair": "P18",
+      "seed": 51018,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 53,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "America/New_York",
+        "size_profile": "small",
+        "partial_allocations": 1,
+        "misplaced_applications": 1,
+        "boundary_scenario": {
+          "count": 1,
+          "variant": "both"
+        }
+      },
+      "transformation": "both",
+      "issues": 2,
+      "score": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "1da9d891232fc1e1372deb9a3dbf493301fdddf1c909b5c95aea194568382a49"
+    },
+    {
+      "case": "D19",
+      "pair": "P19",
+      "seed": 51019,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 54,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "UTC",
+        "size_profile": "small",
+        "duplicate_invoices": 1,
+        "wrong_fx_rates": 1,
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        }
+      },
+      "transformation": "both",
+      "issues": 2,
+      "score": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "ca60313a9d5190f824147a9185211509520f09f2e542abd851f1766ce0f62224"
+    },
+    {
+      "case": "D20",
+      "pair": "P20",
+      "seed": 51020,
+      "config": {
+        "version": "stage08-v1",
+        "invoice_count": 55,
+        "currencies": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ],
+        "boundary_cases": true,
+        "timezone": "Asia/Almaty",
+        "size_profile": "small",
+        "duplicate_invoices": 1,
+        "wrong_fx_rates": 1,
+        "duplicate_fx_scenario": {
+          "count": 1,
+          "variant": "both"
+        }
+      },
+      "transformation": "both",
+      "issues": 2,
+      "score": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "return": 0.996
+      },
+      "replay_sha256": "8d6d5aa7b70beab8291f0eb7604016adf23988b82ebd00624c2f1843fd321af0"
+    }
+  ]
+}

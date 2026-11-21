@@ -1,0 +1,59 @@
+{
+  "score": {
+    "score": 0.968,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-f4e5496a0acf893c6a8dca27",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-46e2765e7876db485019c312",
+    "findings": [
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-d64262fb799bb15aeccfff0b",
+          "inv-b5512600b2ad240066589fc8"
+        ],
+        "claimed_amount_minor": 2000000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-e2040224e7c10bbe89328dc6",
+          "settlement:pay-d64262fb799bb15aeccfff0b",
+          "fx:2026-11-15:JPY:KZT"
+        ],
+        "explanation": "The intended application differs from the public settlement."
+      }
+    ]
+  },
+  "actions": 17,
+  "reason": "completed",
+  "evaluator_pid": 152,
+  "evaluator_uid": 0,
+  "agent_pid": 153,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.3875904220000166,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 16,
+  "total_actions": 17,
+  "return": 0.968
+}

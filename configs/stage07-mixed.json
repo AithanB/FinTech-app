@@ -1,0 +1,16 @@
+{
+  "version": "stage07-v1",
+  "invoice_count": 6,
+  "currencies": ["KZT", "USD", "EUR", "JPY"],
+  "timezone": "Asia/Almaty",
+  "boundary_cases": true,
+  "duplicate_invoices": 1,
+  "missing_allocations": 1,
+  "partial_allocations": 1,
+  "wrong_fx_dates": 1,
+  "wrong_fx_rates": 1,
+  "misplaced_recognitions": 1,
+  "amount_min_minor": 10000,
+  "amount_max_minor": 10000,
+  "partial_shortfall_minor": 2000
+}

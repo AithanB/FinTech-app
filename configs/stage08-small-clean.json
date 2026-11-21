@@ -1,0 +1,7 @@
+{
+  "version": "stage08-v1",
+  "size_profile": "small",
+  "invoice_count": 36,
+  "currencies": ["KZT", "USD", "EUR", "JPY"],
+  "boundary_cases": true
+}

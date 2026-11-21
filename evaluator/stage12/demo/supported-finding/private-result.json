@@ -1,0 +1,65 @@
+{
+  "score": {
+    "score": 0.992,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-735",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-431",
+    "findings": [
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-627",
+          "inv-264"
+        ],
+        "claimed_amount_minor": 2000000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-492",
+          "settlement:pay-627"
+        ],
+        "explanation": "The intended application differs from the public settlement."
+      }
+    ]
+  },
+  "actions": 5,
+  "reason": "completed",
+  "evaluator_pid": 1,
+  "evaluator_uid": 0,
+  "agent_pid": 7,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "public_ledger": {
+      "uid": 0,
+      "mode": "0o444"
+    },
+    "private_truth": {
+      "uid": 0,
+      "mode": "0o600"
+    },
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "elapsed_seconds": 0.4039181580000104,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 4,
+  "total_actions": 5,
+  "return": 0.992
+}

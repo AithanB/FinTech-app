@@ -1,6 +1,6 @@
 # ROADMAP — Financial audit RL environment
 
-**For the coding assistant.** The command `Execute stage 04 from the ROADMAP` means implement and verify stage 04 in the current repository, explain it to the owner, and stop at its acceptance boundary. Integers with or without a leading zero refer to the same stage. The owner is learning the design while developing the system solo. Stage numbers below are stable references for this English edition.
+**For the coding assistant.** The command `Execute stage 04 from the ROADMAP` means implement and verify stage 04 in the current repository, explain it to the owner, and stop at its acceptance boundary. Integers with or without a leading zero refer to the same stage. Stage numbers below are stable references for this English edition.
 
 ## How to execute one stage
 

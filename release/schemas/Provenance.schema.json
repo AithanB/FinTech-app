@@ -1,0 +1,104 @@
+{
+  "$defs": {
+    "Mutation": {
+      "additionalProperties": false,
+      "properties": {
+        "event_id": {
+          "minLength": 1,
+          "title": "Event Id",
+          "type": "string"
+        },
+        "object_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Object Ids",
+          "type": "array"
+        },
+        "operation": {
+          "enum": [
+            "remove",
+            "replace",
+            "insert"
+          ],
+          "title": "Operation",
+          "type": "string"
+        },
+        "field": {
+          "minLength": 1,
+          "title": "Field",
+          "type": "string"
+        },
+        "clean_value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Clean Value"
+        },
+        "observed_value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Observed Value"
+        }
+      },
+      "required": [
+        "event_id",
+        "object_ids",
+        "operation",
+        "field",
+        "clean_value",
+        "observed_value"
+      ],
+      "title": "Mutation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "episode_id": {
+      "minLength": 1,
+      "title": "Episode Id",
+      "type": "string"
+    },
+    "event_ids": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Event Ids",
+      "type": "array"
+    },
+    "mutations": {
+      "items": {
+        "$ref": "#/$defs/Mutation"
+      },
+      "title": "Mutations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "episode_id",
+    "event_ids",
+    "mutations"
+  ],
+  "title": "Provenance",
+  "type": "object"
+}

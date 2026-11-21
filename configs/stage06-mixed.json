@@ -1,0 +1,10 @@
+{
+  "version": "stage06-v1",
+  "invoice_count": 6,
+  "duplicate_invoices": 1,
+  "missing_allocations": 1,
+  "partial_allocations": 1,
+  "amount_min_minor": 10000000,
+  "amount_max_minor": 10000000,
+  "partial_shortfall_minor": 2000000
+}

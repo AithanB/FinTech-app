@@ -16,7 +16,7 @@ def read_json(path: Path, model: type[Model]) -> Model:
 
 
 def write_json(path: Path, value: StrictModel) -> None:
-    path.write_text(value.model_dump_json(indent=2) + "\n", encoding="utf-8")
+    path.write_text(value.model_dump_json(indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def read_jsonl(path: Path, model: type[Model]) -> list[Model]:
@@ -24,7 +24,7 @@ def read_jsonl(path: Path, model: type[Model]) -> list[Model]:
 
 
 def write_jsonl(path: Path, rows: list[StrictModel]) -> None:
-    path.write_text("".join(row.model_dump_json() + "\n" for row in rows), encoding="utf-8")
+    path.write_text("".join(row.model_dump_json() + "\n" for row in rows), encoding="utf-8", newline="\n")
 
 
 def read_csv(path: Path, model: type[LedgerRow] | type[FXRow]):

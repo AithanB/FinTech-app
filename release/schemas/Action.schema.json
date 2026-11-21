@@ -1,0 +1,247 @@
+{
+  "$defs": {
+    "Calculator": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "calculator",
+          "title": "Type",
+          "type": "string"
+        },
+        "expression": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Expression",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "expression"
+      ],
+      "title": "Calculator",
+      "type": "object"
+    },
+    "Finding": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "affected_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Affected Ids",
+          "type": "array"
+        },
+        "claimed_amount_minor": {
+          "minimum": 0,
+          "title": "Claimed Amount Minor",
+          "type": "integer"
+        },
+        "currency": {
+          "minLength": 1,
+          "title": "Currency",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "explanation": {
+          "maxLength": 1000,
+          "title": "Explanation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "affected_ids",
+        "claimed_amount_minor",
+        "currency",
+        "evidence_ids",
+        "explanation"
+      ],
+      "title": "Finding",
+      "type": "object"
+    },
+    "GetDocument": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "get_document",
+          "title": "Type",
+          "type": "string"
+        },
+        "doc_id": {
+          "minLength": 1,
+          "title": "Doc Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "doc_id"
+      ],
+      "title": "GetDocument",
+      "type": "object"
+    },
+    "GetRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "get_record",
+          "title": "Type",
+          "type": "string"
+        },
+        "table": {
+          "enum": [
+            "ledger",
+            "invoices",
+            "payments",
+            "fx"
+          ],
+          "title": "Table",
+          "type": "string"
+        },
+        "id": {
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "table",
+        "id"
+      ],
+      "title": "GetRecord",
+      "type": "object"
+    },
+    "ListRecords": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "list_records",
+          "title": "Type",
+          "type": "string"
+        },
+        "table": {
+          "enum": [
+            "ledger",
+            "invoices",
+            "payments",
+            "fx"
+          ],
+          "title": "Table",
+          "type": "string"
+        },
+        "cursor": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cursor"
+        },
+        "limit": {
+          "maximum": 50,
+          "minimum": 1,
+          "title": "Limit",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "type",
+        "table",
+        "cursor",
+        "limit"
+      ],
+      "title": "ListRecords",
+      "type": "object"
+    },
+    "Submission": {
+      "additionalProperties": false,
+      "properties": {
+        "episode_id": {
+          "minLength": 1,
+          "title": "Episode Id",
+          "type": "string"
+        },
+        "findings": {
+          "items": {
+            "$ref": "#/$defs/Finding"
+          },
+          "maxItems": 30,
+          "title": "Findings",
+          "type": "array"
+        }
+      },
+      "required": [
+        "episode_id",
+        "findings"
+      ],
+      "title": "Submission",
+      "type": "object"
+    },
+    "Submit": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "submit",
+          "title": "Type",
+          "type": "string"
+        },
+        "findings": {
+          "$ref": "#/$defs/Submission"
+        }
+      },
+      "required": [
+        "type",
+        "findings"
+      ],
+      "title": "Submit",
+      "type": "object"
+    }
+  },
+  "discriminator": {
+    "mapping": {
+      "calculator": "#/$defs/Calculator",
+      "get_document": "#/$defs/GetDocument",
+      "get_record": "#/$defs/GetRecord",
+      "list_records": "#/$defs/ListRecords",
+      "submit": "#/$defs/Submit"
+    },
+    "propertyName": "type"
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/ListRecords"
+    },
+    {
+      "$ref": "#/$defs/GetRecord"
+    },
+    {
+      "$ref": "#/$defs/GetDocument"
+    },
+    {
+      "$ref": "#/$defs/Calculator"
+    },
+    {
+      "$ref": "#/$defs/Submit"
+    }
+  ]
+}

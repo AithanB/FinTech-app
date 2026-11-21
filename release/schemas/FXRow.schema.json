@@ -1,0 +1,49 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "format": "date",
+      "title": "Date",
+      "type": "string"
+    },
+    "source_currency": {
+      "enum": [
+        "KZT",
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "title": "Source Currency",
+      "type": "string"
+    },
+    "target_currency": {
+      "enum": [
+        "KZT",
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "title": "Target Currency",
+      "type": "string"
+    },
+    "rate": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "title": "Rate"
+    }
+  },
+  "required": [
+    "date",
+    "source_currency",
+    "target_currency",
+    "rate"
+  ],
+  "title": "FXRow",
+  "type": "object"
+}

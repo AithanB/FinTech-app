@@ -1,0 +1,45 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-431",
+    "findings": []
+  },
+  "actions": 0,
+  "reason": "timeout",
+  "evaluator_pid": 1,
+  "evaluator_uid": 0,
+  "agent_pid": 69,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "public_ledger": {
+      "uid": 0,
+      "mode": "0o444"
+    },
+    "private_truth": {
+      "uid": 0,
+      "mode": "0o600"
+    },
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "elapsed_seconds": 0.42513390700000286,
+  "policy": "timeout-probe",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 0,
+  "total_actions": 0,
+  "return": -1.0
+}

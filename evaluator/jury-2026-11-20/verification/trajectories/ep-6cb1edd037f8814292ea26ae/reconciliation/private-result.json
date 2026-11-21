@@ -1,0 +1,58 @@
+{
+  "score": {
+    "score": 0.97,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-9c52627702de91bcf5ba3f87",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-6cb1edd037f8814292ea26ae",
+    "findings": [
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "journal-9f83def5b6ee866d15953795"
+        ],
+        "claimed_amount_minor": 12696380,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-620dd8032be3334929c2a750",
+          "row-d9e1d41c09f3eb5ff289a53e",
+          "fx:2026-10-31:USD:KZT"
+        ],
+        "explanation": "Service-date directional FX differs from the posted revenue."
+      }
+    ]
+  },
+  "actions": 16,
+  "reason": "completed",
+  "evaluator_pid": 136,
+  "evaluator_uid": 0,
+  "agent_pid": 137,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.41359278499999164,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 15,
+  "total_actions": 16,
+  "return": 0.97
+}

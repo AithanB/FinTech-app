@@ -1,0 +1,12 @@
+{
+  "version": "stage08-v1",
+  "invoice_count": 8,
+  "currencies": ["USD"],
+  "fx_profile": "flat",
+  "amount_min_minor": 10000,
+  "amount_max_minor": 10000,
+  "partial_shortfall_minor": 200000,
+  "partial_allocations": 1,
+  "misplaced_applications": 1,
+  "boundary_scenario": {"count": 1, "variant": "both"}
+}

@@ -1,0 +1,5887 @@
+{
+  "manifest": {
+    "schema_version": "1.0",
+    "episode_id": "ep-2c7b65dd68919213b8bb4c56",
+    "base_currency": "KZT",
+    "period_start": "2026-11-01T00:00:00Z",
+    "period_end": "2026-12-01T00:00:00Z",
+    "timezone": "UTC",
+    "record_count": 441,
+    "document_count": 90,
+    "currency_exponents": {
+      "KZT": 2,
+      "USD": 2,
+      "EUR": 2,
+      "JPY": 0
+    },
+    "rounding": "ROUND_HALF_UP"
+  },
+  "policy": {
+    "fx_direction": "target_major_per_source_major",
+    "invoice_fx_date": "local_service_date",
+    "payment_fx_date": "local_payment_date",
+    "period_boundary": "start_inclusive_end_exclusive",
+    "recognition": "service_at",
+    "rounding": "ROUND_HALF_UP"
+  },
+  "ledger": [
+    {
+      "row_id": "row-b61b9435eab79ad33918f8a3",
+      "journal_id": "journal-f34419d2c0ea96a718b79232",
+      "timestamp": "2026-11-01T00:30:00Z",
+      "account": "receivables",
+      "debit_minor": 4776068480,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c1c1d5b21f30a5dbc1d6b5aa",
+      "journal_id": "journal-f34419d2c0ea96a718b79232",
+      "timestamp": "2026-11-01T00:30:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 4776068480,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-6d3d81ccd665c186ecab0fc8",
+      "journal_id": "journal-8c5b3a89026aba845445c12d",
+      "timestamp": "2026-11-30T23:59:59.999999Z",
+      "account": "receivables",
+      "debit_minor": 4819351601,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-81777df3cba6a8d04cd5e2bf",
+      "journal_id": "journal-8c5b3a89026aba845445c12d",
+      "timestamp": "2026-11-30T23:59:59.999999Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 4819351601,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-0b7a42cf3a7cbae92e9e0f61",
+      "journal_id": "journal-329945e3ddf962f287ab225e",
+      "timestamp": "2026-12-01T00:00:00Z",
+      "account": "receivables",
+      "debit_minor": 10058247727,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-69e14a736befac8359985d6a",
+      "journal_id": "journal-329945e3ddf962f287ab225e",
+      "timestamp": "2026-12-01T00:00:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 10058247727,
+      "currency": "KZT",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-eb53e6da1b21eb3614cc55b1",
+      "journal_id": "journal-2be9e97792e0eb11c8cefced",
+      "timestamp": "2026-10-31T23:59:59.999999Z",
+      "account": "receivables",
+      "debit_minor": 5777623147,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-6552c725a8f298438d921780",
+      "journal_id": "journal-2be9e97792e0eb11c8cefced",
+      "timestamp": "2026-10-31T23:59:59.999999Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5777623147,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-fb15e9ea78be781b1a1b3306",
+      "journal_id": "journal-e4da3a250a89b74ef64f109f",
+      "timestamp": "2026-11-10T16:16:00Z",
+      "account": "receivables",
+      "debit_minor": 7156903426,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-7723c186ebfa29a88e9510c8",
+      "journal_id": "journal-e4da3a250a89b74ef64f109f",
+      "timestamp": "2026-11-10T16:16:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 7156903426,
+      "currency": "KZT",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-2d7d19a452b00055c0d0e329",
+      "journal_id": "journal-b6b87ca887506835eb53f643",
+      "timestamp": "2026-11-09T09:29:00Z",
+      "account": "receivables",
+      "debit_minor": 7512343116,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-3f5af31979c7d8d95344fea2",
+      "journal_id": "journal-b6b87ca887506835eb53f643",
+      "timestamp": "2026-11-09T09:29:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 7512343116,
+      "currency": "KZT",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-55daf4ffe7a51f9d8ceea22c",
+      "journal_id": "journal-7558e8b317b810ed7083bc1a",
+      "timestamp": "2026-11-04T09:12:00Z",
+      "account": "receivables",
+      "debit_minor": 16744304,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c79c8f2b88d6c3e545579698",
+      "journal_id": "journal-7558e8b317b810ed7083bc1a",
+      "timestamp": "2026-11-04T09:12:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 16744304,
+      "currency": "KZT",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-4a8e114951af77b991be3457",
+      "journal_id": "journal-7824926e4edd712306b6acc8",
+      "timestamp": "2026-11-13T10:19:00Z",
+      "account": "receivables",
+      "debit_minor": 12977595,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-54ee8caf5a5fba2005955d9f",
+      "journal_id": "journal-7824926e4edd712306b6acc8",
+      "timestamp": "2026-11-13T10:19:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 12977595,
+      "currency": "KZT",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-62e0f3615a1c2d3d4a88ba4f",
+      "journal_id": "journal-72eeb056241922218e590f06",
+      "timestamp": "2026-11-24T09:07:00Z",
+      "account": "receivables",
+      "debit_minor": 5838955041,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-f1bb108c01a1020931b0c368",
+      "journal_id": "journal-72eeb056241922218e590f06",
+      "timestamp": "2026-11-24T09:07:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5838955041,
+      "currency": "KZT",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-5906f32b0ca9996f3e986926",
+      "journal_id": "journal-45d5c6b1f9fcf58df526c4ab",
+      "timestamp": "2026-11-18T10:43:00Z",
+      "account": "receivables",
+      "debit_minor": 3781266304,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-1f44562a3bdab0baa306c6a6",
+      "journal_id": "journal-45d5c6b1f9fcf58df526c4ab",
+      "timestamp": "2026-11-18T10:43:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 3781266304,
+      "currency": "KZT",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-85fcffdc4a30f54f20cef085",
+      "journal_id": "journal-2d914af73aefaec65b75b1a2",
+      "timestamp": "2026-11-09T09:04:00Z",
+      "account": "receivables",
+      "debit_minor": 7218974030,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-ef556cbd95def62b8f7e6633",
+      "journal_id": "journal-2d914af73aefaec65b75b1a2",
+      "timestamp": "2026-11-09T09:04:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 7218974030,
+      "currency": "KZT",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-837dc0afb23610fcdaa25e4f",
+      "journal_id": "journal-6302ce108881bd3a834d2bfb",
+      "timestamp": "2026-11-06T13:20:00Z",
+      "account": "receivables",
+      "debit_minor": 10817252056,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-2a5f0fde1b3a4dd4b818865c",
+      "journal_id": "journal-6302ce108881bd3a834d2bfb",
+      "timestamp": "2026-11-06T13:20:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 10817252056,
+      "currency": "KZT",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-03fbb109c97c2462f6666875",
+      "journal_id": "journal-c5ca0f510d029e7b0166bf03",
+      "timestamp": "2026-11-02T10:36:00Z",
+      "account": "receivables",
+      "debit_minor": 6067209198,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-f55a5eed55b3a5a4e10d428e",
+      "journal_id": "journal-c5ca0f510d029e7b0166bf03",
+      "timestamp": "2026-11-02T10:36:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6067209198,
+      "currency": "KZT",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-227c2b919c1de1f1cda0ec17",
+      "journal_id": "journal-f48b57fa622377565229f249",
+      "timestamp": "2026-11-04T14:35:00Z",
+      "account": "receivables",
+      "debit_minor": 10067538964,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-7e249a51d2d33b5a2d311716",
+      "journal_id": "journal-f48b57fa622377565229f249",
+      "timestamp": "2026-11-04T14:35:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 10067538964,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-957e4c19ea8bf92b4116616c",
+      "journal_id": "journal-859a704473c296ab356072e8",
+      "timestamp": "2026-11-07T15:32:00Z",
+      "account": "receivables",
+      "debit_minor": 20253751,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-7ffa6b47c0da3143868885e5",
+      "journal_id": "journal-859a704473c296ab356072e8",
+      "timestamp": "2026-11-07T15:32:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 20253751,
+      "currency": "KZT",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-da7d5ca075e82972a2ef2d50",
+      "journal_id": "journal-e85e54baa65b184f6d277b4f",
+      "timestamp": "2026-11-06T15:17:00Z",
+      "account": "receivables",
+      "debit_minor": 14921909,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-290a177195f5922e7f526892",
+      "journal_id": "journal-e85e54baa65b184f6d277b4f",
+      "timestamp": "2026-11-06T15:17:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 14921909,
+      "currency": "KZT",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-42b3e03df7e954fed2714011",
+      "journal_id": "journal-960ae6b83c8454c6b4376645",
+      "timestamp": "2026-11-07T13:09:00Z",
+      "account": "receivables",
+      "debit_minor": 5062463475,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-672a581ea390c82b3325a7ad",
+      "journal_id": "journal-960ae6b83c8454c6b4376645",
+      "timestamp": "2026-11-07T13:09:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5062463475,
+      "currency": "KZT",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-53198c2f26d22ede6eb62835",
+      "journal_id": "journal-7e8517e64adead0207126c41",
+      "timestamp": "2026-11-15T13:24:00Z",
+      "account": "receivables",
+      "debit_minor": 4735197128,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-0e6bfcc6177664a3adb5f9c0",
+      "journal_id": "journal-7e8517e64adead0207126c41",
+      "timestamp": "2026-11-15T13:24:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 4735197128,
+      "currency": "KZT",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-a0fd6ac5c8e60dc0dc7bfe2d",
+      "journal_id": "journal-9f6da6db958e5da94c9e461e",
+      "timestamp": "2026-11-07T16:41:00Z",
+      "account": "receivables",
+      "debit_minor": 6341567553,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-6206f683016e78640f92e875",
+      "journal_id": "journal-9f6da6db958e5da94c9e461e",
+      "timestamp": "2026-11-07T16:41:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6341567553,
+      "currency": "KZT",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-fa83d73abe6f2979742f3609",
+      "journal_id": "journal-886abf68a85d3ee892fbeba4",
+      "timestamp": "2026-11-20T16:57:00Z",
+      "account": "receivables",
+      "debit_minor": 7688482712,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-8108f4bc36827666484304a7",
+      "journal_id": "journal-886abf68a85d3ee892fbeba4",
+      "timestamp": "2026-11-20T16:57:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 7688482712,
+      "currency": "KZT",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-93f59c081ab10e054345e260",
+      "journal_id": "journal-6257f3a5886792ec5a3d524e",
+      "timestamp": "2026-11-02T17:47:00Z",
+      "account": "receivables",
+      "debit_minor": 9703542348,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c550aa4a635bb1cd79756d37",
+      "journal_id": "journal-6257f3a5886792ec5a3d524e",
+      "timestamp": "2026-11-02T17:47:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 9703542348,
+      "currency": "KZT",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-d522636f8fab485486da85f1",
+      "journal_id": "journal-d60c70ef14d28611ea896da9",
+      "timestamp": "2026-11-14T13:28:00Z",
+      "account": "receivables",
+      "debit_minor": 8868815820,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-190cf7e7dc6b0758e3f32659",
+      "journal_id": "journal-d60c70ef14d28611ea896da9",
+      "timestamp": "2026-11-14T13:28:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 8868815820,
+      "currency": "KZT",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-809f168604d458c7209e6dd4",
+      "journal_id": "journal-5a0d3065f6199c20ea355f95",
+      "timestamp": "2026-11-03T10:25:00Z",
+      "account": "receivables",
+      "debit_minor": 17323988,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-99b60d1cbde43ff6a0a7db1d",
+      "journal_id": "journal-5a0d3065f6199c20ea355f95",
+      "timestamp": "2026-11-03T10:25:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 17323988,
+      "currency": "KZT",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-f997a58b2ef37091b7591f57",
+      "journal_id": "journal-7235ae659e236845e37a59f1",
+      "timestamp": "2026-11-08T16:25:00Z",
+      "account": "receivables",
+      "debit_minor": 19602418,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-bc2d8ae788b38ccedda55f0f",
+      "journal_id": "journal-7235ae659e236845e37a59f1",
+      "timestamp": "2026-11-08T16:25:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 19602418,
+      "currency": "KZT",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-3e1672d2e660bc94d4447c7b",
+      "journal_id": "journal-6ad523abddea2dac9789cfe7",
+      "timestamp": "2026-11-23T10:05:00Z",
+      "account": "receivables",
+      "debit_minor": 5605001510,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-d5ee1b97a1b459eb7bec9053",
+      "journal_id": "journal-6ad523abddea2dac9789cfe7",
+      "timestamp": "2026-11-23T10:05:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5605001510,
+      "currency": "KZT",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-4b42a05a1f91caa85c08bb7f",
+      "journal_id": "journal-1eaf70302c3ebafbdcfaf901",
+      "timestamp": "2026-11-01T12:39:00Z",
+      "account": "receivables",
+      "debit_minor": 4822387200,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-0f03d21e463000c7ada1fb73",
+      "journal_id": "journal-1eaf70302c3ebafbdcfaf901",
+      "timestamp": "2026-11-01T12:39:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 4822387200,
+      "currency": "KZT",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-d9824c1113136c60e368c102",
+      "journal_id": "journal-30b11d6e1c80c2d5375cce18",
+      "timestamp": "2026-11-20T14:07:00Z",
+      "account": "receivables",
+      "debit_minor": 5861400613,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-a137bc78a835b741e6f2fe18",
+      "journal_id": "journal-30b11d6e1c80c2d5375cce18",
+      "timestamp": "2026-11-20T14:07:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5861400613,
+      "currency": "KZT",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-d6e0ff4e6c050958ef3e1d18",
+      "journal_id": "journal-826c9aa25a5e07ca6579992f",
+      "timestamp": "2026-11-21T17:07:00Z",
+      "account": "receivables",
+      "debit_minor": 7664119320,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "invoice_id": "inv-206731159270555843422466",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-477761cc75cf2960967d1c39",
+      "journal_id": "journal-826c9aa25a5e07ca6579992f",
+      "timestamp": "2026-11-21T17:07:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 7664119320,
+      "currency": "KZT",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "invoice_id": "inv-206731159270555843422466",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-1c8b7d5b8a849ace7edeccd2",
+      "journal_id": "journal-fa1806ef58c6eec5bcacb689",
+      "timestamp": "2026-11-08T09:01:00Z",
+      "account": "receivables",
+      "debit_minor": 6769778340,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c45a947f7c7b64191fb1124f",
+      "journal_id": "journal-fa1806ef58c6eec5bcacb689",
+      "timestamp": "2026-11-08T09:01:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6769778340,
+      "currency": "KZT",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-b720d14028346665735e05f2",
+      "journal_id": "journal-6ac4d217df0d0c759c563dfa",
+      "timestamp": "2026-11-23T12:00:00Z",
+      "account": "receivables",
+      "debit_minor": 6967929006,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-e1c93cc4d7b221010ba66b62",
+      "journal_id": "journal-6ac4d217df0d0c759c563dfa",
+      "timestamp": "2026-11-23T12:00:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6967929006,
+      "currency": "KZT",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-6663643f8e27951bba44561f",
+      "journal_id": "journal-d6212b98189307ec94e37f8c",
+      "timestamp": "2026-11-04T13:23:00Z",
+      "account": "receivables",
+      "debit_minor": 19023161,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-a8f7a9521fe95a6b1b2988f7",
+      "journal_id": "journal-d6212b98189307ec94e37f8c",
+      "timestamp": "2026-11-04T13:23:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 19023161,
+      "currency": "KZT",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-af13d94c49329084aeaf7b8f",
+      "journal_id": "journal-13c340bddf357baf69dcee51",
+      "timestamp": "2026-11-15T09:10:00Z",
+      "account": "receivables",
+      "debit_minor": 14467617,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-88821342cbb0b68248a70156",
+      "journal_id": "journal-13c340bddf357baf69dcee51",
+      "timestamp": "2026-11-15T09:10:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 14467617,
+      "currency": "KZT",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-39006c58044ee6c6d183993a",
+      "journal_id": "journal-b5d4478068a104b447a2b134",
+      "timestamp": "2026-11-15T14:43:00Z",
+      "account": "receivables",
+      "debit_minor": 5316104165,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-8287946c0a861bd2fcd1970b",
+      "journal_id": "journal-b5d4478068a104b447a2b134",
+      "timestamp": "2026-11-15T14:43:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5316104165,
+      "currency": "KZT",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-d27e6c9816a0b1d777e83f44",
+      "journal_id": "journal-2ff09b2ce4920140269d9547",
+      "timestamp": "2026-11-14T10:05:00Z",
+      "account": "receivables",
+      "debit_minor": 6055221728,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-5f55f2bc69a5d953f50f38e2",
+      "journal_id": "journal-2ff09b2ce4920140269d9547",
+      "timestamp": "2026-11-14T10:05:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6055221728,
+      "currency": "KZT",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-3f2d87364f6b4af98cd68fee",
+      "journal_id": "journal-86e8773ec23b7a31bcde1015",
+      "timestamp": "2026-11-06T17:34:00Z",
+      "account": "receivables",
+      "debit_minor": 5960256693,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-22575e75fe7cf3dd984aadc4",
+      "journal_id": "journal-86e8773ec23b7a31bcde1015",
+      "timestamp": "2026-11-06T17:34:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5960256693,
+      "currency": "KZT",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-9f4b44e609c9fedc65060f21",
+      "journal_id": "journal-23a29ae73aaf3732829a1fed",
+      "timestamp": "2026-11-10T10:31:00Z",
+      "account": "receivables",
+      "debit_minor": 9198074713,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-a5a0a1964e40ef899938b9c1",
+      "journal_id": "journal-23a29ae73aaf3732829a1fed",
+      "timestamp": "2026-11-10T10:31:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 9198074713,
+      "currency": "KZT",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-559cfa68282e5157dbc3a03b",
+      "journal_id": "journal-ef0f52af9cc691f589aedd74",
+      "timestamp": "2026-11-17T12:34:00Z",
+      "account": "receivables",
+      "debit_minor": 6437495772,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-a463873aaf699315303b1317",
+      "journal_id": "journal-ef0f52af9cc691f589aedd74",
+      "timestamp": "2026-11-17T12:34:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6437495772,
+      "currency": "KZT",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-6b058eb75395d6aa1d32f1a5",
+      "journal_id": "journal-730a15579dc57b97e9eac8d0",
+      "timestamp": "2026-11-15T12:32:00Z",
+      "account": "receivables",
+      "debit_minor": 6094344314,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-b43286ba6094c03cadc86bd0",
+      "journal_id": "journal-730a15579dc57b97e9eac8d0",
+      "timestamp": "2026-11-15T12:32:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 6094344314,
+      "currency": "KZT",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-ec58c2dc3e13116e17cc13c3",
+      "journal_id": "journal-09d0b37763a9ec32a7a6bc53",
+      "timestamp": "2026-11-06T15:49:00Z",
+      "account": "receivables",
+      "debit_minor": 11425897,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-35c2c00a1073c5d831cedc54",
+      "journal_id": "journal-09d0b37763a9ec32a7a6bc53",
+      "timestamp": "2026-11-06T15:49:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 11425897,
+      "currency": "KZT",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-3f8bf5346caa30e2bad680f9",
+      "journal_id": "journal-e8e0ccbeb9414de86f4a6ba8",
+      "timestamp": "2026-11-22T11:50:00Z",
+      "account": "receivables",
+      "debit_minor": 19419449,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c39b05a34e78274e910f481e",
+      "journal_id": "journal-e8e0ccbeb9414de86f4a6ba8",
+      "timestamp": "2026-11-22T11:50:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 19419449,
+      "currency": "KZT",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-e3cc87170ecb2e3a45c3b3cb",
+      "journal_id": "journal-dd0d394f8d34095b11956c32",
+      "timestamp": "2026-11-10T13:24:00Z",
+      "account": "receivables",
+      "debit_minor": 4277867519,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-01738fedc9a57166f1361894",
+      "journal_id": "journal-dd0d394f8d34095b11956c32",
+      "timestamp": "2026-11-10T13:24:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 4277867519,
+      "currency": "KZT",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-74c2f45c77b83aa0d6d2f05a",
+      "journal_id": "journal-7817735b4a5c135082850db2",
+      "timestamp": "2026-11-04T12:40:00Z",
+      "account": "receivables",
+      "debit_minor": 5226944951,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-e3520b5c2c7833b7833369a6",
+      "journal_id": "journal-7817735b4a5c135082850db2",
+      "timestamp": "2026-11-04T12:40:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 5226944951,
+      "currency": "KZT",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c7c9b2a59b500ad8af4754c7",
+      "journal_id": "journal-a32966c45cb1f70ff45e473c",
+      "timestamp": "2026-11-16T12:20:00Z",
+      "account": "receivables",
+      "debit_minor": 9297542458,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-134dea50b4a545e73e9764d5",
+      "journal_id": "journal-a32966c45cb1f70ff45e473c",
+      "timestamp": "2026-11-16T12:20:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 9297542458,
+      "currency": "KZT",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-87b0c1c05b86b2785afad685",
+      "journal_id": "journal-2029e2a3af7efe7ff1a4b3a7",
+      "timestamp": "2026-11-01T16:09:00Z",
+      "account": "receivables",
+      "debit_minor": 10056759350,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-36e2cec439be0cb8640e3ec4",
+      "journal_id": "journal-2029e2a3af7efe7ff1a4b3a7",
+      "timestamp": "2026-11-01T16:09:00Z",
+      "account": "revenue",
+      "debit_minor": 0,
+      "credit_minor": 10056759350,
+      "currency": "KZT",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "payment_id": null,
+      "entry_kind": "recognition",
+      "posting_sequence": 1
+    },
+    {
+      "row_id": "row-c8e3e8c71abf9e8065286064",
+      "journal_id": "journal-8cc15c43ab29d90e38e01d2e",
+      "timestamp": "2026-11-03T00:30:00Z",
+      "account": "cash",
+      "debit_minor": 3345337210,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "payment_id": "pay-b4d10c32b7d1aaf72c1556cd",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-17da6cb2c339be66f89398bc",
+      "journal_id": "journal-8cc15c43ab29d90e38e01d2e",
+      "timestamp": "2026-11-03T00:30:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3345337210,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "payment_id": "pay-b4d10c32b7d1aaf72c1556cd",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-4c2f51818da6e5e5eaf70ecc",
+      "journal_id": "journal-68b3f3d118e98dbedfe35f6f",
+      "timestamp": "2026-11-03T00:30:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3345337210,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "payment_id": "pay-b4d10c32b7d1aaf72c1556cd",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-8a2531637753d256b3eeecd8",
+      "journal_id": "journal-68b3f3d118e98dbedfe35f6f",
+      "timestamp": "2026-11-03T00:30:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3345337210,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "payment_id": "pay-b4d10c32b7d1aaf72c1556cd",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-46035805c4a1a76f5eb6eec3",
+      "journal_id": "journal-7cc8d88a2878417887e4001c",
+      "timestamp": "2026-12-02T23:59:59.999999Z",
+      "account": "cash",
+      "debit_minor": 1446700928,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "payment_id": "pay-3205707f3c8e592aa7c13aa3",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-83cfc385686165a06ef81bd0",
+      "journal_id": "journal-7cc8d88a2878417887e4001c",
+      "timestamp": "2026-12-02T23:59:59.999999Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1446700928,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "payment_id": "pay-3205707f3c8e592aa7c13aa3",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-05cbcf03b0eab7e41b0756f3",
+      "journal_id": "journal-4bdd7e74d1256e40d2ca119a",
+      "timestamp": "2026-12-02T23:59:59.999999Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1446700928,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "payment_id": "pay-3205707f3c8e592aa7c13aa3",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-7e53d4dc98f3a5eabea2e751",
+      "journal_id": "journal-4bdd7e74d1256e40d2ca119a",
+      "timestamp": "2026-12-02T23:59:59.999999Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1446700928,
+      "currency": "KZT",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "payment_id": "pay-3205707f3c8e592aa7c13aa3",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-dc8442c6d76855d16e6d3cf7",
+      "journal_id": "journal-b9274d930732e8cd7d935c4a",
+      "timestamp": "2026-12-03T00:00:00Z",
+      "account": "cash",
+      "debit_minor": 5048101397,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "payment_id": "pay-a806d8c9ccaaee95a9b2eb47",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-77d4fed6cf310c3dc17041bd",
+      "journal_id": "journal-b9274d930732e8cd7d935c4a",
+      "timestamp": "2026-12-03T00:00:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 5048101397,
+      "currency": "KZT",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "payment_id": "pay-a806d8c9ccaaee95a9b2eb47",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-3f4d487f2bd370824e876f72",
+      "journal_id": "journal-6e88be010e1ae1997be7bcfe",
+      "timestamp": "2026-12-03T00:00:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 5048101397,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "payment_id": "pay-a806d8c9ccaaee95a9b2eb47",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-cdb2511ed3701b1dc780f3b5",
+      "journal_id": "journal-6e88be010e1ae1997be7bcfe",
+      "timestamp": "2026-12-03T00:00:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 5048101397,
+      "currency": "KZT",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "payment_id": "pay-a806d8c9ccaaee95a9b2eb47",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-babdc568557d0180b82a7d9f",
+      "journal_id": "journal-c2874a8d42c2deffe7453210",
+      "timestamp": "2026-11-02T23:59:59.999999Z",
+      "account": "cash",
+      "debit_minor": 1044139962,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-88bddc0903dffe8e9f57d1d4",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-4c8dae20bea3d48120805ad1",
+      "journal_id": "journal-c2874a8d42c2deffe7453210",
+      "timestamp": "2026-11-02T23:59:59.999999Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1044139962,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-88bddc0903dffe8e9f57d1d4",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-3d9258860df47dfc00902ef9",
+      "journal_id": "journal-7fcf3e78f5e6ab655b6b5630",
+      "timestamp": "2026-11-02T23:59:59.999999Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1044139962,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-88bddc0903dffe8e9f57d1d4",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-7ef080b87b2cef9be62d692c",
+      "journal_id": "journal-7fcf3e78f5e6ab655b6b5630",
+      "timestamp": "2026-11-02T23:59:59.999999Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1044139962,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-88bddc0903dffe8e9f57d1d4",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-b02710eb388f950332b09bc5",
+      "journal_id": "journal-77d43e3079de3bf7a2f3ee16",
+      "timestamp": "2026-11-03T00:59:59.999999Z",
+      "account": "cash",
+      "debit_minor": 1859954829,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-58aba16e426261973c35266e",
+      "entry_kind": "receipt",
+      "posting_sequence": 4
+    },
+    {
+      "row_id": "row-120efb7627dc6ef722085f50",
+      "journal_id": "journal-77d43e3079de3bf7a2f3ee16",
+      "timestamp": "2026-11-03T00:59:59.999999Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1859954829,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-58aba16e426261973c35266e",
+      "entry_kind": "receipt",
+      "posting_sequence": 4
+    },
+    {
+      "row_id": "row-2df780d18d035b9671b6d42b",
+      "journal_id": "journal-a0ec04a0f74d3938fbbf6fd4",
+      "timestamp": "2026-11-03T00:59:59.999999Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1859954829,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-58aba16e426261973c35266e",
+      "entry_kind": "allocation",
+      "posting_sequence": 5
+    },
+    {
+      "row_id": "row-f6822460a13deb52ab422969",
+      "journal_id": "journal-a0ec04a0f74d3938fbbf6fd4",
+      "timestamp": "2026-11-03T00:59:59.999999Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1859954829,
+      "currency": "KZT",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "payment_id": "pay-58aba16e426261973c35266e",
+      "entry_kind": "allocation",
+      "posting_sequence": 5
+    },
+    {
+      "row_id": "row-c4de10ae36b20329d4e4d568",
+      "journal_id": "journal-88327c303b44beb3b9ee3d7c",
+      "timestamp": "2026-11-12T16:16:00Z",
+      "account": "cash",
+      "debit_minor": 3592512427,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "payment_id": "pay-b933b5a4c1eae85c1485f6c1",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ddaf47b5d8fa50eb200f3ac9",
+      "journal_id": "journal-88327c303b44beb3b9ee3d7c",
+      "timestamp": "2026-11-12T16:16:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3592512427,
+      "currency": "KZT",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "payment_id": "pay-b933b5a4c1eae85c1485f6c1",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-e0bd6061a84fb0e837291856",
+      "journal_id": "journal-50f2ef8426ae42795fb68051",
+      "timestamp": "2026-11-12T16:16:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3592512427,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "payment_id": "pay-b933b5a4c1eae85c1485f6c1",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-10566793d8a30ff2800a6b5d",
+      "journal_id": "journal-50f2ef8426ae42795fb68051",
+      "timestamp": "2026-11-12T16:16:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3592512427,
+      "currency": "KZT",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "payment_id": "pay-b933b5a4c1eae85c1485f6c1",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-e7821ff20c9aa9f5a8ea318b",
+      "journal_id": "journal-905cc2947b926b64674ff154",
+      "timestamp": "2026-11-11T09:29:00Z",
+      "account": "cash",
+      "debit_minor": 3770959380,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "payment_id": "pay-904293d52528e39c04bdc9bb",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-83b281aba32a506de9c5aca5",
+      "journal_id": "journal-905cc2947b926b64674ff154",
+      "timestamp": "2026-11-11T09:29:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3770959380,
+      "currency": "KZT",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "payment_id": "pay-904293d52528e39c04bdc9bb",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-424885df34b1016f30c8b2d8",
+      "journal_id": "journal-18366b8e450ea799b3ffd6e8",
+      "timestamp": "2026-11-11T09:29:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3770959380,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "payment_id": "pay-904293d52528e39c04bdc9bb",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-201908713a342cb7cc6272ab",
+      "journal_id": "journal-18366b8e450ea799b3ffd6e8",
+      "timestamp": "2026-11-11T09:29:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3770959380,
+      "currency": "KZT",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "payment_id": "pay-904293d52528e39c04bdc9bb",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-dac26c03be1c23116547499d",
+      "journal_id": "journal-82a7f6e6de9c10071a236736",
+      "timestamp": "2026-11-06T09:12:00Z",
+      "account": "cash",
+      "debit_minor": 5023291,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "payment_id": "pay-46249f6511be56976cbc7b3e",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-d0651ad96f82878dac6d59d4",
+      "journal_id": "journal-82a7f6e6de9c10071a236736",
+      "timestamp": "2026-11-06T09:12:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 5023291,
+      "currency": "KZT",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "payment_id": "pay-46249f6511be56976cbc7b3e",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-565860bbfa075b247dd29b5c",
+      "journal_id": "journal-c6ae831ed2243f1f62d67755",
+      "timestamp": "2026-11-06T09:12:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 5023291,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "payment_id": "pay-46249f6511be56976cbc7b3e",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-c2a874045df492fccde44be6",
+      "journal_id": "journal-c6ae831ed2243f1f62d67755",
+      "timestamp": "2026-11-06T09:12:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 5023291,
+      "currency": "KZT",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "payment_id": "pay-46249f6511be56976cbc7b3e",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-298f26741b08cb60ccef64f9",
+      "journal_id": "journal-f4e8b480d09bec3f37c9d913",
+      "timestamp": "2026-11-15T10:19:00Z",
+      "account": "cash",
+      "debit_minor": 9084316,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "payment_id": "pay-d97876f489dc6b686b9499fd",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-79833fcdd692b92e3c141c66",
+      "journal_id": "journal-f4e8b480d09bec3f37c9d913",
+      "timestamp": "2026-11-15T10:19:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 9084316,
+      "currency": "KZT",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "payment_id": "pay-d97876f489dc6b686b9499fd",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-837d4236bd752bd2b97dfe14",
+      "journal_id": "journal-023e11eb04eb95378eda03ca",
+      "timestamp": "2026-11-15T10:19:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 9084316,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "payment_id": "pay-d97876f489dc6b686b9499fd",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-fdee556d3bb6865f2922a7d8",
+      "journal_id": "journal-023e11eb04eb95378eda03ca",
+      "timestamp": "2026-11-15T10:19:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 9084316,
+      "currency": "KZT",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "payment_id": "pay-d97876f489dc6b686b9499fd",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-e39006a90627b273878f9dcf",
+      "journal_id": "journal-1d55002b32b679196467f806",
+      "timestamp": "2026-11-26T09:07:00Z",
+      "account": "cash",
+      "debit_minor": 1752773310,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "payment_id": "pay-daa52355781ee49bccb8bec3",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-08abafa5d1c6bbd9bdc07fef",
+      "journal_id": "journal-1d55002b32b679196467f806",
+      "timestamp": "2026-11-26T09:07:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1752773310,
+      "currency": "KZT",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "payment_id": "pay-daa52355781ee49bccb8bec3",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-722de341373dc82d3798f733",
+      "journal_id": "journal-7eca12cc63b8562981b5164c",
+      "timestamp": "2026-11-26T09:07:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1752773310,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "payment_id": "pay-daa52355781ee49bccb8bec3",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-ec98fb7d026db543f8b7b52e",
+      "journal_id": "journal-7eca12cc63b8562981b5164c",
+      "timestamp": "2026-11-26T09:07:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1752773310,
+      "currency": "KZT",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "payment_id": "pay-daa52355781ee49bccb8bec3",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-ad071befa7a55cc96bfa5d4e",
+      "journal_id": "journal-ea87a91c23521597645ed51c",
+      "timestamp": "2026-11-20T10:43:00Z",
+      "account": "cash",
+      "debit_minor": 1891808553,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "payment_id": "pay-87724ba891e6980c562dab26",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-a6e23225f036efb95fec834b",
+      "journal_id": "journal-ea87a91c23521597645ed51c",
+      "timestamp": "2026-11-20T10:43:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1891808553,
+      "currency": "KZT",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "payment_id": "pay-87724ba891e6980c562dab26",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-09ad533edb25bf0cc653bd0f",
+      "journal_id": "journal-349f1f7088fa53634ff17e2d",
+      "timestamp": "2026-11-20T10:43:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1891808553,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "payment_id": "pay-87724ba891e6980c562dab26",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-957fbf9d6cba3cff20aed261",
+      "journal_id": "journal-349f1f7088fa53634ff17e2d",
+      "timestamp": "2026-11-20T10:43:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1891808553,
+      "currency": "KZT",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "payment_id": "pay-87724ba891e6980c562dab26",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-c53b45664d74192020c922b1",
+      "journal_id": "journal-5b149e707b9d4d86f532d8fd",
+      "timestamp": "2026-11-11T09:04:00Z",
+      "account": "cash",
+      "debit_minor": 2174218332,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "payment_id": "pay-7395bdd82a1e431c0ce48fbe",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-c96d510e5a47ceec3a887f5f",
+      "journal_id": "journal-5b149e707b9d4d86f532d8fd",
+      "timestamp": "2026-11-11T09:04:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2174218332,
+      "currency": "KZT",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "payment_id": "pay-7395bdd82a1e431c0ce48fbe",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-128dc781c74df57da84b3e93",
+      "journal_id": "journal-84049f86ab5bffd65a7075ef",
+      "timestamp": "2026-11-11T09:04:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2174218332,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "payment_id": "pay-7395bdd82a1e431c0ce48fbe",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-61f01efb6d678b1432a29f0b",
+      "journal_id": "journal-84049f86ab5bffd65a7075ef",
+      "timestamp": "2026-11-11T09:04:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2174218332,
+      "currency": "KZT",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "payment_id": "pay-7395bdd82a1e431c0ce48fbe",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-f706cd8267541ebd1123545e",
+      "journal_id": "journal-52295dc396155b01dd3716c1",
+      "timestamp": "2026-11-08T13:20:00Z",
+      "account": "cash",
+      "debit_minor": 3258027630,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "payment_id": "pay-49a1aa594cb21c8b3e9e213b",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-88b94ebba4e5cea3c016cc03",
+      "journal_id": "journal-52295dc396155b01dd3716c1",
+      "timestamp": "2026-11-08T13:20:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3258027630,
+      "currency": "KZT",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "payment_id": "pay-49a1aa594cb21c8b3e9e213b",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-7bb505f18c3b2e3cb84e5e90",
+      "journal_id": "journal-0ed12a240c2952e8e0934fe4",
+      "timestamp": "2026-11-08T13:20:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3258027630,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "payment_id": "pay-49a1aa594cb21c8b3e9e213b",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-c82256f654bf8a80af017e50",
+      "journal_id": "journal-0ed12a240c2952e8e0934fe4",
+      "timestamp": "2026-11-08T13:20:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3258027630,
+      "currency": "KZT",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "payment_id": "pay-49a1aa594cb21c8b3e9e213b",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-70c55ff8487132ee873bf2c5",
+      "journal_id": "journal-096b589a8772caf93c43203a",
+      "timestamp": "2026-11-04T10:36:00Z",
+      "account": "cash",
+      "debit_minor": 1827428677,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "payment_id": "pay-180177daa6dcca63c04d4f77",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-afcc739594647f5b2ef912fd",
+      "journal_id": "journal-096b589a8772caf93c43203a",
+      "timestamp": "2026-11-04T10:36:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1827428677,
+      "currency": "KZT",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "payment_id": "pay-180177daa6dcca63c04d4f77",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ac9f34e31e8715fb77a59d49",
+      "journal_id": "journal-c81b2a7085e2208c113eaa91",
+      "timestamp": "2026-11-04T10:36:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1827428677,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "payment_id": "pay-180177daa6dcca63c04d4f77",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-0ab8b30f07324c01b66d292e",
+      "journal_id": "journal-c81b2a7085e2208c113eaa91",
+      "timestamp": "2026-11-04T10:36:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1827428677,
+      "currency": "KZT",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "payment_id": "pay-180177daa6dcca63c04d4f77",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-000158f3dba73fa5ee474e0c",
+      "journal_id": "journal-91fd86f1f47f56ac33a56124",
+      "timestamp": "2026-11-06T14:35:00Z",
+      "account": "cash",
+      "debit_minor": 3032270480,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-63b30640634c07a0c9f3813f",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-964d1b5132912d525d3d07ee",
+      "journal_id": "journal-91fd86f1f47f56ac33a56124",
+      "timestamp": "2026-11-06T14:35:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3032270480,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-63b30640634c07a0c9f3813f",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-214700b43f9609760bf89d40",
+      "journal_id": "journal-79378ae5b9c363099b77c1f4",
+      "timestamp": "2026-11-06T14:35:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3032270480,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-63b30640634c07a0c9f3813f",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-18bc4271abf8080770a24239",
+      "journal_id": "journal-79378ae5b9c363099b77c1f4",
+      "timestamp": "2026-11-06T14:35:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3032270480,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-63b30640634c07a0c9f3813f",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-cbc242ed4585ddc1f688a30d",
+      "journal_id": "journal-199147e8ac29e2c7ba969836",
+      "timestamp": "2026-11-08T14:35:00Z",
+      "account": "receivables",
+      "debit_minor": 761069868,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-b48ef6824125a9c8e03bdcc8",
+      "entry_kind": "refund",
+      "posting_sequence": 4
+    },
+    {
+      "row_id": "row-d0d36ad19f08209a59a77a23",
+      "journal_id": "journal-199147e8ac29e2c7ba969836",
+      "timestamp": "2026-11-08T14:35:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 761069868,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-b48ef6824125a9c8e03bdcc8",
+      "entry_kind": "refund",
+      "posting_sequence": 4
+    },
+    {
+      "row_id": "row-8ba0543674ad91fc93d155b3",
+      "journal_id": "journal-56e0c2e4c6cc3c66b913cad1",
+      "timestamp": "2026-11-08T14:35:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 761069868,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-b48ef6824125a9c8e03bdcc8",
+      "entry_kind": "refund",
+      "posting_sequence": 5
+    },
+    {
+      "row_id": "row-1035111391572a5fe3a2a20d",
+      "journal_id": "journal-56e0c2e4c6cc3c66b913cad1",
+      "timestamp": "2026-11-08T14:35:00Z",
+      "account": "cash",
+      "debit_minor": 0,
+      "credit_minor": 761069868,
+      "currency": "KZT",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "payment_id": "pay-b48ef6824125a9c8e03bdcc8",
+      "entry_kind": "refund",
+      "posting_sequence": 5
+    },
+    {
+      "row_id": "row-cccb19f30dae5d138fad21bd",
+      "journal_id": "journal-7e8b70bafe58ecf34d4cec92",
+      "timestamp": "2026-11-09T15:32:00Z",
+      "account": "cash",
+      "debit_minor": 10126875,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "payment_id": "pay-745e0a42aa70f7a05c16b06b",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-2b81c8badab2cd727e507135",
+      "journal_id": "journal-7e8b70bafe58ecf34d4cec92",
+      "timestamp": "2026-11-09T15:32:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 10126875,
+      "currency": "KZT",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "payment_id": "pay-745e0a42aa70f7a05c16b06b",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f960314e0f206f3b8281f973",
+      "journal_id": "journal-1276a536cc8f50a41cc42dfa",
+      "timestamp": "2026-11-09T15:32:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 10126875,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "payment_id": "pay-745e0a42aa70f7a05c16b06b",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-b57489447349019ce8ffd042",
+      "journal_id": "journal-1276a536cc8f50a41cc42dfa",
+      "timestamp": "2026-11-09T15:32:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 10126875,
+      "currency": "KZT",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "payment_id": "pay-745e0a42aa70f7a05c16b06b",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-9e4d29dcbd0f993a4b62da03",
+      "journal_id": "journal-61ee4d313b215fccd78b3edb",
+      "timestamp": "2026-11-08T15:17:00Z",
+      "account": "cash",
+      "debit_minor": 14921909,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "payment_id": "pay-291b8a7e25fce42ba1d1c483",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-a82267427384bd780264842d",
+      "journal_id": "journal-61ee4d313b215fccd78b3edb",
+      "timestamp": "2026-11-08T15:17:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 14921909,
+      "currency": "KZT",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "payment_id": "pay-291b8a7e25fce42ba1d1c483",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-26db6d75b8869414f486603d",
+      "journal_id": "journal-2421b470bdcb97c6e873b727",
+      "timestamp": "2026-11-08T15:17:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 14921909,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "payment_id": "pay-291b8a7e25fce42ba1d1c483",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-5f197efa1072421437fa205a",
+      "journal_id": "journal-2421b470bdcb97c6e873b727",
+      "timestamp": "2026-11-08T15:17:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 14921909,
+      "currency": "KZT",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "payment_id": "pay-291b8a7e25fce42ba1d1c483",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-2314e5a35760644138171b93",
+      "journal_id": "journal-ab1270ec3c8a5901023f8fbd",
+      "timestamp": "2026-11-09T13:09:00Z",
+      "account": "cash",
+      "debit_minor": 3545934890,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "payment_id": "pay-16285034baba77bcfd0e6019",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-22ffd604dca0561773c2a473",
+      "journal_id": "journal-ab1270ec3c8a5901023f8fbd",
+      "timestamp": "2026-11-09T13:09:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3545934890,
+      "currency": "KZT",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "payment_id": "pay-16285034baba77bcfd0e6019",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ab70629b53f410e61fed5026",
+      "journal_id": "journal-521af72cbbe1bf9a5b7f9b41",
+      "timestamp": "2026-11-09T13:09:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3545934890,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "payment_id": "pay-16285034baba77bcfd0e6019",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-e2e7d702fc25496978399283",
+      "journal_id": "journal-521af72cbbe1bf9a5b7f9b41",
+      "timestamp": "2026-11-09T13:09:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3545934890,
+      "currency": "KZT",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "payment_id": "pay-16285034baba77bcfd0e6019",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-287fa68ae2ddd45816f07109",
+      "journal_id": "journal-d8b32f9abc7c260ce4fc7cb5",
+      "timestamp": "2026-11-17T13:24:00Z",
+      "account": "cash",
+      "debit_minor": 2369071867,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "payment_id": "pay-a38446de3f8ef0fc89d5e3dd",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ec2b355d97a835e98b6d252a",
+      "journal_id": "journal-d8b32f9abc7c260ce4fc7cb5",
+      "timestamp": "2026-11-17T13:24:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2369071867,
+      "currency": "KZT",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "payment_id": "pay-a38446de3f8ef0fc89d5e3dd",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-43dbc5a776baabf0071482c1",
+      "journal_id": "journal-412af7659f80c432873128c8",
+      "timestamp": "2026-11-17T13:24:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2369071867,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "payment_id": "pay-a38446de3f8ef0fc89d5e3dd",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-d3c7f094f2a60339e8c99720",
+      "journal_id": "journal-412af7659f80c432873128c8",
+      "timestamp": "2026-11-17T13:24:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2369071867,
+      "currency": "KZT",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "payment_id": "pay-a38446de3f8ef0fc89d5e3dd",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-7ada95e22b32866f583a047d",
+      "journal_id": "journal-0d9cdd04c8bbffbb7572fccb",
+      "timestamp": "2026-11-09T16:41:00Z",
+      "account": "cash",
+      "debit_minor": 1909989576,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "payment_id": "pay-0db0f0f4107624ed3ab8ea54",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-2e03cc758eb61b16e76c9333",
+      "journal_id": "journal-0d9cdd04c8bbffbb7572fccb",
+      "timestamp": "2026-11-09T16:41:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1909989576,
+      "currency": "KZT",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "payment_id": "pay-0db0f0f4107624ed3ab8ea54",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-80791993cc1197a39c3d5e6c",
+      "journal_id": "journal-2ad7feb9f3fb1a09a6720374",
+      "timestamp": "2026-11-09T16:41:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1909989576,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "payment_id": "pay-0db0f0f4107624ed3ab8ea54",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-bd3a65d6404ac00d0fef3bdb",
+      "journal_id": "journal-2ad7feb9f3fb1a09a6720374",
+      "timestamp": "2026-11-09T16:41:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1909989576,
+      "currency": "KZT",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "payment_id": "pay-0db0f0f4107624ed3ab8ea54",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-480d6acd3127a8ce4d0b95d5",
+      "journal_id": "journal-1a7f84285c24b607c20bddaf",
+      "timestamp": "2026-11-22T16:57:00Z",
+      "account": "cash",
+      "debit_minor": 2315432889,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "payment_id": "pay-b67196068646c5794504d5f4",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ffe1727e8a64410de743a323",
+      "journal_id": "journal-1a7f84285c24b607c20bddaf",
+      "timestamp": "2026-11-22T16:57:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2315432889,
+      "currency": "KZT",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "payment_id": "pay-b67196068646c5794504d5f4",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f0c3dd0c5f544562f99b4737",
+      "journal_id": "journal-8c335186dc6cf7a32a473a55",
+      "timestamp": "2026-11-22T16:57:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2315432889,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "payment_id": "pay-b67196068646c5794504d5f4",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-2f00bf9eed8a98d245fae138",
+      "journal_id": "journal-8c335186dc6cf7a32a473a55",
+      "timestamp": "2026-11-22T16:57:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2315432889,
+      "currency": "KZT",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "payment_id": "pay-b67196068646c5794504d5f4",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-1ddafdeb03111f83c16c3c6a",
+      "journal_id": "journal-683e8f231bcd09b4622953b4",
+      "timestamp": "2026-11-04T17:47:00Z",
+      "account": "cash",
+      "debit_minor": 4871139522,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "payment_id": "pay-dcc88cc8f19c7f36c1a87ba9",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-a0ecf0ea21aa67eda1f2566f",
+      "journal_id": "journal-683e8f231bcd09b4622953b4",
+      "timestamp": "2026-11-04T17:47:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 4871139522,
+      "currency": "KZT",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "payment_id": "pay-dcc88cc8f19c7f36c1a87ba9",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-2bd36d15b31a06e3da733bac",
+      "journal_id": "journal-42706eb75fce551ebecfd608",
+      "timestamp": "2026-11-04T17:47:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 4871139522,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "payment_id": "pay-dcc88cc8f19c7f36c1a87ba9",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-fd919fa8a6fad82ac2481cef",
+      "journal_id": "journal-42706eb75fce551ebecfd608",
+      "timestamp": "2026-11-04T17:47:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 4871139522,
+      "currency": "KZT",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "payment_id": "pay-dcc88cc8f19c7f36c1a87ba9",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-d3cfdb8be7805001f4226487",
+      "journal_id": "journal-f16a4f8770250f9b07f2b74c",
+      "timestamp": "2026-11-16T13:28:00Z",
+      "account": "cash",
+      "debit_minor": 2671017630,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "payment_id": "pay-3685cfdd1a78592621f43339",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-10fc58674d62959776174c1f",
+      "journal_id": "journal-f16a4f8770250f9b07f2b74c",
+      "timestamp": "2026-11-16T13:28:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2671017630,
+      "currency": "KZT",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "payment_id": "pay-3685cfdd1a78592621f43339",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-577a51641dfcf070c6570eee",
+      "journal_id": "journal-ba343db08c6f7d4268d8600f",
+      "timestamp": "2026-11-16T13:28:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2671017630,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "payment_id": "pay-3685cfdd1a78592621f43339",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-516ed13c9adcc18fcbe7bdb4",
+      "journal_id": "journal-ba343db08c6f7d4268d8600f",
+      "timestamp": "2026-11-16T13:28:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2671017630,
+      "currency": "KZT",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "payment_id": "pay-3685cfdd1a78592621f43339",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-8558799ed399be5c3666fb76",
+      "journal_id": "journal-c6040ba5252003e578431aa3",
+      "timestamp": "2026-11-05T10:25:00Z",
+      "account": "cash",
+      "debit_minor": 17323988,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "payment_id": "pay-3a6f0fdc1a0b797f9d84ae2f",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-34bce676539563b0c228f5bb",
+      "journal_id": "journal-c6040ba5252003e578431aa3",
+      "timestamp": "2026-11-05T10:25:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 17323988,
+      "currency": "KZT",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "payment_id": "pay-3a6f0fdc1a0b797f9d84ae2f",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-105b28355a0486c70d809046",
+      "journal_id": "journal-cdd8c6b8f16044603ee47005",
+      "timestamp": "2026-11-05T10:25:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 17323988,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "payment_id": "pay-3a6f0fdc1a0b797f9d84ae2f",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-06654782d8c28d185fdac651",
+      "journal_id": "journal-cdd8c6b8f16044603ee47005",
+      "timestamp": "2026-11-05T10:25:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 17323988,
+      "currency": "KZT",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "payment_id": "pay-3a6f0fdc1a0b797f9d84ae2f",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-d0752fe0ef72ed41d13c951e",
+      "journal_id": "journal-f296d4f39962b1f2e5c952e2",
+      "timestamp": "2026-11-10T16:25:00Z",
+      "account": "cash",
+      "debit_minor": 19602418,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "payment_id": "pay-4d08b77bbce16b73dc4beba6",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-5622599c15cc67aac5575e88",
+      "journal_id": "journal-f296d4f39962b1f2e5c952e2",
+      "timestamp": "2026-11-10T16:25:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 19602418,
+      "currency": "KZT",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "payment_id": "pay-4d08b77bbce16b73dc4beba6",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-be1e21293b738c3de527edd6",
+      "journal_id": "journal-e723f38cd8f11ae466682b19",
+      "timestamp": "2026-11-10T16:25:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 19602418,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "payment_id": "pay-4d08b77bbce16b73dc4beba6",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-2b011951cb8a70538e539e34",
+      "journal_id": "journal-e723f38cd8f11ae466682b19",
+      "timestamp": "2026-11-10T16:25:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 19602418,
+      "currency": "KZT",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "payment_id": "pay-4d08b77bbce16b73dc4beba6",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-55df937caa8496c21258788c",
+      "journal_id": "journal-39be5cc9c6755be811c214dd",
+      "timestamp": "2026-11-25T10:05:00Z",
+      "account": "cash",
+      "debit_minor": 1682544022,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "payment_id": "pay-0224b597762ac932f74e75c6",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-6dbf3fc060378a7bda0e4cfc",
+      "journal_id": "journal-39be5cc9c6755be811c214dd",
+      "timestamp": "2026-11-25T10:05:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1682544022,
+      "currency": "KZT",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "payment_id": "pay-0224b597762ac932f74e75c6",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-3e896acd2ee38d42740ce283",
+      "journal_id": "journal-5ba15f74208f25ca2609fa86",
+      "timestamp": "2026-11-25T10:05:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1682544022,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "payment_id": "pay-0224b597762ac932f74e75c6",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-628dca13dec2ee3f9f964b5e",
+      "journal_id": "journal-5ba15f74208f25ca2609fa86",
+      "timestamp": "2026-11-25T10:05:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1682544022,
+      "currency": "KZT",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "payment_id": "pay-0224b597762ac932f74e75c6",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-3a5321b1e4813512ee3286ae",
+      "journal_id": "journal-98bfd5b181d834409bf00e00",
+      "timestamp": "2026-11-03T12:39:00Z",
+      "account": "cash",
+      "debit_minor": 1447620358,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "payment_id": "pay-29da4ee85d6728bdec63d6ac",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-a21cd7da30dd5a960609fc6c",
+      "journal_id": "journal-98bfd5b181d834409bf00e00",
+      "timestamp": "2026-11-03T12:39:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1447620358,
+      "currency": "KZT",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "payment_id": "pay-29da4ee85d6728bdec63d6ac",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-4a5e44b689183d8be34fd4b3",
+      "journal_id": "journal-1ddfe4f76e2df00e9d8016af",
+      "timestamp": "2026-11-03T12:39:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1447620358,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "payment_id": "pay-29da4ee85d6728bdec63d6ac",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-d60cb3978100a74e65ddff57",
+      "journal_id": "journal-1ddfe4f76e2df00e9d8016af",
+      "timestamp": "2026-11-03T12:39:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1447620358,
+      "currency": "KZT",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "payment_id": "pay-29da4ee85d6728bdec63d6ac",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-5317c490528850984d9b754b",
+      "journal_id": "journal-381b4c49be51c906e3cad522",
+      "timestamp": "2026-11-22T14:07:00Z",
+      "account": "cash",
+      "debit_minor": 2941993949,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "payment_id": "pay-d019bc888129e16a095d28cc",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-13bbbf3d6936609e333b2434",
+      "journal_id": "journal-381b4c49be51c906e3cad522",
+      "timestamp": "2026-11-22T14:07:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2941993949,
+      "currency": "KZT",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "payment_id": "pay-d019bc888129e16a095d28cc",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-3b155bf7b4566a37da3f4fa4",
+      "journal_id": "journal-079f4e01f4b468023fe65a44",
+      "timestamp": "2026-11-22T14:07:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2941993949,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "payment_id": "pay-d019bc888129e16a095d28cc",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-66d85b818f5f3c1a448bbcb9",
+      "journal_id": "journal-079f4e01f4b468023fe65a44",
+      "timestamp": "2026-11-22T14:07:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2941993949,
+      "currency": "KZT",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "payment_id": "pay-d019bc888129e16a095d28cc",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-f608d88ecd9aeea545daa28a",
+      "journal_id": "journal-5590c9df3c43066cb127a7ee",
+      "timestamp": "2026-11-23T17:07:00Z",
+      "account": "cash",
+      "debit_minor": 5385517691,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "invoice_id": "inv-206731159270555843422466",
+      "payment_id": "pay-228b2c6a3c4f45cf8d371822",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-e3d01819ee0bec1e3d9ad123",
+      "journal_id": "journal-5590c9df3c43066cb127a7ee",
+      "timestamp": "2026-11-23T17:07:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 5385517691,
+      "currency": "KZT",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "invoice_id": "inv-206731159270555843422466",
+      "payment_id": "pay-228b2c6a3c4f45cf8d371822",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-0acf88c5b2bb73a6625c3445",
+      "journal_id": "journal-f32660e1b8fe00d237e7bdaa",
+      "timestamp": "2026-11-23T17:07:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 5385517691,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "invoice_id": "inv-206731159270555843422466",
+      "payment_id": "pay-228b2c6a3c4f45cf8d371822",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-9d0946d4604b1a2a07e7a698",
+      "journal_id": "journal-f32660e1b8fe00d237e7bdaa",
+      "timestamp": "2026-11-23T17:07:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 5385517691,
+      "currency": "KZT",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "invoice_id": "inv-206731159270555843422466",
+      "payment_id": "pay-228b2c6a3c4f45cf8d371822",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-cf8d7dcf489612d361adad1a",
+      "journal_id": "journal-09e4e02724a9d71042c0c788",
+      "timestamp": "2026-11-10T09:01:00Z",
+      "account": "cash",
+      "debit_minor": 3398241790,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "payment_id": "pay-9e68155c8a2ba62e4e931870",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f5b2cb867d7c524f5cbeaf84",
+      "journal_id": "journal-09e4e02724a9d71042c0c788",
+      "timestamp": "2026-11-10T09:01:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3398241790,
+      "currency": "KZT",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "payment_id": "pay-9e68155c8a2ba62e4e931870",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-60a1035293914633f578011f",
+      "journal_id": "journal-fd07aa3cd59625a6c1ebf977",
+      "timestamp": "2026-11-10T09:01:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3398241790,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "payment_id": "pay-9e68155c8a2ba62e4e931870",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-4949411d72b1e78dc677ede3",
+      "journal_id": "journal-fd07aa3cd59625a6c1ebf977",
+      "timestamp": "2026-11-10T09:01:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3398241790,
+      "currency": "KZT",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "payment_id": "pay-9e68155c8a2ba62e4e931870",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-54ec21d220a77f4017f7d625",
+      "journal_id": "journal-f042e05b6f241ae3cf579f4d",
+      "timestamp": "2026-11-25T12:00:00Z",
+      "account": "cash",
+      "debit_minor": 3497312764,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "payment_id": "pay-0e4b684b7d0684467c5cf420",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-3eb58bf1559f8a9b98c02785",
+      "journal_id": "journal-f042e05b6f241ae3cf579f4d",
+      "timestamp": "2026-11-25T12:00:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3497312764,
+      "currency": "KZT",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "payment_id": "pay-0e4b684b7d0684467c5cf420",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-b28d8a47e22b197d743b0f38",
+      "journal_id": "journal-bb649847c521e6a8dd49097e",
+      "timestamp": "2026-11-25T12:00:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3497312764,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "payment_id": "pay-0e4b684b7d0684467c5cf420",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-d46b7338908e519a252e5251",
+      "journal_id": "journal-bb649847c521e6a8dd49097e",
+      "timestamp": "2026-11-25T12:00:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3497312764,
+      "currency": "KZT",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "payment_id": "pay-0e4b684b7d0684467c5cf420",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-4fdcd6d56b1ba72afe0c018d",
+      "journal_id": "journal-4bdfea079e3413e7a710a825",
+      "timestamp": "2026-11-06T13:23:00Z",
+      "account": "cash",
+      "debit_minor": 5706948,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "payment_id": "pay-0ef1bacb9bb03f306c111797",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-71c1320c9bd93b4cf255ef2f",
+      "journal_id": "journal-4bdfea079e3413e7a710a825",
+      "timestamp": "2026-11-06T13:23:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 5706948,
+      "currency": "KZT",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "payment_id": "pay-0ef1bacb9bb03f306c111797",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-0d8819c59a86ab8dfef137eb",
+      "journal_id": "journal-eff75b81680ce0cd93ae3513",
+      "timestamp": "2026-11-06T13:23:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 5706948,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "payment_id": "pay-0ef1bacb9bb03f306c111797",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-c9539e9013b07c03387aa130",
+      "journal_id": "journal-eff75b81680ce0cd93ae3513",
+      "timestamp": "2026-11-06T13:23:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 5706948,
+      "currency": "KZT",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "payment_id": "pay-0ef1bacb9bb03f306c111797",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-c89550315b94d48f072ba357",
+      "journal_id": "journal-cd6eebfa0f344fa0e4b21499",
+      "timestamp": "2026-11-17T09:10:00Z",
+      "account": "cash",
+      "debit_minor": 4340285,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "payment_id": "pay-8137213eb76c5d797c4e839f",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-8e3332d0d8ab22111484e3a1",
+      "journal_id": "journal-cd6eebfa0f344fa0e4b21499",
+      "timestamp": "2026-11-17T09:10:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 4340285,
+      "currency": "KZT",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "payment_id": "pay-8137213eb76c5d797c4e839f",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-767f6103672fe8b292838836",
+      "journal_id": "journal-8d710eeda72b1a96585cd21c",
+      "timestamp": "2026-11-17T09:10:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 4340285,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "payment_id": "pay-8137213eb76c5d797c4e839f",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-3201aa82539cd842a08c9ba2",
+      "journal_id": "journal-8d710eeda72b1a96585cd21c",
+      "timestamp": "2026-11-17T09:10:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 4340285,
+      "currency": "KZT",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "payment_id": "pay-8137213eb76c5d797c4e839f",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-d70a004e6aa2407f785bdc7e",
+      "journal_id": "journal-6fce1d50ec1d8100115de224",
+      "timestamp": "2026-11-17T14:43:00Z",
+      "account": "cash",
+      "debit_minor": 2659705968,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "payment_id": "pay-a3a1e603a96624abea9a687b",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-84149360e82aa220ac132fbf",
+      "journal_id": "journal-6fce1d50ec1d8100115de224",
+      "timestamp": "2026-11-17T14:43:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2659705968,
+      "currency": "KZT",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "payment_id": "pay-a3a1e603a96624abea9a687b",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f73c91a037878efd94cf77df",
+      "journal_id": "journal-7483cf5c635b457facb89c35",
+      "timestamp": "2026-11-17T14:43:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2659705968,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "payment_id": "pay-a3a1e603a96624abea9a687b",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-7cb84338277c03fdcdb5c9fd",
+      "journal_id": "journal-7483cf5c635b457facb89c35",
+      "timestamp": "2026-11-17T14:43:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2659705968,
+      "currency": "KZT",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "payment_id": "pay-a3a1e603a96624abea9a687b",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-7894b56dac2129d40e3e30e9",
+      "journal_id": "journal-0ac14a800c92be57542495da",
+      "timestamp": "2026-11-16T10:05:00Z",
+      "account": "cash",
+      "debit_minor": 1817697022,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "payment_id": "pay-b09acf5e25c2e36bc5355335",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-9e5f433b71b32f018bdf9fdd",
+      "journal_id": "journal-0ac14a800c92be57542495da",
+      "timestamp": "2026-11-16T10:05:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1817697022,
+      "currency": "KZT",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "payment_id": "pay-b09acf5e25c2e36bc5355335",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-d41d9cf67c0263018d424cf1",
+      "journal_id": "journal-9dbe0d24fe6cbb6bd60e961f",
+      "timestamp": "2026-11-16T10:05:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1817697022,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "payment_id": "pay-b09acf5e25c2e36bc5355335",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-e2bda5cbebe2e54b71365a06",
+      "journal_id": "journal-9dbe0d24fe6cbb6bd60e961f",
+      "timestamp": "2026-11-16T10:05:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1817697022,
+      "currency": "KZT",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "payment_id": "pay-b09acf5e25c2e36bc5355335",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-9808bde0c5a094d4f7ffeee2",
+      "journal_id": "journal-02a2f54c087127363de38f22",
+      "timestamp": "2026-11-08T17:34:00Z",
+      "account": "cash",
+      "debit_minor": 2991930556,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "payment_id": "pay-6588e31ea373814b003eb699",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-26b72b95e4ae73a095c13f59",
+      "journal_id": "journal-02a2f54c087127363de38f22",
+      "timestamp": "2026-11-08T17:34:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2991930556,
+      "currency": "KZT",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "payment_id": "pay-6588e31ea373814b003eb699",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-4bcefbe3c2e41ab95b1b08ab",
+      "journal_id": "journal-715bf0f246f5617ef8786d4d",
+      "timestamp": "2026-11-08T17:34:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2991930556,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "payment_id": "pay-6588e31ea373814b003eb699",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-283f7ac78e631863376d97a4",
+      "journal_id": "journal-715bf0f246f5617ef8786d4d",
+      "timestamp": "2026-11-08T17:34:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2991930556,
+      "currency": "KZT",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "payment_id": "pay-6588e31ea373814b003eb699",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-14aae9ec82dccf68d117cdfb",
+      "journal_id": "journal-dee6b8c6a03eda07fdb45ec9",
+      "timestamp": "2026-11-12T10:31:00Z",
+      "account": "cash",
+      "debit_minor": 6463951017,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "payment_id": "pay-0babe0acf1e7686527d70a41",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-98a876aebfd4c9008c3a13f3",
+      "journal_id": "journal-dee6b8c6a03eda07fdb45ec9",
+      "timestamp": "2026-11-12T10:31:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 6463951017,
+      "currency": "KZT",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "payment_id": "pay-0babe0acf1e7686527d70a41",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ab94e73eb0d9a53f4a7f069b",
+      "journal_id": "journal-3e49b1a2f06857b8d458c99e",
+      "timestamp": "2026-11-12T10:31:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 6463951017,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "payment_id": "pay-0babe0acf1e7686527d70a41",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-df2b6d2f15ef6fec75368136",
+      "journal_id": "journal-3e49b1a2f06857b8d458c99e",
+      "timestamp": "2026-11-12T10:31:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 6463951017,
+      "currency": "KZT",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "payment_id": "pay-0babe0acf1e7686527d70a41",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-4ddf108f0cbbcc26cc308493",
+      "journal_id": "journal-563dbff99c16d550323ffb82",
+      "timestamp": "2026-11-19T12:34:00Z",
+      "account": "cash",
+      "debit_minor": 1938734140,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "payment_id": "pay-1ccdbf93f77e62a4488c8658",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-ba3432be76a8953ca7b3940d",
+      "journal_id": "journal-563dbff99c16d550323ffb82",
+      "timestamp": "2026-11-19T12:34:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1938734140,
+      "currency": "KZT",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "payment_id": "pay-1ccdbf93f77e62a4488c8658",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-98a7bc8ed9e2f135d1222cfd",
+      "journal_id": "journal-d77beea6e35225c705206f51",
+      "timestamp": "2026-11-19T12:34:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1938734140,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "payment_id": "pay-1ccdbf93f77e62a4488c8658",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-5ff9e7a1593636b7eef6d707",
+      "journal_id": "journal-d77beea6e35225c705206f51",
+      "timestamp": "2026-11-19T12:34:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1938734140,
+      "currency": "KZT",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "payment_id": "pay-1ccdbf93f77e62a4488c8658",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-eab365c682b97bbfadd64960",
+      "journal_id": "journal-d58dd773bab8fdf2e25e0c28",
+      "timestamp": "2026-11-17T12:32:00Z",
+      "account": "cash",
+      "debit_minor": 4282640040,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "payment_id": "pay-8b39cf74ecc747663bdba49d",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-150cf12df17620ad298d0572",
+      "journal_id": "journal-d58dd773bab8fdf2e25e0c28",
+      "timestamp": "2026-11-17T12:32:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 4282640040,
+      "currency": "KZT",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "payment_id": "pay-8b39cf74ecc747663bdba49d",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-c364c993b0ae28e2b785ac2f",
+      "journal_id": "journal-b2de6c082676a7cdc4e6b931",
+      "timestamp": "2026-11-17T12:32:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 4282640040,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "payment_id": "pay-8b39cf74ecc747663bdba49d",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-3c698e580a0fac6350eccb42",
+      "journal_id": "journal-b2de6c082676a7cdc4e6b931",
+      "timestamp": "2026-11-17T12:32:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 4282640040,
+      "currency": "KZT",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "payment_id": "pay-8b39cf74ecc747663bdba49d",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-f171eabb75bf3a7a559caf8b",
+      "journal_id": "journal-3e51cdcc34b9aad53682a862",
+      "timestamp": "2026-11-08T15:49:00Z",
+      "account": "cash",
+      "debit_minor": 7998127,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "payment_id": "pay-7db6cb8fa9d14c9523575424",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-1917b00a59cc28bc14f1cb4c",
+      "journal_id": "journal-3e51cdcc34b9aad53682a862",
+      "timestamp": "2026-11-08T15:49:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 7998127,
+      "currency": "KZT",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "payment_id": "pay-7db6cb8fa9d14c9523575424",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f84019a555faf1f9d7a75cf2",
+      "journal_id": "journal-4ebe0bfca7ceffa459a7790a",
+      "timestamp": "2026-11-08T15:49:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 7998127,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "payment_id": "pay-7db6cb8fa9d14c9523575424",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-4ac4c421ea1afd5a7f94cf3f",
+      "journal_id": "journal-4ebe0bfca7ceffa459a7790a",
+      "timestamp": "2026-11-08T15:49:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 7998127,
+      "currency": "KZT",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "payment_id": "pay-7db6cb8fa9d14c9523575424",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-fa96f5329de9cbd43e70e017",
+      "journal_id": "journal-12615ca74c0c5cfa4dc78978",
+      "timestamp": "2026-11-24T11:50:00Z",
+      "account": "cash",
+      "debit_minor": 19419449,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "payment_id": "pay-8c9987777be2f34459c07d4d",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-6cd10fffe3005614275cf814",
+      "journal_id": "journal-12615ca74c0c5cfa4dc78978",
+      "timestamp": "2026-11-24T11:50:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 19419449,
+      "currency": "KZT",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "payment_id": "pay-8c9987777be2f34459c07d4d",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-69d030eef4bdee3a94aa82cf",
+      "journal_id": "journal-ab44a960021e2a021a0104d0",
+      "timestamp": "2026-11-24T11:50:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 19419449,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "payment_id": "pay-8c9987777be2f34459c07d4d",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-414ab3f9c897f6b042e3eeb0",
+      "journal_id": "journal-ab44a960021e2a021a0104d0",
+      "timestamp": "2026-11-24T11:50:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 19419449,
+      "currency": "KZT",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "payment_id": "pay-8c9987777be2f34459c07d4d",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-b5829eef09f40a4fa7936742",
+      "journal_id": "journal-0ab92844b54f7f97d17194b6",
+      "timestamp": "2026-11-12T13:24:00Z",
+      "account": "cash",
+      "debit_minor": 2140266683,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "payment_id": "pay-fe1baaefded6713e04fca8e9",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f86aa0f48ae2fb18e0019c9a",
+      "journal_id": "journal-0ab92844b54f7f97d17194b6",
+      "timestamp": "2026-11-12T13:24:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 2140266683,
+      "currency": "KZT",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "payment_id": "pay-fe1baaefded6713e04fca8e9",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-7a32709cab51359eda4a20e4",
+      "journal_id": "journal-f9a3ce2983a39fe05126c1b8",
+      "timestamp": "2026-11-12T13:24:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 2140266683,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "payment_id": "pay-fe1baaefded6713e04fca8e9",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-957b39cd579de800645817b1",
+      "journal_id": "journal-f9a3ce2983a39fe05126c1b8",
+      "timestamp": "2026-11-12T13:24:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 2140266683,
+      "currency": "KZT",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "payment_id": "pay-fe1baaefded6713e04fca8e9",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-a5aecdcf1791c12b4652ea11",
+      "journal_id": "journal-ab943b9fb6da02ca82ef0b6e",
+      "timestamp": "2026-11-06T12:40:00Z",
+      "account": "cash",
+      "debit_minor": 1569062556,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "payment_id": "pay-f5ed24886ad04aab86a079d1",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-e978d4e84bb075eb77d529ec",
+      "journal_id": "journal-ab943b9fb6da02ca82ef0b6e",
+      "timestamp": "2026-11-06T12:40:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 1569062556,
+      "currency": "KZT",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "payment_id": "pay-f5ed24886ad04aab86a079d1",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-a104f9c67c3ac833e34dbb6a",
+      "journal_id": "journal-d7890c357b697d1e7bbc8d17",
+      "timestamp": "2026-11-06T12:40:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 1569062556,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "payment_id": "pay-f5ed24886ad04aab86a079d1",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-edcac201a3373242ebff3da2",
+      "journal_id": "journal-d7890c357b697d1e7bbc8d17",
+      "timestamp": "2026-11-06T12:40:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 1569062556,
+      "currency": "KZT",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "payment_id": "pay-f5ed24886ad04aab86a079d1",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-96778ac8feced2128511154e",
+      "journal_id": "journal-aa1472b03ab4c8bfe0715d7d",
+      "timestamp": "2026-11-18T12:20:00Z",
+      "account": "cash",
+      "debit_minor": 4666824425,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "payment_id": "pay-2060655ed4ed40a07945f71d",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-f987c03aead113352e6a6555",
+      "journal_id": "journal-aa1472b03ab4c8bfe0715d7d",
+      "timestamp": "2026-11-18T12:20:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 4666824425,
+      "currency": "KZT",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "payment_id": "pay-2060655ed4ed40a07945f71d",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-3d557e838c115f6a8ed0bcf6",
+      "journal_id": "journal-284a187f45d4d6f3f7ace6be",
+      "timestamp": "2026-11-18T12:20:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 4666824425,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "payment_id": "pay-2060655ed4ed40a07945f71d",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-98b793cfbb318f7045d15e08",
+      "journal_id": "journal-284a187f45d4d6f3f7ace6be",
+      "timestamp": "2026-11-18T12:20:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 4666824425,
+      "currency": "KZT",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "payment_id": "pay-2060655ed4ed40a07945f71d",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-1b16cc1f04f208e24bf4a5dd",
+      "journal_id": "journal-c768c28ac21756773ed8c39f",
+      "timestamp": "2026-11-03T16:09:00Z",
+      "account": "cash",
+      "debit_minor": 3029095861,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "payment_id": "pay-20ecb5570249c9bfe7942115",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-0b40051208c410357588d0a5",
+      "journal_id": "journal-c768c28ac21756773ed8c39f",
+      "timestamp": "2026-11-03T16:09:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 0,
+      "credit_minor": 3029095861,
+      "currency": "KZT",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "payment_id": "pay-20ecb5570249c9bfe7942115",
+      "entry_kind": "receipt",
+      "posting_sequence": 2
+    },
+    {
+      "row_id": "row-5c2520154e7c576d736d540f",
+      "journal_id": "journal-b2b73f80f1a1b80415413a17",
+      "timestamp": "2026-11-03T16:09:00Z",
+      "account": "unapplied_receipts",
+      "debit_minor": 3029095861,
+      "credit_minor": 0,
+      "currency": "KZT",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "payment_id": "pay-20ecb5570249c9bfe7942115",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    },
+    {
+      "row_id": "row-28f58903f198ec661aa629f4",
+      "journal_id": "journal-b2b73f80f1a1b80415413a17",
+      "timestamp": "2026-11-03T16:09:00Z",
+      "account": "receivables",
+      "debit_minor": 0,
+      "credit_minor": 3029095861,
+      "currency": "KZT",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "payment_id": "pay-20ecb5570249c9bfe7942115",
+      "entry_kind": "allocation",
+      "posting_sequence": 3
+    }
+  ],
+  "invoices": [
+    {
+      "doc_id": "doc-ee163531bbf6f52c5406475d",
+      "invoice_id": "inv-d7a7e671ad168f605d34a599",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "issued_at": "2026-10-31T23:30:00Z",
+      "due_at": "2026-12-01T00:30:00Z",
+      "service_at": "2026-11-01T00:30:00Z",
+      "currency": "JPY",
+      "total_minor": 14925214,
+      "line_items": [
+        {
+          "description": "Maple Labs: support",
+          "amount_minor": 7462607
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7462607
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-415f37574ed3807406757b12",
+      "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+      "entity_id": "entity-10c4c0be5d2272e029a068ba",
+      "issued_at": "2026-11-30T22:59:59.999999Z",
+      "due_at": "2026-12-30T23:59:59.999999Z",
+      "service_at": "2026-11-30T23:59:59.999999Z",
+      "currency": "JPY",
+      "total_minor": 14925214,
+      "line_items": [
+        {
+          "description": "Lumen Studio: maintenance",
+          "amount_minor": 7462607
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7462607
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-494bfb9ac4a83569f9663ba2",
+      "invoice_id": "inv-1699c9939c142d91dee204ee",
+      "entity_id": "entity-cf1bd67a12778ccdd2e16c65",
+      "issued_at": "2026-11-30T23:00:00Z",
+      "due_at": "2026-12-31T00:00:00Z",
+      "service_at": "2026-12-01T00:00:00Z",
+      "currency": "EUR",
+      "total_minor": 17252569,
+      "line_items": [
+        {
+          "description": "Willow Works: support",
+          "amount_minor": 8626284
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8626285
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-5071b5374562ae32f265da2b",
+      "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+      "entity_id": "entity-9010636df738af0170f251de",
+      "issued_at": "2026-10-31T22:59:59.999999Z",
+      "due_at": "2026-11-30T23:59:59.999999Z",
+      "service_at": "2026-10-31T23:59:59.999999Z",
+      "currency": "EUR",
+      "total_minor": 10525821,
+      "line_items": [
+        {
+          "description": "Aspen Studio: support",
+          "amount_minor": 5262910
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5262911
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-af08c49a9cfa6c3dd78aa092",
+      "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+      "entity_id": "entity-cea58120c2fbd33636d22953",
+      "issued_at": "2026-11-10T15:16:00Z",
+      "due_at": "2026-12-10T16:16:00Z",
+      "service_at": "2026-11-10T16:16:00Z",
+      "currency": "USD",
+      "total_minor": 14060714,
+      "line_items": [
+        {
+          "description": "Maple Services: design",
+          "amount_minor": 7030357
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7030357
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-09785eeee4f65846d8279954",
+      "invoice_id": "inv-c832a785872928b6f28443c9",
+      "entity_id": "entity-e52b95838504a979ef40a0bc",
+      "issued_at": "2026-11-09T08:29:00Z",
+      "due_at": "2026-12-09T09:29:00Z",
+      "service_at": "2026-11-09T09:29:00Z",
+      "currency": "USD",
+      "total_minor": 14788077,
+      "line_items": [
+        {
+          "description": "Willow Labs: support",
+          "amount_minor": 7394038
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7394039
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-44457c4ba5373910bb321473",
+      "invoice_id": "inv-80f988a72cb3e781f89d1766",
+      "entity_id": "entity-4060970948a9b3d548839bc0",
+      "issued_at": "2026-11-04T08:12:00Z",
+      "due_at": "2026-12-04T09:12:00Z",
+      "service_at": "2026-11-04T09:12:00Z",
+      "currency": "KZT",
+      "total_minor": 16744304,
+      "line_items": [
+        {
+          "description": "Lumen Services: design",
+          "amount_minor": 8372152
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8372152
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-7e51598411559a8fcd622192",
+      "invoice_id": "inv-487a00c9c099ecc74953d332",
+      "entity_id": "entity-9aa662a45da4ce2fc690533a",
+      "issued_at": "2026-11-13T09:19:00Z",
+      "due_at": "2026-12-13T10:19:00Z",
+      "service_at": "2026-11-13T10:19:00Z",
+      "currency": "KZT",
+      "total_minor": 12977595,
+      "line_items": [
+        {
+          "description": "Aspen Works: design",
+          "amount_minor": 6488797
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6488798
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-e403a29340aca5256df033d0",
+      "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+      "entity_id": "entity-7129b8bece8e09646846c192",
+      "issued_at": "2026-11-24T08:07:00Z",
+      "due_at": "2026-12-24T09:07:00Z",
+      "service_at": "2026-11-24T09:07:00Z",
+      "currency": "JPY",
+      "total_minor": 18116522,
+      "line_items": [
+        {
+          "description": "Willow Works: design",
+          "amount_minor": 9058261
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9058261
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-d3398ebe6bc38313ca1d7a32",
+      "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+      "entity_id": "entity-1e2165f2ba8e00dbadfe9818",
+      "issued_at": "2026-11-18T09:43:00Z",
+      "due_at": "2026-12-18T10:43:00Z",
+      "service_at": "2026-11-18T10:43:00Z",
+      "currency": "JPY",
+      "total_minor": 11754014,
+      "line_items": [
+        {
+          "description": "Aspen Studio: consulting",
+          "amount_minor": 5877007
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5877007
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-eae57f7b59e724011cb1d52c",
+      "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+      "entity_id": "entity-681cde3ed068c97da51e3f8c",
+      "issued_at": "2026-11-09T08:04:00Z",
+      "due_at": "2026-12-09T09:04:00Z",
+      "service_at": "2026-11-09T09:04:00Z",
+      "currency": "EUR",
+      "total_minor": 12918708,
+      "line_items": [
+        {
+          "description": "Orion Services: consulting",
+          "amount_minor": 6459354
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6459354
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-08b54f8515a358ac166e7428",
+      "invoice_id": "inv-79228a27b8f80db3f71a8627",
+      "entity_id": "entity-b36994fc8dd6e68e9c617616",
+      "issued_at": "2026-11-06T12:20:00Z",
+      "due_at": "2026-12-06T13:20:00Z",
+      "service_at": "2026-11-06T13:20:00Z",
+      "currency": "EUR",
+      "total_minor": 19473001,
+      "line_items": [
+        {
+          "description": "Willow Works: design",
+          "amount_minor": 9736500
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9736501
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-591af6ba4fd138363e30e019",
+      "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+      "entity_id": "entity-5604f4320de2446bf8d0ae1e",
+      "issued_at": "2026-11-02T09:36:00Z",
+      "due_at": "2026-12-02T10:36:00Z",
+      "service_at": "2026-11-02T10:36:00Z",
+      "currency": "USD",
+      "total_minor": 12110198,
+      "line_items": [
+        {
+          "description": "Maple Services: consulting",
+          "amount_minor": 6055099
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6055099
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-a10f4fde23c8d4cb18b0df61",
+      "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+      "entity_id": "entity-3d16b217f5f1cee6dca49d80",
+      "issued_at": "2026-11-04T13:35:00Z",
+      "due_at": "2026-12-04T14:35:00Z",
+      "service_at": "2026-11-04T14:35:00Z",
+      "currency": "USD",
+      "total_minor": 20014988,
+      "line_items": [
+        {
+          "description": "Cedar Works: maintenance",
+          "amount_minor": 10007494
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 10007494
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-62fb012a103f4eb16d8df6af",
+      "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+      "entity_id": "entity-1f5116eac4013cb9ebb40478",
+      "issued_at": "2026-11-07T14:32:00Z",
+      "due_at": "2026-12-07T15:32:00Z",
+      "service_at": "2026-11-07T15:32:00Z",
+      "currency": "KZT",
+      "total_minor": 20253751,
+      "line_items": [
+        {
+          "description": "Maple Works: maintenance",
+          "amount_minor": 10126875
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 10126876
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-d0b405fff24b2c075a1560d0",
+      "invoice_id": "inv-67d6189debb9a27ccd23c307",
+      "entity_id": "entity-9035cf2429bf0d831e19c6bd",
+      "issued_at": "2026-11-06T14:17:00Z",
+      "due_at": "2026-12-06T15:17:00Z",
+      "service_at": "2026-11-06T15:17:00Z",
+      "currency": "KZT",
+      "total_minor": 14921909,
+      "line_items": [
+        {
+          "description": "Cedar Studio: design",
+          "amount_minor": 7460954
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7460955
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-5bb7fe3d822cef72e9c02e37",
+      "invoice_id": "inv-2b6db9bc340e27963454ce40",
+      "entity_id": "entity-727096024aec95b7c4778507",
+      "issued_at": "2026-11-07T12:09:00Z",
+      "due_at": "2026-12-07T13:09:00Z",
+      "service_at": "2026-11-07T13:09:00Z",
+      "currency": "JPY",
+      "total_minor": 15790591,
+      "line_items": [
+        {
+          "description": "Cedar Works: consulting",
+          "amount_minor": 7895295
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7895296
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-92dd5ca2117dcfa7b1502d2d",
+      "invoice_id": "inv-cbb53575662b296508f6e471",
+      "entity_id": "entity-71bfe7601de4851d84b85bf2",
+      "issued_at": "2026-11-15T12:24:00Z",
+      "due_at": "2026-12-15T13:24:00Z",
+      "service_at": "2026-11-15T13:24:00Z",
+      "currency": "JPY",
+      "total_minor": 14733034,
+      "line_items": [
+        {
+          "description": "Aspen Labs: consulting",
+          "amount_minor": 7366517
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7366517
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-dc7ccc6991bdfa001c5ebcf8",
+      "invoice_id": "inv-40b7a22391159795cf7495d4",
+      "entity_id": "entity-226cb28217bcd9facb7f92bf",
+      "issued_at": "2026-11-07T15:41:00Z",
+      "due_at": "2026-12-07T16:41:00Z",
+      "service_at": "2026-11-07T16:41:00Z",
+      "currency": "EUR",
+      "total_minor": 11393402,
+      "line_items": [
+        {
+          "description": "Maple Works: design",
+          "amount_minor": 5696701
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5696701
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-d6d4a0750271960f53f2723a",
+      "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+      "entity_id": "entity-2e5d6b68de9aa85906b32575",
+      "issued_at": "2026-11-20T15:57:00Z",
+      "due_at": "2026-12-20T16:57:00Z",
+      "service_at": "2026-11-20T16:57:00Z",
+      "currency": "EUR",
+      "total_minor": 13467302,
+      "line_items": [
+        {
+          "description": "Willow Works: support",
+          "amount_minor": 6733651
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6733651
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-3fc1e660a0278cde61773f68",
+      "invoice_id": "inv-1692c2443282aeaac9adc70f",
+      "entity_id": "entity-2d15ad694a87cde594eee0d2",
+      "issued_at": "2026-11-02T16:47:00Z",
+      "due_at": "2026-12-02T17:47:00Z",
+      "service_at": "2026-11-02T17:47:00Z",
+      "currency": "USD",
+      "total_minor": 19368348,
+      "line_items": [
+        {
+          "description": "Aspen Studio: consulting",
+          "amount_minor": 9684174
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9684174
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-f7daaffe864f1f77e77f5e6f",
+      "invoice_id": "inv-306ee331dc5cdaae45dac662",
+      "entity_id": "entity-be527460b776ac23cbc711b9",
+      "issued_at": "2026-11-14T12:28:00Z",
+      "due_at": "2026-12-14T13:28:00Z",
+      "service_at": "2026-11-14T13:28:00Z",
+      "currency": "USD",
+      "total_minor": 17288140,
+      "line_items": [
+        {
+          "description": "Orion Labs: consulting",
+          "amount_minor": 8644070
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8644070
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-a5c754d018fdbd6afb095d91",
+      "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+      "entity_id": "entity-20abf9a6febe03fa84571681",
+      "issued_at": "2026-11-03T09:25:00Z",
+      "due_at": "2026-12-03T10:25:00Z",
+      "service_at": "2026-11-03T10:25:00Z",
+      "currency": "KZT",
+      "total_minor": 17323988,
+      "line_items": [
+        {
+          "description": "Cedar Works: consulting",
+          "amount_minor": 8661994
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8661994
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-fea7eb110b9e43f5190ba0d9",
+      "invoice_id": "inv-c5226fc129962ef6617f5108",
+      "entity_id": "entity-c9b01510072b4dd5fd316031",
+      "issued_at": "2026-11-08T15:25:00Z",
+      "due_at": "2026-12-08T16:25:00Z",
+      "service_at": "2026-11-08T16:25:00Z",
+      "currency": "KZT",
+      "total_minor": 19602418,
+      "line_items": [
+        {
+          "description": "Orion Services: support",
+          "amount_minor": 9801209
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9801209
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-c95671baa7f49bf6dd31a0ad",
+      "invoice_id": "inv-f21b13ae860e7691370838e9",
+      "entity_id": "entity-feeafea2e2102dd08bb86472",
+      "issued_at": "2026-11-23T09:05:00Z",
+      "due_at": "2026-12-23T10:05:00Z",
+      "service_at": "2026-11-23T10:05:00Z",
+      "currency": "JPY",
+      "total_minor": 17396032,
+      "line_items": [
+        {
+          "description": "Aspen Studio: support",
+          "amount_minor": 8698016
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8698016
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-ad8ce101d86b54c3856e4285",
+      "invoice_id": "inv-19a27e645563838b66015e88",
+      "entity_id": "entity-7820ede734a41699c06e1998",
+      "issued_at": "2026-11-01T11:39:00Z",
+      "due_at": "2026-12-01T12:39:00Z",
+      "service_at": "2026-11-01T12:39:00Z",
+      "currency": "JPY",
+      "total_minor": 15069960,
+      "line_items": [
+        {
+          "description": "Orion Works: support",
+          "amount_minor": 7534980
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7534980
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-4ab13852ca5bd4b0cc72dca7",
+      "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+      "entity_id": "entity-92d871f3aac3b83b72fca1c2",
+      "issued_at": "2026-11-20T13:07:00Z",
+      "due_at": "2026-12-20T14:07:00Z",
+      "service_at": "2026-11-20T14:07:00Z",
+      "currency": "EUR",
+      "total_minor": 10266948,
+      "line_items": [
+        {
+          "description": "Orion Works: support",
+          "amount_minor": 5133474
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5133474
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-1c5b58bf059688bbe3279ec7",
+      "invoice_id": "inv-206731159270555843422466",
+      "entity_id": "entity-66d58ef34463e4112b0dedb7",
+      "issued_at": "2026-11-21T16:07:00Z",
+      "due_at": "2026-12-21T17:07:00Z",
+      "service_at": "2026-11-21T17:07:00Z",
+      "currency": "EUR",
+      "total_minor": 13398810,
+      "line_items": [
+        {
+          "description": "Lumen Services: consulting",
+          "amount_minor": 6699405
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6699405
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-167b4a3e7096816de5bb9e3d",
+      "invoice_id": "inv-bfb64a08554023df8cc13c10",
+      "entity_id": "entity-267ed96c0076b33263977b8b",
+      "issued_at": "2026-11-08T08:01:00Z",
+      "due_at": "2026-12-08T09:01:00Z",
+      "service_at": "2026-11-08T09:01:00Z",
+      "currency": "USD",
+      "total_minor": 13352620,
+      "line_items": [
+        {
+          "description": "Maple Works: design",
+          "amount_minor": 6676310
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6676310
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-cf43e20793a4c67534117f0a",
+      "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+      "entity_id": "entity-1caea7c3cc3bc634669a03c7",
+      "issued_at": "2026-11-23T11:00:00Z",
+      "due_at": "2026-12-23T12:00:00Z",
+      "service_at": "2026-11-23T12:00:00Z",
+      "currency": "USD",
+      "total_minor": 13348523,
+      "line_items": [
+        {
+          "description": "Cedar Labs: consulting",
+          "amount_minor": 6674261
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6674262
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-1dd7972ccfe555cfd36312c7",
+      "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+      "entity_id": "entity-aeb0127056b2a392d0c92d06",
+      "issued_at": "2026-11-04T12:23:00Z",
+      "due_at": "2026-12-04T13:23:00Z",
+      "service_at": "2026-11-04T13:23:00Z",
+      "currency": "KZT",
+      "total_minor": 19023161,
+      "line_items": [
+        {
+          "description": "Aspen Services: maintenance",
+          "amount_minor": 9511580
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9511581
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-e74a107f9f8acb595d121828",
+      "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+      "entity_id": "entity-dc06a1de20acf8ee1a9245b3",
+      "issued_at": "2026-11-15T08:10:00Z",
+      "due_at": "2026-12-15T09:10:00Z",
+      "service_at": "2026-11-15T09:10:00Z",
+      "currency": "KZT",
+      "total_minor": 14467617,
+      "line_items": [
+        {
+          "description": "Orion Labs: support",
+          "amount_minor": 7233808
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 7233809
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-f7d50d1bf7cde8bad1a3ed31",
+      "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+      "entity_id": "entity-a5f7c9796906db95cad87ea0",
+      "issued_at": "2026-11-15T13:43:00Z",
+      "due_at": "2026-12-15T14:43:00Z",
+      "service_at": "2026-11-15T14:43:00Z",
+      "currency": "JPY",
+      "total_minor": 16540461,
+      "line_items": [
+        {
+          "description": "Willow Studio: design",
+          "amount_minor": 8270230
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8270231
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-68c5aa1911a9ed5ae42ed34b",
+      "invoice_id": "inv-e8bfa03113471811541c2ddd",
+      "entity_id": "entity-5ae5894f208732d5cf25a933",
+      "issued_at": "2026-11-14T09:05:00Z",
+      "due_at": "2026-12-14T10:05:00Z",
+      "service_at": "2026-11-14T10:05:00Z",
+      "currency": "JPY",
+      "total_minor": 18846006,
+      "line_items": [
+        {
+          "description": "Aspen Works: consulting",
+          "amount_minor": 9423003
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9423003
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-5cdf3c9b0f61676b4d850a64",
+      "invoice_id": "inv-d9c53b276f81476534011f66",
+      "entity_id": "entity-17ef7ba187ff02b9598fbe44",
+      "issued_at": "2026-11-06T16:34:00Z",
+      "due_at": "2026-12-06T17:34:00Z",
+      "service_at": "2026-11-06T17:34:00Z",
+      "currency": "EUR",
+      "total_minor": 10729535,
+      "line_items": [
+        {
+          "description": "Cedar Services: design",
+          "amount_minor": 5364767
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5364768
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-42a8eccdc69b2afeb363fb52",
+      "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+      "entity_id": "entity-8ea7ae6a63d936ef36f35362",
+      "issued_at": "2026-11-10T09:31:00Z",
+      "due_at": "2026-12-10T10:31:00Z",
+      "service_at": "2026-11-10T10:31:00Z",
+      "currency": "EUR",
+      "total_minor": 16428067,
+      "line_items": [
+        {
+          "description": "Willow Services: maintenance",
+          "amount_minor": 8214033
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8214034
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-509bebb3befab2fdb857aa1c",
+      "invoice_id": "inv-b32b025d8b91c334e220fab8",
+      "entity_id": "entity-052ad51b133994db302809ec",
+      "issued_at": "2026-11-17T11:34:00Z",
+      "due_at": "2026-12-17T12:34:00Z",
+      "service_at": "2026-11-17T12:34:00Z",
+      "currency": "USD",
+      "total_minor": 12475767,
+      "line_items": [
+        {
+          "description": "Lumen Works: design",
+          "amount_minor": 6237883
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6237884
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-4b4d009a3affab92938edcf0",
+      "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+      "entity_id": "entity-0b01c04480bd93bdb4b0d66b",
+      "issued_at": "2026-11-15T11:32:00Z",
+      "due_at": "2026-12-15T12:32:00Z",
+      "service_at": "2026-11-15T12:32:00Z",
+      "currency": "USD",
+      "total_minor": 11856701,
+      "line_items": [
+        {
+          "description": "Maple Labs: design",
+          "amount_minor": 5928350
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5928351
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-b2c6c97cec7b4332bea2accd",
+      "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+      "entity_id": "entity-5099531af128c0ec61801c2a",
+      "issued_at": "2026-11-06T14:49:00Z",
+      "due_at": "2026-12-06T15:49:00Z",
+      "service_at": "2026-11-06T15:49:00Z",
+      "currency": "KZT",
+      "total_minor": 11425897,
+      "line_items": [
+        {
+          "description": "Willow Studio: consulting",
+          "amount_minor": 5712948
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 5712949
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-b2283515e07122de4deaada5",
+      "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+      "entity_id": "entity-56f3f7683278526c86f858a4",
+      "issued_at": "2026-11-22T10:50:00Z",
+      "due_at": "2026-12-22T11:50:00Z",
+      "service_at": "2026-11-22T11:50:00Z",
+      "currency": "KZT",
+      "total_minor": 19419449,
+      "line_items": [
+        {
+          "description": "Willow Labs: maintenance",
+          "amount_minor": 9709724
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9709725
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-fd895a1ec043a60bed47df2d",
+      "invoice_id": "inv-673bec87297a0de85e110b66",
+      "entity_id": "entity-f4007767ff06059957514b90",
+      "issued_at": "2026-11-10T12:24:00Z",
+      "due_at": "2026-12-10T13:24:00Z",
+      "service_at": "2026-11-10T13:24:00Z",
+      "currency": "JPY",
+      "total_minor": 13330843,
+      "line_items": [
+        {
+          "description": "Orion Studio: maintenance",
+          "amount_minor": 6665421
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 6665422
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-6f1643b5ef3bdfbe8d9833ae",
+      "invoice_id": "inv-2b3f84600b4c94e193a27632",
+      "entity_id": "entity-6289f3f2ed0dcd4ac26ea200",
+      "issued_at": "2026-11-04T11:40:00Z",
+      "due_at": "2026-12-04T12:40:00Z",
+      "service_at": "2026-11-04T12:40:00Z",
+      "currency": "JPY",
+      "total_minor": 16318904,
+      "line_items": [
+        {
+          "description": "Cedar Studio: maintenance",
+          "amount_minor": 8159452
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8159452
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-8e7e069f918003e8d693a236",
+      "invoice_id": "inv-179a95d6de9204a690196895",
+      "entity_id": "entity-ce3db2e5a8bd07ab6f14750a",
+      "issued_at": "2026-11-16T11:20:00Z",
+      "due_at": "2026-12-16T12:20:00Z",
+      "service_at": "2026-11-16T12:20:00Z",
+      "currency": "EUR",
+      "total_minor": 16412255,
+      "line_items": [
+        {
+          "description": "Maple Labs: support",
+          "amount_minor": 8206127
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 8206128
+        }
+      ]
+    },
+    {
+      "doc_id": "doc-68e5451e44a826e6c7f17915",
+      "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+      "entity_id": "entity-f394fc79d466e51c3638a5e1",
+      "issued_at": "2026-11-01T15:09:00Z",
+      "due_at": "2026-12-01T16:09:00Z",
+      "service_at": "2026-11-01T16:09:00Z",
+      "currency": "EUR",
+      "total_minor": 18285017,
+      "line_items": [
+        {
+          "description": "Aspen Works: consulting",
+          "amount_minor": 9142508
+        },
+        {
+          "description": "Synthetic support",
+          "amount_minor": 9142509
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "doc_id": "doc-e88cc98cd2b2a2812beeef3e",
+      "payment_id": "pay-b4d10c32b7d1aaf72c1556cd",
+      "timestamp": "2026-11-03T00:30:00Z",
+      "currency": "JPY",
+      "amount_minor": 10447649,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-d7a7e671ad168f605d34a599",
+          "amount_minor": 10447649
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-d0fd5866c8223ca4bb6ab849",
+      "payment_id": "pay-3205707f3c8e592aa7c13aa3",
+      "timestamp": "2026-12-02T23:59:59.999999Z",
+      "currency": "JPY",
+      "amount_minor": 4477564,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-d2450fe6fec14dd3539d2030",
+          "amount_minor": 4477564
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-acab7caf3b69129ed34373a3",
+      "payment_id": "pay-a806d8c9ccaaee95a9b2eb47",
+      "timestamp": "2026-12-03T00:00:00Z",
+      "currency": "EUR",
+      "amount_minor": 8626284,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-1699c9939c142d91dee204ee",
+          "amount_minor": 8626284
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-936e17634726b16a389f0ac6",
+      "payment_id": "pay-88bddc0903dffe8e9f57d1d4",
+      "timestamp": "2026-11-02T23:59:59.999999Z",
+      "currency": "EUR",
+      "amount_minor": 1894647,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+          "amount_minor": 1894647
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-a747690031fa63730c664b2f",
+      "payment_id": "pay-58aba16e426261973c35266e",
+      "timestamp": "2026-11-03T00:59:59.999999Z",
+      "currency": "EUR",
+      "amount_minor": 3368263,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-c0e6e9ecc79e71f893c7d7bd",
+          "amount_minor": 3368263
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-e2c1914b60d9ad4cb7c15937",
+      "payment_id": "pay-b933b5a4c1eae85c1485f6c1",
+      "timestamp": "2026-11-12T16:16:00Z",
+      "currency": "USD",
+      "amount_minor": 7030357,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-58a8218b1a25ec7507ed23a8",
+          "amount_minor": 7030357
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-752fd2a57336e243d7355792",
+      "payment_id": "pay-904293d52528e39c04bdc9bb",
+      "timestamp": "2026-11-11T09:29:00Z",
+      "currency": "USD",
+      "amount_minor": 7394038,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-c832a785872928b6f28443c9",
+          "amount_minor": 7394038
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-0c18e6e3ff3b179df97d54c8",
+      "payment_id": "pay-46249f6511be56976cbc7b3e",
+      "timestamp": "2026-11-06T09:12:00Z",
+      "currency": "KZT",
+      "amount_minor": 5023291,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-80f988a72cb3e781f89d1766",
+          "amount_minor": 5023291
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-57f5296e76874418cd43004d",
+      "payment_id": "pay-d97876f489dc6b686b9499fd",
+      "timestamp": "2026-11-15T10:19:00Z",
+      "currency": "KZT",
+      "amount_minor": 9084316,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-487a00c9c099ecc74953d332",
+          "amount_minor": 9084316
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-f0503661920a3b18b95249d3",
+      "payment_id": "pay-daa52355781ee49bccb8bec3",
+      "timestamp": "2026-11-26T09:07:00Z",
+      "currency": "JPY",
+      "amount_minor": 5434956,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-2967556c2a8b837c7b2c0991",
+          "amount_minor": 5434956
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-df86800528f4ef3bfeef9021",
+      "payment_id": "pay-87724ba891e6980c562dab26",
+      "timestamp": "2026-11-20T10:43:00Z",
+      "currency": "JPY",
+      "amount_minor": 5877007,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-bb68dcb08644c6af1a371e50",
+          "amount_minor": 5877007
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-9f1009158bf6c712aa4f9cf9",
+      "payment_id": "pay-7395bdd82a1e431c0ce48fbe",
+      "timestamp": "2026-11-11T09:04:00Z",
+      "currency": "EUR",
+      "amount_minor": 3875612,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-2197746c8750ef841ddbe8fc",
+          "amount_minor": 3875612
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-655b9d12cf41d19a4dcd21f3",
+      "payment_id": "pay-49a1aa594cb21c8b3e9e213b",
+      "timestamp": "2026-11-08T13:20:00Z",
+      "currency": "EUR",
+      "amount_minor": 5841900,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-79228a27b8f80db3f71a8627",
+          "amount_minor": 5841900
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-e6d9447abefc247d59b09418",
+      "payment_id": "pay-180177daa6dcca63c04d4f77",
+      "timestamp": "2026-11-04T10:36:00Z",
+      "currency": "USD",
+      "amount_minor": 3633059,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-d5816aef918b8b1f3a07b939",
+          "amount_minor": 3633059
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-e1726589f4d227051df9f66d",
+      "payment_id": "pay-63b30640634c07a0c9f3813f",
+      "timestamp": "2026-11-06T14:35:00Z",
+      "currency": "USD",
+      "amount_minor": 6004496,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+          "amount_minor": 6004496
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-bec29619a910e589666a9f8a",
+      "payment_id": "pay-b48ef6824125a9c8e03bdcc8",
+      "timestamp": "2026-11-08T14:35:00Z",
+      "currency": "USD",
+      "amount_minor": 1501124,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-9e979b2a1bcc8cc3533db7c1",
+          "amount_minor": 1501124
+        }
+      ],
+      "transaction_kind": "refund",
+      "original_payment_id": "pay-63b30640634c07a0c9f3813f"
+    },
+    {
+      "doc_id": "doc-3128c105274bcd208b6eb615",
+      "payment_id": "pay-745e0a42aa70f7a05c16b06b",
+      "timestamp": "2026-11-09T15:32:00Z",
+      "currency": "KZT",
+      "amount_minor": 10126875,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-52d7f2ebe7ca1fd09089fd95",
+          "amount_minor": 10126875
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-ff914f70abb280989ff66acd",
+      "payment_id": "pay-291b8a7e25fce42ba1d1c483",
+      "timestamp": "2026-11-08T15:17:00Z",
+      "currency": "KZT",
+      "amount_minor": 14921909,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-67d6189debb9a27ccd23c307",
+          "amount_minor": 14921909
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-6183376bbf58860869f11f8a",
+      "payment_id": "pay-16285034baba77bcfd0e6019",
+      "timestamp": "2026-11-09T13:09:00Z",
+      "currency": "JPY",
+      "amount_minor": 11053413,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-2b6db9bc340e27963454ce40",
+          "amount_minor": 11053413
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-85ed3dce247c172081a6c345",
+      "payment_id": "pay-a38446de3f8ef0fc89d5e3dd",
+      "timestamp": "2026-11-17T13:24:00Z",
+      "currency": "JPY",
+      "amount_minor": 7366517,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-cbb53575662b296508f6e471",
+          "amount_minor": 7366517
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-65b8862353cc5c8509d14076",
+      "payment_id": "pay-0db0f0f4107624ed3ab8ea54",
+      "timestamp": "2026-11-09T16:41:00Z",
+      "currency": "EUR",
+      "amount_minor": 3418020,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-40b7a22391159795cf7495d4",
+          "amount_minor": 3418020
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-8c576decdeb315693ec75836",
+      "payment_id": "pay-b67196068646c5794504d5f4",
+      "timestamp": "2026-11-22T16:57:00Z",
+      "currency": "EUR",
+      "amount_minor": 4040190,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-45ffb906b3b1f1c61078c3b9",
+          "amount_minor": 4040190
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-01889a42f8f93d9087cfd9c0",
+      "payment_id": "pay-dcc88cc8f19c7f36c1a87ba9",
+      "timestamp": "2026-11-04T17:47:00Z",
+      "currency": "USD",
+      "amount_minor": 9684174,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-1692c2443282aeaac9adc70f",
+          "amount_minor": 9684174
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-8c6d5835d6c13ffcd3c38e1c",
+      "payment_id": "pay-3685cfdd1a78592621f43339",
+      "timestamp": "2026-11-16T13:28:00Z",
+      "currency": "USD",
+      "amount_minor": 5186442,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-306ee331dc5cdaae45dac662",
+          "amount_minor": 5186442
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-dc90043b9fc0d44c20c7123f",
+      "payment_id": "pay-3a6f0fdc1a0b797f9d84ae2f",
+      "timestamp": "2026-11-05T10:25:00Z",
+      "currency": "KZT",
+      "amount_minor": 17323988,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-2a228a56bd98bf1f74c1c0e1",
+          "amount_minor": 17323988
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-3dfbb584f90d1580838b15b6",
+      "payment_id": "pay-4d08b77bbce16b73dc4beba6",
+      "timestamp": "2026-11-10T16:25:00Z",
+      "currency": "KZT",
+      "amount_minor": 19602418,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-c5226fc129962ef6617f5108",
+          "amount_minor": 19602418
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-67eb6a2ef4ceb3b8b2f2c4f2",
+      "payment_id": "pay-0224b597762ac932f74e75c6",
+      "timestamp": "2026-11-25T10:05:00Z",
+      "currency": "JPY",
+      "amount_minor": 5218809,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-f21b13ae860e7691370838e9",
+          "amount_minor": 5218809
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-10338d7866b265bd7a2eeef5",
+      "payment_id": "pay-29da4ee85d6728bdec63d6ac",
+      "timestamp": "2026-11-03T12:39:00Z",
+      "currency": "JPY",
+      "amount_minor": 4520988,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-19a27e645563838b66015e88",
+          "amount_minor": 4520988
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-78d1585072e06f39598a1425",
+      "payment_id": "pay-d019bc888129e16a095d28cc",
+      "timestamp": "2026-11-22T14:07:00Z",
+      "currency": "EUR",
+      "amount_minor": 5133474,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-4bfb9b689507eee1f84ef1e1",
+          "amount_minor": 5133474
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-3795c6b9070983467944e2ee",
+      "payment_id": "pay-228b2c6a3c4f45cf8d371822",
+      "timestamp": "2026-11-23T17:07:00Z",
+      "currency": "EUR",
+      "amount_minor": 9379167,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-206731159270555843422466",
+          "amount_minor": 9379167
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-275f7f7ea80893051c91d96c",
+      "payment_id": "pay-9e68155c8a2ba62e4e931870",
+      "timestamp": "2026-11-10T09:01:00Z",
+      "currency": "USD",
+      "amount_minor": 6676310,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-bfb64a08554023df8cc13c10",
+          "amount_minor": 6676310
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-dc01a418805462b77253fb8e",
+      "payment_id": "pay-0e4b684b7d0684467c5cf420",
+      "timestamp": "2026-11-25T12:00:00Z",
+      "currency": "USD",
+      "amount_minor": 6674261,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-ca6f2bd899a375dc60c33d4b",
+          "amount_minor": 6674261
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-a8864627e295279543f30f85",
+      "payment_id": "pay-0ef1bacb9bb03f306c111797",
+      "timestamp": "2026-11-06T13:23:00Z",
+      "currency": "KZT",
+      "amount_minor": 5706948,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-5afa8ee03336ac3fb9593934",
+          "amount_minor": 5706948
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-141faffc3af17abd6af19852",
+      "payment_id": "pay-8137213eb76c5d797c4e839f",
+      "timestamp": "2026-11-17T09:10:00Z",
+      "currency": "KZT",
+      "amount_minor": 4340285,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-a5a955ad5779ade3b6b46ed2",
+          "amount_minor": 4340285
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-088933822e590bf528ec8689",
+      "payment_id": "pay-a3a1e603a96624abea9a687b",
+      "timestamp": "2026-11-17T14:43:00Z",
+      "currency": "JPY",
+      "amount_minor": 8270230,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-72cbb4c2e09a127bd0140dd4",
+          "amount_minor": 8270230
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-b4aa30c410f11fa9657bc2a9",
+      "payment_id": "pay-b09acf5e25c2e36bc5355335",
+      "timestamp": "2026-11-16T10:05:00Z",
+      "currency": "JPY",
+      "amount_minor": 5653801,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-e8bfa03113471811541c2ddd",
+          "amount_minor": 5653801
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-b159d837172e838907840919",
+      "payment_id": "pay-6588e31ea373814b003eb699",
+      "timestamp": "2026-11-08T17:34:00Z",
+      "currency": "EUR",
+      "amount_minor": 5364767,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-d9c53b276f81476534011f66",
+          "amount_minor": 5364767
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-b7c4abf86cd93ef4cafaaa0a",
+      "payment_id": "pay-0babe0acf1e7686527d70a41",
+      "timestamp": "2026-11-12T10:31:00Z",
+      "currency": "EUR",
+      "amount_minor": 11499646,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-80a7f3171a0adb1ad1acd8a7",
+          "amount_minor": 11499646
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-2ba8c0943a37ed09c1b2b587",
+      "payment_id": "pay-1ccdbf93f77e62a4488c8658",
+      "timestamp": "2026-11-19T12:34:00Z",
+      "currency": "USD",
+      "amount_minor": 3742730,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-b32b025d8b91c334e220fab8",
+          "amount_minor": 3742730
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-a78ad7abdcc9e011f975be65",
+      "payment_id": "pay-8b39cf74ecc747663bdba49d",
+      "timestamp": "2026-11-17T12:32:00Z",
+      "currency": "USD",
+      "amount_minor": 8299690,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-c6e88bc42925ba3e6839c9fd",
+          "amount_minor": 8299690
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-c64b2ded9ae114d5d4e37486",
+      "payment_id": "pay-7db6cb8fa9d14c9523575424",
+      "timestamp": "2026-11-08T15:49:00Z",
+      "currency": "KZT",
+      "amount_minor": 7998127,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-1f48762807f3b366fe65dd0a",
+          "amount_minor": 7998127
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-62fa7a46c072cb6446e83345",
+      "payment_id": "pay-8c9987777be2f34459c07d4d",
+      "timestamp": "2026-11-24T11:50:00Z",
+      "currency": "KZT",
+      "amount_minor": 19419449,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-69bbd5b4b2b694b6b70a56c0",
+          "amount_minor": 19419449
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-ffa91ac6e6fb390ded105a5a",
+      "payment_id": "pay-fe1baaefded6713e04fca8e9",
+      "timestamp": "2026-11-12T13:24:00Z",
+      "currency": "JPY",
+      "amount_minor": 6665421,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-673bec87297a0de85e110b66",
+          "amount_minor": 6665421
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-f08999ef24b92aaca7ceceef",
+      "payment_id": "pay-f5ed24886ad04aab86a079d1",
+      "timestamp": "2026-11-06T12:40:00Z",
+      "currency": "JPY",
+      "amount_minor": 4895671,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-2b3f84600b4c94e193a27632",
+          "amount_minor": 4895671
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-021d90370bf69c1aff56fd4a",
+      "payment_id": "pay-2060655ed4ed40a07945f71d",
+      "timestamp": "2026-11-18T12:20:00Z",
+      "currency": "EUR",
+      "amount_minor": 8206127,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-179a95d6de9204a690196895",
+          "amount_minor": 8206127
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    },
+    {
+      "doc_id": "doc-05d9be4a6cec6215f36cf87f",
+      "payment_id": "pay-20ecb5570249c9bfe7942115",
+      "timestamp": "2026-11-03T16:09:00Z",
+      "currency": "EUR",
+      "amount_minor": 5485505,
+      "invoice_refs": [
+        {
+          "invoice_id": "inv-8a3ef4dc3ad345f0a0ad0973",
+          "amount_minor": 5485505
+        }
+      ],
+      "transaction_kind": "receipt",
+      "original_payment_id": null
+    }
+  ],
+  "fx": [
+    {
+      "date": "2026-10-30",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "547.8"
+    },
+    {
+      "date": "2026-10-31",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "548.9"
+    },
+    {
+      "date": "2026-10-31",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.199"
+    },
+    {
+      "date": "2026-11-01",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "550.0"
+    },
+    {
+      "date": "2026-11-01",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.200"
+    },
+    {
+      "date": "2026-11-01",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "500"
+    },
+    {
+      "date": "2026-11-02",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "551.1"
+    },
+    {
+      "date": "2026-11-02",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.201"
+    },
+    {
+      "date": "2026-11-02",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "501"
+    },
+    {
+      "date": "2026-11-03",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "552.2"
+    },
+    {
+      "date": "2026-11-03",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.202"
+    },
+    {
+      "date": "2026-11-03",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "502"
+    },
+    {
+      "date": "2026-11-04",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.203"
+    },
+    {
+      "date": "2026-11-04",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "503"
+    },
+    {
+      "date": "2026-11-05",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "554.4"
+    },
+    {
+      "date": "2026-11-05",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.204"
+    },
+    {
+      "date": "2026-11-05",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "504"
+    },
+    {
+      "date": "2026-11-06",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "555.5"
+    },
+    {
+      "date": "2026-11-06",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.205"
+    },
+    {
+      "date": "2026-11-06",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "505"
+    },
+    {
+      "date": "2026-11-07",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "556.6"
+    },
+    {
+      "date": "2026-11-07",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.206"
+    },
+    {
+      "date": "2026-11-07",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "506"
+    },
+    {
+      "date": "2026-11-08",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "557.7"
+    },
+    {
+      "date": "2026-11-08",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.207"
+    },
+    {
+      "date": "2026-11-08",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "507"
+    },
+    {
+      "date": "2026-11-09",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "558.8"
+    },
+    {
+      "date": "2026-11-09",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.208"
+    },
+    {
+      "date": "2026-11-09",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "508"
+    },
+    {
+      "date": "2026-11-10",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "559.9"
+    },
+    {
+      "date": "2026-11-10",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.209"
+    },
+    {
+      "date": "2026-11-10",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "509"
+    },
+    {
+      "date": "2026-11-11",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "561.0"
+    },
+    {
+      "date": "2026-11-11",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.210"
+    },
+    {
+      "date": "2026-11-11",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "510"
+    },
+    {
+      "date": "2026-11-12",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "562.1"
+    },
+    {
+      "date": "2026-11-12",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.211"
+    },
+    {
+      "date": "2026-11-12",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "511"
+    },
+    {
+      "date": "2026-11-13",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.212"
+    },
+    {
+      "date": "2026-11-13",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "512"
+    },
+    {
+      "date": "2026-11-14",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.213"
+    },
+    {
+      "date": "2026-11-14",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "513"
+    },
+    {
+      "date": "2026-11-15",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "565.4"
+    },
+    {
+      "date": "2026-11-15",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.214"
+    },
+    {
+      "date": "2026-11-15",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "514"
+    },
+    {
+      "date": "2026-11-16",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "566.5"
+    },
+    {
+      "date": "2026-11-16",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.215"
+    },
+    {
+      "date": "2026-11-16",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "515"
+    },
+    {
+      "date": "2026-11-17",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "567.6"
+    },
+    {
+      "date": "2026-11-17",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.216"
+    },
+    {
+      "date": "2026-11-17",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "516"
+    },
+    {
+      "date": "2026-11-18",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "568.7"
+    },
+    {
+      "date": "2026-11-18",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.217"
+    },
+    {
+      "date": "2026-11-18",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "517"
+    },
+    {
+      "date": "2026-11-19",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "569.8"
+    },
+    {
+      "date": "2026-11-19",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.218"
+    },
+    {
+      "date": "2026-11-19",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "518"
+    },
+    {
+      "date": "2026-11-20",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "570.9"
+    },
+    {
+      "date": "2026-11-20",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.219"
+    },
+    {
+      "date": "2026-11-21",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "572.0"
+    },
+    {
+      "date": "2026-11-22",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "573.1"
+    },
+    {
+      "date": "2026-11-22",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.221"
+    },
+    {
+      "date": "2026-11-22",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "521"
+    },
+    {
+      "date": "2026-11-23",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "574.2"
+    },
+    {
+      "date": "2026-11-23",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.222"
+    },
+    {
+      "date": "2026-11-23",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "522"
+    },
+    {
+      "date": "2026-11-24",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.223"
+    },
+    {
+      "date": "2026-11-24",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "523"
+    },
+    {
+      "date": "2026-11-25",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.224"
+    },
+    {
+      "date": "2026-11-25",
+      "source_currency": "USD",
+      "target_currency": "KZT",
+      "rate": "524"
+    },
+    {
+      "date": "2026-11-26",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.225"
+    },
+    {
+      "date": "2026-11-29",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.228"
+    },
+    {
+      "date": "2026-11-30",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "581.9"
+    },
+    {
+      "date": "2026-11-30",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.229"
+    },
+    {
+      "date": "2026-12-01",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "583.0"
+    },
+    {
+      "date": "2026-12-01",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.230"
+    },
+    {
+      "date": "2026-12-02",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "584.1"
+    },
+    {
+      "date": "2026-12-02",
+      "source_currency": "JPY",
+      "target_currency": "KZT",
+      "rate": "3.231"
+    },
+    {
+      "date": "2026-12-03",
+      "source_currency": "EUR",
+      "target_currency": "KZT",
+      "rate": "585.2"
+    }
+  ]
+}

@@ -10,3 +10,8 @@ runs/
 .env.*
 .vscode/
 .idea/
+release/artifacts/
+release/rehearsal/
+release/image-lock.json
+release/payload-manifest.json
+docs/stage-12.md

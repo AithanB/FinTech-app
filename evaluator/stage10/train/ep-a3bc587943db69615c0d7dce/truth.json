@@ -1,0 +1,37 @@
+{
+  "episode_id": "ep-a3bc587943db69615c0d7dce",
+  "issues": [
+    {
+      "issue_id": "issue-48a1e2624a6fb234cc4a9111",
+      "type": "payment_allocation",
+      "affected_ids": [
+        "pay-5cf6b89a55fe37f94e7fc0c4",
+        "inv-eb4befd15050f1aaa609d537"
+      ],
+      "expected_amount_minor": 2000000,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-846b12e1068052770d678681",
+          "settlement:pay-5cf6b89a55fe37f94e7fc0c4",
+          "fx:2026-11-30:JPY:KZT"
+        ]
+      ]
+    },
+    {
+      "issue_id": "issue-be9f6530b9fc5fb5b7d5388b",
+      "type": "period_cutoff",
+      "affected_ids": [
+        "journal-f6df320ade7af50a71dbced3"
+      ],
+      "expected_amount_minor": 1536591054,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-846b12e1068052770d678681",
+          "row-47f589b808fe1e57dc4a4362"
+        ]
+      ]
+    }
+  ]
+}

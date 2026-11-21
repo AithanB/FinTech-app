@@ -1,0 +1,9 @@
+{
+  "version": "stage12-payload-check-v1",
+  "clean_git_status": true,
+  "snapshot_commit": "70eaf9136f21697c8e2f0c493bace5b27a14a9e2",
+  "payload_files_verified": 721,
+  "runtime_source_sha256": "a10f3c7eb7189b6dbcb81a593107c62e6528a912d9a34a5caaada664ca3a8044",
+  "image_id": "sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536",
+  "canonical_newlines": "LF before initial checkout"
+}

@@ -1,6 +1,6 @@
 # Financial audit simulator — requirements v1.0
 
-Implementation contract for a solo developer. Status: specified, pending implementation and verification. **Brief** denotes organizer requirements. **Decision** denotes project choices accepted for implementation and open to owner review. Published organizer clarifications take precedence. Update the schema/config version and affected fixtures when observable semantics change.
+Implementation contract. Status: implemented; see the release verification report. **Brief** denotes organizer requirements. **Decision** denotes project choices accepted for implementation and open to owner review. Published organizer clarifications take precedence. Update the schema/config version and affected fixtures when observable semantics change.
 
 ## R01 · Product and execution
 
@@ -92,6 +92,6 @@ Delivery includes licensed sources (project choice MIT), pinned dependencies, ge
 | Reproducibility and generalization | 15 × passed / 20 pairs |
 | Engineering and explanation | 5 criteria × 0/1/2 points: single command, config versions, trajectories, measured failures, honest limits |
 
-Blockers in the brief are private-data leakage, evaluator write access, real financial data and broken core functionality. The organizers specify the common correction window and official checks. Local tests are rehearsals. Online stage November 19–22, 2026, teams of 2–4. Solo here describes the implementation workflow. Submit by November 22 at 23:59 Astana time via the organizer-announced channel. Seven FinTech teams advance. The Astana final is provisionally November 28–29, subject to confirmation.
+Blockers in the brief are private-data leakage, evaluator write access, real financial data and broken core functionality. The organizers specify the common correction window and official checks. Local tests are rehearsals. Online stage November 19–22, 2026, teams of 2–4. Submit by November 22 at 23:59 Astana time via the organizer-announced channel. Seven FinTech teams advance. The Astana final is provisionally November 28–29, subject to confirmation.
 
 References supplied by organizers: [Gymnasium Env](https://gymnasium.farama.org/api/env/) and [specification gaming](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/).

@@ -1,0 +1,64 @@
+{
+  "score": {
+    "score": 1.0,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-6a9c196992f2b5140d16a84e",
+        "submission_index": 1
+      },
+      {
+        "issue_id": "issue-d0bdd7ac01fb18705f87e240",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-42c6ef58b5848852279a82a8",
+    "findings": [
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-464c1e7ed55caad3dd0de18c",
+          "inv-d1a7790b9d3a8f0583cce256"
+        ],
+        "claimed_amount_minor": 2000000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-774b9044b9ae55bce0e3f37c",
+          "settlement:pay-464c1e7ed55caad3dd0de18c",
+          "fx:2026-11-30:JPY:KZT"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      },
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-f829c9a3838ddc50cfa846b8"
+        ],
+        "claimed_amount_minor": 3939920254,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-774b9044b9ae55bce0e3f37c",
+          "row-1a7448c8a7417deb4d5e2cd0"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      }
+    ]
+  },
+  "actions": 1,
+  "reason": "completed",
+  "elapsed_seconds": 0.0004269000000078904,
+  "execution": "trusted oracle",
+  "policy": "oracle",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 0,
+  "total_actions": 1,
+  "return": 1.0
+}

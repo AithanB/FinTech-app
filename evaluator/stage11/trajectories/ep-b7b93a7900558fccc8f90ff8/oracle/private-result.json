@@ -1,0 +1,46 @@
+{
+  "score": {
+    "score": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-ea55d3bf88563911c131b61e",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-b7b93a7900558fccc8f90ff8",
+    "findings": [
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-60b0fa009ed0028695ca551c"
+        ],
+        "claimed_amount_minor": 8314771583,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-788cdb8efd1d4a479209bce2",
+          "row-4abe55430d5d4362cb735b8a",
+          "row-0fe6ef2853e4c1e47454a2f4"
+        ],
+        "explanation": "Trusted oracle supplies one complete accepted proof."
+      }
+    ]
+  },
+  "actions": 1,
+  "reason": "completed",
+  "elapsed_seconds": 0.0004018999999289008,
+  "execution": "trusted oracle",
+  "policy": "oracle",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 0,
+  "total_actions": 1,
+  "return": 1.0
+}

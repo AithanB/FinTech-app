@@ -1,0 +1,8 @@
+{
+  "version": "stage08-v1",
+  "size_profile": "large",
+  "invoice_count": 96,
+  "currencies": ["KZT", "USD", "EUR", "JPY"],
+  "timezone": "America/New_York",
+  "boundary_cases": true
+}

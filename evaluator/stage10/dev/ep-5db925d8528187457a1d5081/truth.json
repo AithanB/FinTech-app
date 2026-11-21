@@ -1,0 +1,21 @@
+{
+  "episode_id": "ep-5db925d8528187457a1d5081",
+  "issues": [
+    {
+      "issue_id": "issue-d511b9374c3e659cd8951912",
+      "type": "fx_conversion",
+      "affected_ids": [
+        "journal-77a2a52596f311e285f5a41a"
+      ],
+      "expected_amount_minor": 1661620,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-ee2eade731dfcecca3b91e4a",
+          "row-08add60c66c9f7abb28753de",
+          "fx:2026-11-01:JPY:KZT"
+        ]
+      ]
+    }
+  ]
+}

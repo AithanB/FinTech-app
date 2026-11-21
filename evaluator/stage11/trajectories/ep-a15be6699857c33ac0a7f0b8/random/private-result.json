@@ -1,0 +1,65 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-a15be6699857c33ac0a7f0b8",
+    "findings": [
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-572f9da6597378998c967b09",
+          "inv-fe33a398ce90f2388087156e"
+        ],
+        "claimed_amount_minor": 4343222,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-6e8f7e4d7432b36f9237c90f"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-f2033447ada4c407e7e70267",
+          "inv-abd77bf2c6b116312efc4f25"
+        ],
+        "claimed_amount_minor": 11727691,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-7604b31a8cf9c81018208af1"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      }
+    ]
+  },
+  "actions": 21,
+  "reason": "completed",
+  "evaluator_pid": 115,
+  "evaluator_uid": 0,
+  "agent_pid": 116,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.3844430299999999,
+  "policy": "random",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 20,
+  "total_actions": 21,
+  "return": -1.0
+}

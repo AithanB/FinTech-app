@@ -1,0 +1,15 @@
+{
+  "version": "jury-image-v1",
+  "tag": "audit-rl-env:jury-checks",
+  "image_id": "sha256:a2de6cb3f64dc0dc82a09f85aa2213fb67faceb1f0f9676cb127f398ce8541d8",
+  "repo_digests": [
+    "audit-rl-env@sha256:a2de6cb3f64dc0dc82a09f85aa2213fb67faceb1f0f9676cb127f398ce8541d8"
+  ],
+  "platform": "linux/amd64",
+  "uncompressed_image_bytes": 329708400,
+  "created": "2026-11-21T06:09:52.155386744Z",
+  "runtime_source_sha256": "ff7cab8fe4375fe3a311733d99a69d6a8850604f68443470fbf5ea018eceebd3",
+  "source_newline_policy": "image retains build-context bytes; source ZIP normalizes text to LF",
+  "image_export": "audit-rl-env-jury.image.tar.gz",
+  "verification": "evaluator/jury-2026-11-20/verification/results.json"
+}

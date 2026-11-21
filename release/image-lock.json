@@ -1,0 +1,16 @@
+{
+  "version": "stage12-image-v1",
+  "tag": "audit-rl-env:rc1",
+  "image_id": "sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536",
+  "repo_digests": [
+    "audit-rl-env@sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536"
+  ],
+  "descriptor_digest": "sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536",
+  "platform": "linux/amd64",
+  "uncompressed_image_bytes": 329528390,
+  "created": "2026-11-21T03:56:29.770815086Z",
+  "runtime_source_sha256": "a10f3c7eb7189b6dbcb81a593107c62e6528a912d9a34a5caaada664ca3a8044",
+  "source_newline_policy": "canonical LF; image built from packaged clean checkout",
+  "base_image": "python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535",
+  "image_export": "audit-rl-env-rc1.image.tar.gz"
+}

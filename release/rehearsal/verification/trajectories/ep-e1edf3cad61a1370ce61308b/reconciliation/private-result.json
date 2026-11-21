@@ -1,0 +1,57 @@
+{
+  "score": {
+    "score": 0.97,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-7bbe5d6e2bcd8cf7cb47fa76",
+        "submission_index": 0
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-e1edf3cad61a1370ce61308b",
+    "findings": [
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-3b7e97a5e6682d467812a21d"
+        ],
+        "claimed_amount_minor": 3861100011,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-ba68d93988cc8e39c5a7ff8b",
+          "row-a43fde3a93c245108e456f2c"
+        ],
+        "explanation": "Recognition and service fall on different sides of the local period."
+      }
+    ]
+  },
+  "actions": 16,
+  "reason": "completed",
+  "evaluator_pid": 141,
+  "evaluator_uid": 0,
+  "agent_pid": 142,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.3829514769997786,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 15,
+  "total_actions": 16,
+  "return": 0.97
+}

@@ -1,0 +1,339 @@
+{
+  "episode_id": "ep-dfdfb6e05013cf0e1105d8bb",
+  "event_ids": [
+    "event-6576b30e3bb97a0af58481d2",
+    "event-bed4bc2459aded06d499c07a",
+    "event-3570045471b0c10575e0c353",
+    "event-76273d24ebe69bdd79ec9705",
+    "event-42cfb4acf2bef3f1bcc0ec0f",
+    "event-4b2bad296d3bdef910a4abf6",
+    "event-1fc52c8458ac4bbd0315a03c",
+    "event-36a6b487731381128f6797f6",
+    "event-4167df78937ff644d289fc48",
+    "event-9ebc126ad9e0bfce5c215f25",
+    "event-5b34dfca9933e8918f4e67e3",
+    "event-aa3a6535538f6a82a8dc9549",
+    "event-3427238c7d9c49e6bb6e6a00",
+    "event-33a0c8b500ebb52cc08eee43",
+    "event-9dbd3a4b6e1f593213ed93a6",
+    "event-86ab709cb424454e679a1ea4",
+    "event-f559e2444c7a36f0f513a885",
+    "event-5b475b89e899ca567368da83",
+    "event-4d753fadbd34f21bc7649a2a",
+    "event-49dca2b4ee0ee942f89adf48",
+    "event-583505dd34ef901f98b27fa8",
+    "event-136d27f160c53b1e7d8a5c29",
+    "event-2a3efc084a179e4c887c34c7",
+    "event-044a7cf68f0fb9a7c804ba69",
+    "event-8aefa4ca2fc26b2f1faa2998",
+    "event-7e46dff16af328055b5765e5",
+    "event-2ab5220a8a229774b5c6a932",
+    "event-ca017dfc7fbad56c6521ea2b",
+    "event-05968d5c198a1ce98ffb3586",
+    "event-0cb4fcf7a2b097417371d241",
+    "event-261d70800f0f962fd2a376b7",
+    "event-33671ca0a1dc62887974e8c3",
+    "event-3d9aedf9a59b67834fa3683c",
+    "event-adff8bf4953e997b8b50927b",
+    "event-1d14a7a4ba0087a79c96a538",
+    "event-23f8ebbd2d8530b72ccae799",
+    "event-4c94b61885ef36174557a523",
+    "event-917e4e9d7a7ec3e6c0057d3e",
+    "event-d3d9fcf09edf214afa7bcaf1",
+    "event-0e6f02b3369d51db703d4bda",
+    "event-454cf317a3b31473970d790c",
+    "event-8c64b56967106f8e2603b472",
+    "event-b8cb62f9833f8e8c0f1bcf25",
+    "event-a522f98314bfea7e608ac171",
+    "event-2b392641ad8fffb663e9b9cd",
+    "event-5f216df7a1b7d59c39adca58",
+    "event-56349ae78bc2e052d844c554",
+    "event-aaaf4b4c7f91efd7f7233235",
+    "event-45c53cdf538b70c0e3167f72",
+    "event-77192764c55358c3e8b3c6c7",
+    "event-c78e26962abaad416b8fe30a",
+    "event-f5f7403626cacc5cfa4eabf2",
+    "event-f7b4d6e3336ef20abe480768",
+    "event-90f9dd1027f0b314fa1afe2c",
+    "event-b551adf25a99cc073132788c",
+    "event-07f657cb13efdc2e5e951365",
+    "event-852f838fffd19ba238bb1206",
+    "event-51e8b85810b09bedac4571b2",
+    "event-897151adb8b09d3c72786729",
+    "event-946a42746eaf6c11a9c6fed1",
+    "event-ae64579d822836b63efeb2da",
+    "event-d31f83e9ac3cd61f088f2748",
+    "event-d1e4173e7662977371728c8e",
+    "event-e08f9b8a83b8cda955d38bec",
+    "event-8a2e9f5a0129a9167c323228",
+    "event-d559ceed8d018d57375e8504",
+    "event-d1980f393d70154dfb085ef9",
+    "event-0d5e3f9a290dfe3a5a9d0a90",
+    "event-e1a9eec28388ea6f9b354da0",
+    "event-5dc911b45dae14bc2c63b371",
+    "event-9948e1e2268d7259e2a5feb0",
+    "event-aabb516a7848864056dee658",
+    "event-f506efd8c2c5f310983651e5",
+    "event-5aa61d4f0ae8f759181864d9",
+    "event-97492d8cbe7e9a0b1418762d",
+    "event-ff8ff7ca931df23a2b761e77",
+    "event-1e285f059cb9cfc2ac87de75",
+    "event-68f0340c4e2270eb44588cf4",
+    "event-18f26b14a30d5783333ea92e",
+    "event-76c788ddd9a7d0efbdef61ff",
+    "event-b9332915a68eabe8807c939b",
+    "event-514956ba9ff238f4fb459a7b",
+    "event-944101e2b52d83a2804b322b",
+    "event-2caad6f6a0eb92fd0d5d9b51",
+    "event-e138bb900cf2ba3e1b3f7440",
+    "event-cb4851dda3b0c2178620c016",
+    "event-61cb329cdfd5a80526dbf8cf",
+    "event-4488a818c9fa562545ab3a37",
+    "event-577c2bee8adbbc9e504c1486",
+    "event-83c50c121cf0346c97a761bd",
+    "event-560129c2cfab3d179339e6dd",
+    "event-c4ec7ea6914c82f10770370a"
+  ],
+  "mutations": [
+    {
+      "event_id": "event-8a2e9f5a0129a9167c323228",
+      "object_ids": [
+        "row-02f7c57cf175c29a452fffc4"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-02f7c57cf175c29a452fffc4\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-11-30T23:30:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":5028629564,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-02f7c57cf175c29a452fffc4\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-11-30T23:30:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":5026629564,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-8a2e9f5a0129a9167c323228",
+      "object_ids": [
+        "row-8e1e6d0eb6b23ede2e319789"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-8e1e6d0eb6b23ede2e319789\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-11-30T23:30:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":5028629564,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-8e1e6d0eb6b23ede2e319789\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-11-30T23:30:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":5026629564,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-8a2e9f5a0129a9167c323228",
+      "object_ids": [
+        "row-02f7c57cf175c29a452fffc4"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-02f7c57cf175c29a452fffc4\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-11-30T23:30:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":5026629564,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-02f7c57cf175c29a452fffc4\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":5026629564,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-8a2e9f5a0129a9167c323228",
+      "object_ids": [
+        "row-8e1e6d0eb6b23ede2e319789"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-8e1e6d0eb6b23ede2e319789\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-11-30T23:30:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":5026629564,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-8e1e6d0eb6b23ede2e319789\",\"journal_id\":\"journal-658af7a84a7d611b43b2ffe0\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":5026629564,\"currency\":\"KZT\",\"entity_id\":\"entity-a237920d2fb7c1dfef3f2bfa\",\"invoice_id\":\"inv-66e6cd0cae9a4f1a9ea71bd1\",\"payment_id\":\"pay-8dcf412e0a1c4016d6561cbc\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-2b392641ad8fffb663e9b9cd",
+      "object_ids": [
+        "row-4cb527d00a97953063d3e47b"
+      ],
+      "operation": "insert",
+      "field": "ledger_row",
+      "clean_value": null,
+      "observed_value": "{\"row_id\":\"row-4cb527d00a97953063d3e47b\",\"journal_id\":\"journal-385dace81065ff14286a4afa\",\"timestamp\":\"2026-11-03T13:33:00-05:00\",\"account\":\"receivables\",\"debit_minor\":6874931415,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-5338a3fd77698d7f7a863627\",\"invoice_id\":\"inv-0b5c3a99bcfff37a3da648a3\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}"
+    },
+    {
+      "event_id": "event-2b392641ad8fffb663e9b9cd",
+      "object_ids": [
+        "row-1dbac8273eaf81ff0a534f4e"
+      ],
+      "operation": "insert",
+      "field": "ledger_row",
+      "clean_value": null,
+      "observed_value": "{\"row_id\":\"row-1dbac8273eaf81ff0a534f4e\",\"journal_id\":\"journal-385dace81065ff14286a4afa\",\"timestamp\":\"2026-11-03T13:33:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":6874931415,\"currency\":\"KZT\",\"entity_id\":\"entity-5338a3fd77698d7f7a863627\",\"invoice_id\":\"inv-0b5c3a99bcfff37a3da648a3\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}"
+    },
+    {
+      "event_id": "event-2b392641ad8fffb663e9b9cd",
+      "object_ids": [
+        "row-4cb527d00a97953063d3e47b"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-4cb527d00a97953063d3e47b\",\"journal_id\":\"journal-385dace81065ff14286a4afa\",\"timestamp\":\"2026-11-03T13:33:00-05:00\",\"account\":\"receivables\",\"debit_minor\":6874931415,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-5338a3fd77698d7f7a863627\",\"invoice_id\":\"inv-0b5c3a99bcfff37a3da648a3\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}",
+      "observed_value": "{\"row_id\":\"row-4cb527d00a97953063d3e47b\",\"journal_id\":\"journal-385dace81065ff14286a4afa\",\"timestamp\":\"2026-11-03T13:33:00-05:00\",\"account\":\"receivables\",\"debit_minor\":6737432787,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-5338a3fd77698d7f7a863627\",\"invoice_id\":\"inv-0b5c3a99bcfff37a3da648a3\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}"
+    },
+    {
+      "event_id": "event-2b392641ad8fffb663e9b9cd",
+      "object_ids": [
+        "row-1dbac8273eaf81ff0a534f4e"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-1dbac8273eaf81ff0a534f4e\",\"journal_id\":\"journal-385dace81065ff14286a4afa\",\"timestamp\":\"2026-11-03T13:33:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":6874931415,\"currency\":\"KZT\",\"entity_id\":\"entity-5338a3fd77698d7f7a863627\",\"invoice_id\":\"inv-0b5c3a99bcfff37a3da648a3\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}",
+      "observed_value": "{\"row_id\":\"row-1dbac8273eaf81ff0a534f4e\",\"journal_id\":\"journal-385dace81065ff14286a4afa\",\"timestamp\":\"2026-11-03T13:33:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":6737432787,\"currency\":\"KZT\",\"entity_id\":\"entity-5338a3fd77698d7f7a863627\",\"invoice_id\":\"inv-0b5c3a99bcfff37a3da648a3\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}"
+    },
+    {
+      "event_id": "event-76c788ddd9a7d0efbdef61ff",
+      "object_ids": [
+        "row-96d18d1bd3f7c36d7e2e32a6"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-96d18d1bd3f7c36d7e2e32a6\",\"journal_id\":\"journal-a7b189a85a304c4560b4832e\",\"timestamp\":\"2026-11-13T11:39:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":13003705,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-9939fe8015f33f1d3c723ecb\",\"invoice_id\":\"inv-206206696965549e871ccf9a\",\"payment_id\":\"pay-0610ba100e68fe7a4e946a69\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-96d18d1bd3f7c36d7e2e32a6\",\"journal_id\":\"journal-a7b189a85a304c4560b4832e\",\"timestamp\":\"2026-11-13T11:39:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":11003705,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-9939fe8015f33f1d3c723ecb\",\"invoice_id\":\"inv-206206696965549e871ccf9a\",\"payment_id\":\"pay-0610ba100e68fe7a4e946a69\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-76c788ddd9a7d0efbdef61ff",
+      "object_ids": [
+        "row-1b9bb02b50709bfd6f365a41"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-1b9bb02b50709bfd6f365a41\",\"journal_id\":\"journal-a7b189a85a304c4560b4832e\",\"timestamp\":\"2026-11-13T11:39:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":13003705,\"currency\":\"KZT\",\"entity_id\":\"entity-9939fe8015f33f1d3c723ecb\",\"invoice_id\":\"inv-206206696965549e871ccf9a\",\"payment_id\":\"pay-0610ba100e68fe7a4e946a69\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-1b9bb02b50709bfd6f365a41\",\"journal_id\":\"journal-a7b189a85a304c4560b4832e\",\"timestamp\":\"2026-11-13T11:39:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":11003705,\"currency\":\"KZT\",\"entity_id\":\"entity-9939fe8015f33f1d3c723ecb\",\"invoice_id\":\"inv-206206696965549e871ccf9a\",\"payment_id\":\"pay-0610ba100e68fe7a4e946a69\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-4488a818c9fa562545ab3a37",
+      "object_ids": [
+        "row-dfc1f49f136f8add68c12094"
+      ],
+      "operation": "remove",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-dfc1f49f136f8add68c12094\",\"journal_id\":\"journal-17f2a415b167f3bf160ce1ee\",\"timestamp\":\"2026-11-17T10:39:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":3911594,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-e7a087126a62bd7090fb840a\",\"invoice_id\":\"inv-2920c34dfb2fa8da0000c4fb\",\"payment_id\":\"pay-3f2c5cc428dc1164c32de024\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": null
+    },
+    {
+      "event_id": "event-4488a818c9fa562545ab3a37",
+      "object_ids": [
+        "row-3cdb7309983f54686ddf24ac"
+      ],
+      "operation": "remove",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-3cdb7309983f54686ddf24ac\",\"journal_id\":\"journal-17f2a415b167f3bf160ce1ee\",\"timestamp\":\"2026-11-17T10:39:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":3911594,\"currency\":\"KZT\",\"entity_id\":\"entity-e7a087126a62bd7090fb840a\",\"invoice_id\":\"inv-2920c34dfb2fa8da0000c4fb\",\"payment_id\":\"pay-3f2c5cc428dc1164c32de024\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": null
+    },
+    {
+      "event_id": "event-5f216df7a1b7d59c39adca58",
+      "object_ids": [
+        "row-bba8afe173a31d81636cfc6d"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-bba8afe173a31d81636cfc6d\",\"journal_id\":\"journal-a8021e1362e3cb66594b0d65\",\"timestamp\":\"2026-11-03T00:30:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":3420463,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-66fb8687ac5992d65e0a7f5c\",\"invoice_id\":\"inv-97d9facfc11ef298f2eebd4a\",\"payment_id\":\"pay-488fbc6bf9c1dc73da92c261\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-bba8afe173a31d81636cfc6d\",\"journal_id\":\"journal-a8021e1362e3cb66594b0d65\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"unapplied_receipts\",\"debit_minor\":3420463,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-66fb8687ac5992d65e0a7f5c\",\"invoice_id\":\"inv-97d9facfc11ef298f2eebd4a\",\"payment_id\":\"pay-488fbc6bf9c1dc73da92c261\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-5f216df7a1b7d59c39adca58",
+      "object_ids": [
+        "row-8d437e20439e59eb3203f7ad"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-8d437e20439e59eb3203f7ad\",\"journal_id\":\"journal-a8021e1362e3cb66594b0d65\",\"timestamp\":\"2026-11-03T00:30:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":3420463,\"currency\":\"KZT\",\"entity_id\":\"entity-66fb8687ac5992d65e0a7f5c\",\"invoice_id\":\"inv-97d9facfc11ef298f2eebd4a\",\"payment_id\":\"pay-488fbc6bf9c1dc73da92c261\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}",
+      "observed_value": "{\"row_id\":\"row-8d437e20439e59eb3203f7ad\",\"journal_id\":\"journal-a8021e1362e3cb66594b0d65\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"receivables\",\"debit_minor\":0,\"credit_minor\":3420463,\"currency\":\"KZT\",\"entity_id\":\"entity-66fb8687ac5992d65e0a7f5c\",\"invoice_id\":\"inv-97d9facfc11ef298f2eebd4a\",\"payment_id\":\"pay-488fbc6bf9c1dc73da92c261\",\"entry_kind\":\"allocation\",\"posting_sequence\":3}"
+    },
+    {
+      "event_id": "event-1fc52c8458ac4bbd0315a03c",
+      "object_ids": [
+        "row-964bf29481a2d81d04d2dc83"
+      ],
+      "operation": "insert",
+      "field": "ledger_row",
+      "clean_value": null,
+      "observed_value": "{\"row_id\":\"row-964bf29481a2d81d04d2dc83\",\"journal_id\":\"journal-4c8431d2d40a19a2812edf25\",\"timestamp\":\"2026-11-04T14:38:00-05:00\",\"account\":\"receivables\",\"debit_minor\":6468831329,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-1a5c16bd04202020b343d9cc\",\"invoice_id\":\"inv-24662ee92149c0ebdae0c393\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}"
+    },
+    {
+      "event_id": "event-1fc52c8458ac4bbd0315a03c",
+      "object_ids": [
+        "row-9237696cc8f7fb77c06e3bd6"
+      ],
+      "operation": "insert",
+      "field": "ledger_row",
+      "clean_value": null,
+      "observed_value": "{\"row_id\":\"row-9237696cc8f7fb77c06e3bd6\",\"journal_id\":\"journal-4c8431d2d40a19a2812edf25\",\"timestamp\":\"2026-11-04T14:38:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":6468831329,\"currency\":\"KZT\",\"entity_id\":\"entity-1a5c16bd04202020b343d9cc\",\"invoice_id\":\"inv-24662ee92149c0ebdae0c393\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":4}"
+    },
+    {
+      "event_id": "event-36a6b487731381128f6797f6",
+      "object_ids": [
+        "row-5f7b445668f595eec9dfd2e6"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-5f7b445668f595eec9dfd2e6\",\"journal_id\":\"journal-16a13e122ec8520020d997f9\",\"timestamp\":\"2026-11-23T09:50:00-05:00\",\"account\":\"receivables\",\"debit_minor\":4835253145,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-1c0e6ea360009a954e79efa9\",\"invoice_id\":\"inv-cb8ecd74aa7c6b0d322b29b1\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-5f7b445668f595eec9dfd2e6\",\"journal_id\":\"journal-16a13e122ec8520020d997f9\",\"timestamp\":\"2026-11-23T09:50:00-05:00\",\"account\":\"receivables\",\"debit_minor\":4833752445,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-1c0e6ea360009a954e79efa9\",\"invoice_id\":\"inv-cb8ecd74aa7c6b0d322b29b1\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-36a6b487731381128f6797f6",
+      "object_ids": [
+        "row-b44fe65c29f14d99569996ed"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-b44fe65c29f14d99569996ed\",\"journal_id\":\"journal-16a13e122ec8520020d997f9\",\"timestamp\":\"2026-11-23T09:50:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":4835253145,\"currency\":\"KZT\",\"entity_id\":\"entity-1c0e6ea360009a954e79efa9\",\"invoice_id\":\"inv-cb8ecd74aa7c6b0d322b29b1\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-b44fe65c29f14d99569996ed\",\"journal_id\":\"journal-16a13e122ec8520020d997f9\",\"timestamp\":\"2026-11-23T09:50:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":4833752445,\"currency\":\"KZT\",\"entity_id\":\"entity-1c0e6ea360009a954e79efa9\",\"invoice_id\":\"inv-cb8ecd74aa7c6b0d322b29b1\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-2ab5220a8a229774b5c6a932",
+      "object_ids": [
+        "row-6aec1d20580c3a37931025b6"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-6aec1d20580c3a37931025b6\",\"journal_id\":\"journal-b4b24a60ff90224c0696da92\",\"timestamp\":\"2026-11-23T15:31:00-05:00\",\"account\":\"receivables\",\"debit_minor\":9082075464,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-0cdd116dced22c5a8367013f\",\"invoice_id\":\"inv-285a3e249a44a9c75efde7a4\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-6aec1d20580c3a37931025b6\",\"journal_id\":\"journal-b4b24a60ff90224c0696da92\",\"timestamp\":\"2026-11-23T15:31:00-05:00\",\"account\":\"receivables\",\"debit_minor\":8900433955,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-0cdd116dced22c5a8367013f\",\"invoice_id\":\"inv-285a3e249a44a9c75efde7a4\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-2ab5220a8a229774b5c6a932",
+      "object_ids": [
+        "row-c24f77e7c6b6da1139a296e5"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-c24f77e7c6b6da1139a296e5\",\"journal_id\":\"journal-b4b24a60ff90224c0696da92\",\"timestamp\":\"2026-11-23T15:31:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":9082075464,\"currency\":\"KZT\",\"entity_id\":\"entity-0cdd116dced22c5a8367013f\",\"invoice_id\":\"inv-285a3e249a44a9c75efde7a4\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-c24f77e7c6b6da1139a296e5\",\"journal_id\":\"journal-b4b24a60ff90224c0696da92\",\"timestamp\":\"2026-11-23T15:31:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":8900433955,\"currency\":\"KZT\",\"entity_id\":\"entity-0cdd116dced22c5a8367013f\",\"invoice_id\":\"inv-285a3e249a44a9c75efde7a4\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-9dbd3a4b6e1f593213ed93a6",
+      "object_ids": [
+        "row-d61f8de55e8d40de6b270600"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-d61f8de55e8d40de6b270600\",\"journal_id\":\"journal-5d5f098d9c761f0885d10765\",\"timestamp\":\"2026-11-23T14:12:00-05:00\",\"account\":\"receivables\",\"debit_minor\":6105397442,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-fce0a56f94824db35c6377c4\",\"invoice_id\":\"inv-fe67a418151986d55beab531\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-d61f8de55e8d40de6b270600\",\"journal_id\":\"journal-5d5f098d9c761f0885d10765\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"receivables\",\"debit_minor\":6105397442,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-fce0a56f94824db35c6377c4\",\"invoice_id\":\"inv-fe67a418151986d55beab531\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-9dbd3a4b6e1f593213ed93a6",
+      "object_ids": [
+        "row-d98c9e525eb9a9508b9a6da7"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-d98c9e525eb9a9508b9a6da7\",\"journal_id\":\"journal-5d5f098d9c761f0885d10765\",\"timestamp\":\"2026-11-23T14:12:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":6105397442,\"currency\":\"KZT\",\"entity_id\":\"entity-fce0a56f94824db35c6377c4\",\"invoice_id\":\"inv-fe67a418151986d55beab531\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-d98c9e525eb9a9508b9a6da7\",\"journal_id\":\"journal-5d5f098d9c761f0885d10765\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":6105397442,\"currency\":\"KZT\",\"entity_id\":\"entity-fce0a56f94824db35c6377c4\",\"invoice_id\":\"inv-fe67a418151986d55beab531\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-5b34dfca9933e8918f4e67e3",
+      "object_ids": [
+        "row-a4511849be3e8a05483b9d2b"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-a4511849be3e8a05483b9d2b\",\"journal_id\":\"journal-efd76a65dad41f5e75bbff16\",\"timestamp\":\"2026-11-02T11:57:00-05:00\",\"account\":\"receivables\",\"debit_minor\":8300610084,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-5c71a37fce8530ea6132aada\",\"invoice_id\":\"inv-8108daa91fc2e881438cae26\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-a4511849be3e8a05483b9d2b\",\"journal_id\":\"journal-efd76a65dad41f5e75bbff16\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"receivables\",\"debit_minor\":8300610084,\"credit_minor\":0,\"currency\":\"KZT\",\"entity_id\":\"entity-5c71a37fce8530ea6132aada\",\"invoice_id\":\"inv-8108daa91fc2e881438cae26\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    },
+    {
+      "event_id": "event-5b34dfca9933e8918f4e67e3",
+      "object_ids": [
+        "row-592bc97b8b813227f5a07c4c"
+      ],
+      "operation": "replace",
+      "field": "ledger_row",
+      "clean_value": "{\"row_id\":\"row-592bc97b8b813227f5a07c4c\",\"journal_id\":\"journal-efd76a65dad41f5e75bbff16\",\"timestamp\":\"2026-11-02T11:57:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":8300610084,\"currency\":\"KZT\",\"entity_id\":\"entity-5c71a37fce8530ea6132aada\",\"invoice_id\":\"inv-8108daa91fc2e881438cae26\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}",
+      "observed_value": "{\"row_id\":\"row-592bc97b8b813227f5a07c4c\",\"journal_id\":\"journal-efd76a65dad41f5e75bbff16\",\"timestamp\":\"2026-12-01T00:00:00-05:00\",\"account\":\"revenue\",\"debit_minor\":0,\"credit_minor\":8300610084,\"currency\":\"KZT\",\"entity_id\":\"entity-5c71a37fce8530ea6132aada\",\"invoice_id\":\"inv-8108daa91fc2e881438cae26\",\"payment_id\":null,\"entry_kind\":\"recognition\",\"posting_sequence\":1}"
+    }
+  ]
+}

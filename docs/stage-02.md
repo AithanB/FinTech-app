@@ -7,8 +7,7 @@ Read docs/AGENTS.md, task.md, requirements.md (especially R02–R06), ROADMAP.md
 README.md and the existing smoke entry point. No organizer/local contract
 conflicts were found. Preserved the existing untracked project documents.
 
-The Stage 01 Python smoke check still passes on Python 3.11.9. The owner reports
-Docker runs successfully, potentially after resolving RAM pressure. In this
+The Stage 01 Python smoke check still passes on Python 3.11.9. Docker was reported to run after its earlier availability issue. In this
 session `docker info --format '{{.OSType}}'` exited 1 because the
 dockerDesktopLinuxEngine named pipe was not found. Thus the earlier Stage 01
 container gap remains unverified by the agent; no container build/run is claimed.

@@ -1,0 +1,97 @@
+{
+  "$defs": {
+    "InvoiceRef": {
+      "additionalProperties": false,
+      "properties": {
+        "invoice_id": {
+          "minLength": 1,
+          "title": "Invoice Id",
+          "type": "string"
+        },
+        "amount_minor": {
+          "minimum": 0,
+          "title": "Amount Minor",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "invoice_id",
+        "amount_minor"
+      ],
+      "title": "InvoiceRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "doc_id": {
+      "minLength": 1,
+      "title": "Doc Id",
+      "type": "string"
+    },
+    "payment_id": {
+      "minLength": 1,
+      "title": "Payment Id",
+      "type": "string"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "currency": {
+      "enum": [
+        "KZT",
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "title": "Currency",
+      "type": "string"
+    },
+    "amount_minor": {
+      "minimum": 0,
+      "title": "Amount Minor",
+      "type": "integer"
+    },
+    "invoice_refs": {
+      "items": {
+        "$ref": "#/$defs/InvoiceRef"
+      },
+      "title": "Invoice Refs",
+      "type": "array"
+    },
+    "transaction_kind": {
+      "enum": [
+        "receipt",
+        "refund"
+      ],
+      "title": "Transaction Kind",
+      "type": "string"
+    },
+    "original_payment_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Original Payment Id"
+    }
+  },
+  "required": [
+    "doc_id",
+    "payment_id",
+    "timestamp",
+    "currency",
+    "amount_minor",
+    "invoice_refs",
+    "transaction_kind",
+    "original_payment_id"
+  ],
+  "title": "Payment",
+  "type": "object"
+}

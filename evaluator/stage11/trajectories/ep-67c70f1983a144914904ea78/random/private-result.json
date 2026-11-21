@@ -1,0 +1,91 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-67c70f1983a144914904ea78",
+    "findings": [
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-d945ebf199e21f282539e1f7",
+          "inv-835f6bdb2ca1217bdab56d83"
+        ],
+        "claimed_amount_minor": 13383580,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-87f3c7c9667841901d7f133b"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-1f991e1f8edf310c17265796",
+          "inv-291c14ea62340299e6f28d48"
+        ],
+        "claimed_amount_minor": 6918764,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-00b17a82a955b1167d28008c"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-3f14250c735ebdd684628932",
+          "inv-1851996e0489e326f28b9954"
+        ],
+        "claimed_amount_minor": 9987048,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-d833e343d5d6e88c5e797a3f"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-89c03f700608793126ec3292",
+          "inv-136948e521942c1685c5d55b"
+        ],
+        "claimed_amount_minor": 5974476,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-52b2ceccf414bc1b71d16594"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      }
+    ]
+  },
+  "actions": 21,
+  "reason": "completed",
+  "evaluator_pid": 171,
+  "evaluator_uid": 0,
+  "agent_pid": 172,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.393873579000001,
+  "policy": "random",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 20,
+  "total_actions": 21,
+  "return": -1.0
+}

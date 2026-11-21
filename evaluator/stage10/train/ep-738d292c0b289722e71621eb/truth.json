@@ -1,0 +1,21 @@
+{
+  "episode_id": "ep-738d292c0b289722e71621eb",
+  "issues": [
+    {
+      "issue_id": "issue-af6ce941ca9e9fe8775386bc",
+      "type": "duplicate_invoice",
+      "affected_ids": [
+        "inv-bbfcdbe3659d12062e8ec4d9"
+      ],
+      "expected_amount_minor": 6263646060,
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "doc-f88955b1fcd6900b3426cc9a",
+          "row-62f8760494e29c8372681c9f",
+          "row-79814d4f7ca77aca89e96f0d"
+        ]
+      ]
+    }
+  ]
+}

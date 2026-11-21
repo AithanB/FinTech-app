@@ -1,0 +1,11 @@
+{
+  "version": "stage08-v1",
+  "invoice_count": 8,
+  "currencies": ["USD"],
+  "fx_profile": "flat",
+  "amount_min_minor": 10000,
+  "amount_max_minor": 10000,
+  "duplicate_invoices": 1,
+  "wrong_fx_rates": 1,
+  "duplicate_fx_scenario": {"count": 1, "variant": "both"}
+}

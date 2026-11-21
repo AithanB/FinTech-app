@@ -140,7 +140,7 @@ def _lookup_id(table: str, record: Any) -> str:
 
 
 class AuditEnvironment:
-    """One in-process episode. Process isolation is intentionally Stage 05."""
+    """Trusted episode state; ordinary policies use the isolated runner."""
 
     def __init__(self, fixture_root: Path = FIXTURE_ROOT):
         self.fixture_root = Path(fixture_root)
@@ -155,18 +155,33 @@ class AuditEnvironment:
         self._last_submission: Submission | None = None
 
     def reset(self, seed: int | None = None, config: dict[str, Any] | None = None):
-        # Seed ownership belongs to the trusted runner; fixtures are deterministic.
-        del seed
+        # Seed/configuration stay on the trusted side of the message channel.
         config = {} if config is None else config
-        if not isinstance(config, dict) or set(config) - {"fixture", "mode"}:
+        if not isinstance(config, dict) or set(config) - {"fixture", "mode", "generator"}:
             raise ValueError("invalid reset configuration")
         fixture = config.get("fixture", "company-b")
         mode = config.get("mode", "closed")
-        if fixture not in ("company-a", "company-b") or mode not in ("open", "closed"):
+        if mode not in ("open", "closed") or ("fixture" in config and "generator" in config):
             raise ValueError("invalid reset configuration")
-        directory = self.fixture_root / fixture
-        episode = load_public(directory / "public")
-        truth = read_json(directory / "private" / "truth.json", Truth)
+        if "generator" in config:
+            from .generation import generate_episode
+
+            generated = generate_episode(seed, config["generator"])
+            episode, truth = generated.public, generated.truth
+        else:
+            if fixture not in ("company-a", "company-b"):
+                raise ValueError("invalid reset configuration")
+            directory = self.fixture_root / fixture
+            episode = load_public(directory / "public")
+            truth = read_json(directory / "private" / "truth.json", Truth)
+        return self.reset_episode(episode, truth, mode=mode)
+
+    def reset_episode(self, episode: PublicEpisode, truth: Truth, *, mode="closed"):
+        """Trusted in-memory loader, never an agent action or filesystem tool."""
+        if mode not in ("open", "closed"):
+            raise ValueError("invalid mode")
+        episode = PublicEpisode.model_validate(episode.model_dump())
+        truth = Truth.model_validate(truth.model_dump())
         if truth.episode_id != episode.manifest.episode_id:
             raise ValueError("fixture episode ID mismatch")
         self._episode = episode
@@ -189,6 +204,19 @@ class AuditEnvironment:
     @property
     def action_count(self) -> int:
         return self._steps
+
+    def truncate(self, error: str = "TIME_LIMIT"):
+        """Trusted supervisor termination, without consuming an action."""
+        if self._episode is None or self._truth is None:
+            raise RuntimeError("reset must be called before truncation")
+        if self._episode_done:
+            raise RuntimeError("episode already closed")
+        self._episode_done = True
+        self._last_submission = Submission(episode_id=self._truth.episode_id, findings=[])
+        result = score_submission(self._truth, self._last_submission, self._evidence_ids(), self._steps)
+        self._last_score = result.score
+        self._last_scoring_result = result
+        return self._reply(error=error), self._transport_reward(result.score), False, True, {}
 
     def step(self, action: object):
         if self._episode is None or self._truth is None:

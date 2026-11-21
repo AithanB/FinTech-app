@@ -1,0 +1,90 @@
+{
+  "$defs": {
+    "SettlementAllocation": {
+      "additionalProperties": false,
+      "properties": {
+        "invoice_id": {
+          "minLength": 1,
+          "title": "Invoice Id",
+          "type": "string"
+        },
+        "applied_minor": {
+          "title": "Applied Minor",
+          "type": "integer"
+        },
+        "ledger_row_ids": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Ledger Row Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "invoice_id",
+        "applied_minor",
+        "ledger_row_ids"
+      ],
+      "title": "SettlementAllocation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "evidence_id": {
+      "minLength": 1,
+      "title": "Evidence Id",
+      "type": "string"
+    },
+    "payment_id": {
+      "minLength": 1,
+      "title": "Payment Id",
+      "type": "string"
+    },
+    "currency": {
+      "const": "KZT",
+      "title": "Currency",
+      "type": "string"
+    },
+    "received_minor": {
+      "title": "Received Minor",
+      "type": "integer"
+    },
+    "applied_minor": {
+      "title": "Applied Minor",
+      "type": "integer"
+    },
+    "unapplied_minor": {
+      "title": "Unapplied Minor",
+      "type": "integer"
+    },
+    "allocations": {
+      "items": {
+        "$ref": "#/$defs/SettlementAllocation"
+      },
+      "title": "Allocations",
+      "type": "array"
+    },
+    "ledger_row_ids": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Ledger Row Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "evidence_id",
+    "payment_id",
+    "currency",
+    "received_minor",
+    "applied_minor",
+    "unapplied_minor",
+    "allocations",
+    "ledger_row_ids"
+  ],
+  "title": "Settlement",
+  "type": "object"
+}

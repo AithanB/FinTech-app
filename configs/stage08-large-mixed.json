@@ -1,0 +1,17 @@
+{
+  "version": "stage08-v1",
+  "size_profile": "large",
+  "invoice_count": 96,
+  "currencies": ["KZT", "USD", "EUR", "JPY"],
+  "timezone": "America/New_York",
+  "boundary_cases": true,
+  "partial_allocations": 2,
+  "misplaced_applications": 2,
+  "duplicate_invoices": 2,
+  "wrong_fx_rates": 2,
+  "missing_allocations": 1,
+  "wrong_fx_dates": 1,
+  "misplaced_recognitions": 2,
+  "boundary_scenario": {"count": 1, "variant": "both"},
+  "duplicate_fx_scenario": {"count": 1, "variant": "both"}
+}

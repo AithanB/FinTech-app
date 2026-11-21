@@ -1,0 +1,101 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "row_id": {
+      "minLength": 1,
+      "title": "Row Id",
+      "type": "string"
+    },
+    "journal_id": {
+      "minLength": 1,
+      "title": "Journal Id",
+      "type": "string"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    },
+    "account": {
+      "minLength": 1,
+      "title": "Account",
+      "type": "string"
+    },
+    "debit_minor": {
+      "minimum": 0,
+      "title": "Debit Minor",
+      "type": "integer"
+    },
+    "credit_minor": {
+      "minimum": 0,
+      "title": "Credit Minor",
+      "type": "integer"
+    },
+    "currency": {
+      "const": "KZT",
+      "title": "Currency",
+      "type": "string"
+    },
+    "entity_id": {
+      "minLength": 1,
+      "title": "Entity Id",
+      "type": "string"
+    },
+    "invoice_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Invoice Id"
+    },
+    "payment_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Payment Id"
+    },
+    "entry_kind": {
+      "enum": [
+        "recognition",
+        "receipt",
+        "allocation",
+        "refund",
+        "fx_adjustment"
+      ],
+      "title": "Entry Kind",
+      "type": "string"
+    },
+    "posting_sequence": {
+      "minimum": 1,
+      "title": "Posting Sequence",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "row_id",
+    "journal_id",
+    "timestamp",
+    "account",
+    "debit_minor",
+    "credit_minor",
+    "currency",
+    "entity_id",
+    "invoice_id",
+    "payment_id",
+    "entry_kind",
+    "posting_sequence"
+  ],
+  "title": "LedgerRow",
+  "type": "object"
+}

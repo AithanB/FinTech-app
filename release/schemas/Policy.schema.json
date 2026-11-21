@@ -1,0 +1,45 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "fx_direction": {
+      "const": "target_major_per_source_major",
+      "title": "Fx Direction",
+      "type": "string"
+    },
+    "invoice_fx_date": {
+      "const": "local_service_date",
+      "title": "Invoice Fx Date",
+      "type": "string"
+    },
+    "payment_fx_date": {
+      "const": "local_payment_date",
+      "title": "Payment Fx Date",
+      "type": "string"
+    },
+    "period_boundary": {
+      "const": "start_inclusive_end_exclusive",
+      "title": "Period Boundary",
+      "type": "string"
+    },
+    "recognition": {
+      "const": "service_at",
+      "title": "Recognition",
+      "type": "string"
+    },
+    "rounding": {
+      "const": "ROUND_HALF_UP",
+      "title": "Rounding",
+      "type": "string"
+    }
+  },
+  "required": [
+    "fx_direction",
+    "invoice_fx_date",
+    "payment_fx_date",
+    "period_boundary",
+    "recognition",
+    "rounding"
+  ],
+  "title": "Policy",
+  "type": "object"
+}

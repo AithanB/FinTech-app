@@ -1,0 +1,41 @@
+{
+  "version": "stage12-rehearsal-v1",
+  "status": "passed",
+  "verification_exit_code": 0,
+  "demo_exit_code": 0,
+  "image_load_verified": true,
+  "image_id": "sha256:4e1fafa83a0cfa75796cf2c6bedcf5a91d2ce0942e4ce418aacb569795909536",
+  "runtime_source_sha256": "a10f3c7eb7189b6dbcb81a593107c62e6528a912d9a34a5caaada664ca3a8044",
+  "fresh_git_checkout_clean_before_and_after": true,
+  "snapshot_commit": "70eaf9136f21697c8e2f0c493bace5b27a14a9e2",
+  "rehearsed_payload_files": 721,
+  "tests_passed": 290,
+  "platform_guards_skipped": 1,
+  "policy_episode_runs": 80,
+  "separate_pairs": 20,
+  "incorrect_expectation_exit_code": 1,
+  "original_expectation_unchanged": true,
+  "no_network": true,
+  "no_host_mounts": true,
+  "no_gpu": true,
+  "no_credentials_forwarded": true,
+  "cpu_limit": 2,
+  "memory_limit_bytes": 4294967296,
+  "dependency_lock_matches_installed_versions": true,
+  "demo_returns": [
+    0.992,
+    0.992,
+    -1
+  ],
+  "uncompressed_image_bytes": 329528390,
+  "saved_image_tar_bytes": 73449984,
+  "compressed_image_bytes": 72930617,
+  "max_episode_seconds": 1.2112796379999509,
+  "max_episode_rss_upper_bound_bytes": 86040576,
+  "owner_head_unchanged": "59f90a4a9a685cb2c2a85894032a5d612436d476",
+  "limitations": [
+    "Existing Docker/WSL2 host; not a second physical machine",
+    "Prepared-image offline execution; fully offline image build not verified",
+    "Final archive adds this rehearsal evidence and handoff documentation after the run; runtime source digest remains identical"
+  ]
+}

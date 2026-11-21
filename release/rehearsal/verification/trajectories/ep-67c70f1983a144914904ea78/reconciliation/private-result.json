@@ -1,0 +1,76 @@
+{
+  "score": {
+    "score": 0.966,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "matches": [
+      {
+        "issue_id": "issue-5b69fa3ab62c4e7d03ce7286",
+        "submission_index": 0
+      },
+      {
+        "issue_id": "issue-726112979694ea65de1f7ee4",
+        "submission_index": 1
+      }
+    ],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-67c70f1983a144914904ea78",
+    "findings": [
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "journal-e73eb7a7b4490c0ecaab15c0"
+        ],
+        "claimed_amount_minor": 3233741706,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-221b3f4d3b42801c0e71ff4a",
+          "row-c323015a221ee81a4b9acda9"
+        ],
+        "explanation": "Application and payment fall on different sides of the local period."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-2fa7330a468bfd930e138ceb",
+          "inv-43c637c02e32f2c5254a6f35"
+        ],
+        "claimed_amount_minor": 2000000,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-221b3f4d3b42801c0e71ff4a",
+          "settlement:pay-2fa7330a468bfd930e138ceb",
+          "fx:2026-11-30:USD:KZT"
+        ],
+        "explanation": "The intended application differs from the public settlement."
+      }
+    ]
+  },
+  "actions": 18,
+  "reason": "completed",
+  "evaluator_pid": 176,
+  "evaluator_uid": 0,
+  "agent_pid": 177,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.3751853960000062,
+  "policy": "reconciliation",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 17,
+  "total_actions": 18,
+  "return": 0.966
+}

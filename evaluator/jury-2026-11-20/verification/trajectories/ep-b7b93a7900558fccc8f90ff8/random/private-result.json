@@ -1,0 +1,88 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-b7b93a7900558fccc8f90ff8",
+    "findings": [
+      {
+        "type": "period_cutoff",
+        "affected_ids": [
+          "inv-bbc1ac34c2d415d9ca790153"
+        ],
+        "claimed_amount_minor": 13014964,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-acbb8f852db27bfe25ee3154"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-9edb3422117ea950503e7389",
+          "inv-cba3dfb3456613ef57c79f11"
+        ],
+        "claimed_amount_minor": 3742833,
+        "currency": "JPY",
+        "evidence_ids": [
+          "doc-3f381681b127fbf5c31ba93f"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-5dce66cfce2cc69481a442db"
+        ],
+        "claimed_amount_minor": 15335115,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-cc66e5e23d8da54e87be7616"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-5066e79afcab4a6824762558"
+        ],
+        "claimed_amount_minor": 16967007,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-f455e39a2e9070908843b835"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      }
+    ]
+  },
+  "actions": 21,
+  "reason": "completed",
+  "evaluator_pid": 148,
+  "evaluator_uid": 0,
+  "agent_pid": 149,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.3940223230000015,
+  "policy": "random",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 20,
+  "total_actions": 21,
+  "return": -1.0
+}

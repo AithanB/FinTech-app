@@ -1,0 +1,101 @@
+{
+  "score": {
+    "score": -1.0,
+    "tp": 0,
+    "fp": 5,
+    "fn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "matches": [],
+    "validation_error": null
+  },
+  "submission": {
+    "episode_id": "ep-5e0a0e191275a4d30c759696",
+    "findings": [
+      {
+        "type": "fx_conversion",
+        "affected_ids": [
+          "inv-10bcf7b4cf9ebbd42b8efc6c"
+        ],
+        "claimed_amount_minor": 12900328,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-b4f587a53457d773b7a7806f"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-93f29bf0116f3dae4ece7a4e"
+        ],
+        "claimed_amount_minor": 18092392,
+        "currency": "KZT",
+        "evidence_ids": [
+          "doc-7e3292608180837f5151e82b"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-c0b7a23578eccb808de2d2ef",
+          "inv-964ab7e8f6a2ed06a0e61f59"
+        ],
+        "claimed_amount_minor": 6374442,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-882b3451f10834a82c628fc6"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "payment_allocation",
+        "affected_ids": [
+          "pay-eba27cd4ed0b39d45a5b8548",
+          "inv-de5f8e49bbbc27905e55f919"
+        ],
+        "claimed_amount_minor": 11183438,
+        "currency": "EUR",
+        "evidence_ids": [
+          "doc-a3692342377b6c5f2b8782ca"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      },
+      {
+        "type": "duplicate_invoice",
+        "affected_ids": [
+          "inv-0b42ff9817ba49da9f801f7a"
+        ],
+        "claimed_amount_minor": 16689345,
+        "currency": "USD",
+        "evidence_ids": [
+          "doc-a4c56fdbc950db28a4cf04dc"
+        ],
+        "explanation": "Accuse every available object without reconciling its evidence."
+      }
+    ]
+  },
+  "actions": 21,
+  "reason": "completed",
+  "evaluator_pid": 83,
+  "evaluator_uid": 0,
+  "agent_pid": 84,
+  "agent_uid": 65534,
+  "agent_gid": 65534,
+  "agent_reaped": true,
+  "data_ownership": {
+    "policy_program": {
+      "uid": 0,
+      "mode": "0o444"
+    }
+  },
+  "record_storage": "trusted evaluator memory",
+  "elapsed_seconds": 0.36378562200002307,
+  "policy": "random",
+  "policy_version": "stage09-v1",
+  "inspection_steps": 20,
+  "total_actions": 21,
+  "return": -1.0
+}

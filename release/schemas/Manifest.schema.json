@@ -1,0 +1,79 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "episode_id": {
+      "minLength": 1,
+      "title": "Episode Id",
+      "type": "string"
+    },
+    "base_currency": {
+      "const": "KZT",
+      "title": "Base Currency",
+      "type": "string"
+    },
+    "period_start": {
+      "format": "date-time",
+      "title": "Period Start",
+      "type": "string"
+    },
+    "period_end": {
+      "format": "date-time",
+      "title": "Period End",
+      "type": "string"
+    },
+    "timezone": {
+      "title": "Timezone",
+      "type": "string"
+    },
+    "record_count": {
+      "minimum": 0,
+      "title": "Record Count",
+      "type": "integer"
+    },
+    "document_count": {
+      "minimum": 0,
+      "title": "Document Count",
+      "type": "integer"
+    },
+    "currency_exponents": {
+      "additionalProperties": {
+        "minimum": 0,
+        "type": "integer"
+      },
+      "propertyNames": {
+        "enum": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ]
+      },
+      "title": "Currency Exponents",
+      "type": "object"
+    },
+    "rounding": {
+      "const": "ROUND_HALF_UP",
+      "title": "Rounding",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "episode_id",
+    "base_currency",
+    "period_start",
+    "period_end",
+    "timezone",
+    "record_count",
+    "document_count",
+    "currency_exponents",
+    "rounding"
+  ],
+  "title": "Manifest",
+  "type": "object"
+}

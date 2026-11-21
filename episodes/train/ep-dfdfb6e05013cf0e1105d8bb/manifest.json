@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep-dfdfb6e05013cf0e1105d8bb",
+  "base_currency": "KZT",
+  "period_start": "2026-11-01T00:00:00-04:00",
+  "period_end": "2026-12-01T00:00:00-05:00",
+  "timezone": "America/New_York",
+  "record_count": 449,
+  "document_count": 92,
+  "currency_exponents": {
+    "KZT": 2,
+    "USD": 2,
+    "EUR": 2,
+    "JPY": 0
+  },
+  "rounding": "ROUND_HALF_UP"
+}
